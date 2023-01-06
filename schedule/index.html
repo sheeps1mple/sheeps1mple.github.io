@@ -22,28 +22,31 @@
 
   <meta name="description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
 <meta property="og:type" content="website">
-<meta property="og:title" content="小陆的屋">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:title" content="日程表">
+<meta property="og:url" content="http://example.com/schedule/index.html">
 <meta property="og:site_name" content="小陆的屋">
 <meta property="og:description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-01-06T08:54:51.000Z">
+<meta property="article:modified_time" content="2023-01-06T09:00:16.521Z">
 <meta property="article:author" content="小陆">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/schedule/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
+    isHome : false,
     isPost : false,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>小陆的屋</title>
+  <title>日程表 | 小陆的屋
+</title>
   
 
 
@@ -189,72 +192,200 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+  
+  
 
-          <div class="content index posts-expand">
+          <div class="content page posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/06/%E6%80%8E%E6%A0%B7%E5%8F%91%E6%96%87%E7%AB%A0%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%8A%EF%BC%9F/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="小陆">
-      <meta itemprop="description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小陆的屋">
-    </span>
+    
+    
+    
+    <div class="post-block" lang="zh-CN">
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/01/06/%E6%80%8E%E6%A0%B7%E5%8F%91%E6%96%87%E7%AB%A0%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%8A%EF%BC%9F/" class="post-title-link" itemprop="url">怎样发文章到自己的个人博客上？</a>
-        </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
+<h1 class="post-title" itemprop="name headline">日程表
+</h1>
 
-              <time title="创建时间：2023-01-06 13:06:48 / 修改时间：13:07:21" itemprop="dateCreated datePublished" datetime="2023-01-06T13:06:48+08:00">2023-01-06</time>
-            </span>
+<div class="post-meta">
+  
 
-          
+</div>
 
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+</header>
 
       
-          <p>1.首先注册一个csdn账号，因为我们要用其中的markdown编译器<br><img src="https://img-blog.csdnimg.cn/653d70dbfb7c43849cf6e64c5a6fa7b5.png" alt="在这里插入图片描述"><br>2.进入之后，选择写博客，然后在左上角选择markdown编辑器<br><img src="https://img-blog.csdnimg.cn/2c72aecf00a94b7b8c33120952a8281a.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/c3ec217cd0ad41668d6665784a02b758.png" alt="在这里插入图片描述"><br>3.写完之后，点击上面的导出，然后选择右面的导出为Markdown文件。<br><img src="https://img-blog.csdnimg.cn/c4adc7e47ded463ba1d2b8469c6ae386.png" alt="在这里插入图片描述"></p>
-<p>4.导出来之后，在电脑中找到这个.md文件。将其复制下来后，粘贴到你的hexo博客文件夹 中 source 下的 _posts 中。<br>5.右击选择Git Bash Here,依次输入：<br>hexo g<br>hexo s<br>hexo d<br>5.最后浏览器中输入<br>https:&#x2F;&#x2F;(你的博客名).github.io&#x2F; 回车就可以看到你刚刚发的文章了。</p>
+      
+      
+      <div class="post-body">
+          <div class="event-list">
+          </div>
+          <script>
+(function() {
+  // Initialization
+  var calendar = {
+    orderBy     : 'startTime',
+    showLocation: false,
+    offsetMax   : 72,
+    offsetMin   : 4,
+    showDeleted : false,
+    singleEvents: true,
+    maxResults  : 250
+  };
 
+  // Read config form theme config file
+  Object.assign(calendar, {"calendar_id":"<required>","api_key":"<required>","orderBy":"startTime","offsetMax":24,"offsetMin":4,"showDeleted":false,"singleEvents":true,"maxResults":250});
+
+  var now = new Date();
+  var timeMax = new Date();
+  var timeMin = new Date();
+
+  timeMax.setHours(now.getHours() + calendar.offsetMax);
+  timeMin.setHours(now.getHours() - calendar.offsetMin);
+
+  // Build URL
+  const params = {
+    key         : calendar.api_key,
+    orderBy     : calendar.orderBy,
+    timeMax     : timeMax.toISOString(),
+    timeMin     : timeMin.toISOString(),
+    showDeleted : calendar.showDeleted,
+    singleEvents: calendar.singleEvents,
+    maxResults  : calendar.maxResults
+  };
+
+  var request_url = 'https://www.googleapis.com/calendar/v3/calendars/' + calendar.calendar_id + '/events?' + Object.entries(params).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+
+  fetchData();
+  var fetchDataTimer = setInterval(fetchData, 60000);
+  window.addEventListener('pjax:send', () => {
+    clearInterval(fetchDataTimer);
+  });
+
+  function fetchData() {
+    var eventList = document.querySelector('.event-list');
+    if (!eventList) return;
+
+    fetch(request_url).then(response => {
+      return response.json();
+    }).then(data => {
+      if (data.items.length === 0) {
+        eventList.innerHTML = '<hr>';
+        return;
+      }
+      // Clean the event list
+      eventList.innerHTML = '';
+      var prevEnd = 0; // used to decide where to insert an <hr>
+
+      data.items.forEach(event => {
+        // Parse data
+        var utc   = new Date().getTimezoneOffset() * 60000;
+        var start = event.start.dateTime = new Date(event.start.dateTime || (new Date(event.start.date).getTime() + utc));
+        var end   = event.end.dateTime = new Date(event.end.dateTime || (new Date(event.end.date).getTime() + utc));
+
+        tense = judgeTense(now, start, end); // 0:now 1:future -1:past
+
+        if (tense === 1 && prevEnd < now) {
+          eventList.innerHTML += '<hr>';
+        }
+
+        eventDOM = buildEventDOM(tense, event);
+        eventList.innerHTML += eventDOM;
+
+        prevEnd = end;
+      });
+    });
+  }
+
+  function getRelativeTime(current, previous) {
+    var msPerMinute = 60 * 1000;
+    var msPerHour = msPerMinute * 60;
+    var msPerDay = msPerHour * 24;
+    var msPerMonth = msPerDay * 30;
+    var msPerYear = msPerDay * 365;
+
+    var elapsed = current - previous;
+    var tense = elapsed > 0 ? 'ago' : 'later';
+
+    elapsed = Math.abs(elapsed);
+
+    if      ( elapsed < msPerHour  ) {
+      return Math.round(elapsed / msPerMinute) + ' minutes ' + tense;
+    }
+    else if ( elapsed < msPerDay   ) {
+      return Math.round(elapsed / msPerHour) + ' hours ' + tense;
+    }
+    else if ( elapsed < msPerMonth ) {
+      return 'about ' + Math.round(elapsed / msPerDay) + ' days ' + tense;
+    }
+    else if ( elapsed < msPerYear  ) {
+      return 'about ' + Math.round(elapsed / msPerMonth) + ' months ' + tense;
+    }
+    else {
+      return 'about' + Math.round(elapsed / msPerYear) + ' years' + tense;
+    }
+  }
+
+  function judgeTense(now, eventStart, eventEnd) {
+    if      (eventEnd   < now) { return -1; }
+    else if (eventStart > now) { return  1; }
+    else                       { return  0; }
+  }
+
+  function buildEventDOM(tense, event) {
+    var tenseClass = '';
+    var start      = event.start.dateTime;
+    var end        = event.end.dateTime;
+    switch(tense) {
+      case 0 : // now
+        tenseClass = 'event-now';
+        break;
+      case 1 : // future
+        tenseClass = 'event-future';
+        break;
+      case -1: // past
+        tenseClass = 'event-past';
+        break;
+      default:
+        throw 'Time data error';
+    }
+    var durationFormat = {
+      weekday: 'short',
+      hour   : '2-digit',
+      minute : '2-digit'
+    };
+    var relativeTimeStr = (tense === 0) ? 'NOW' : getRelativeTime(now, start);
+    var durationStr = start.toLocaleTimeString([], durationFormat) + ' - ' + end.toLocaleTimeString([], durationFormat);
+
+    var locationDOM = '';
+    if (calendar.showLocation && event.location) {
+      locationDOM = '<span class="event-location event-details">' + event.location + '</span>';
+    }
+
+    var eventContent = `<div class="event ${tenseClass}">
+        <h2 class="event-summary">
+          ${event.summary}
+          <span class="event-relative-time">${relativeTimeStr}</span>
+        </h2>
+        ${locationDOM}
+        <span class="event-duration event-details">${durationStr}</span>
+      </div>`;
+    return eventContent;
+  }
+})();
+</script>
+
+        
+      </div>
+      
+      
       
     </div>
+    
 
     
     
     
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-
 
 
           </div>
