@@ -10,21 +10,21 @@
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：修改背景图片</title>
-    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E4%BF%AE%E6%94%B9%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<p>一.修改背景图片。<br>找到自己想换的壁纸，存放在themes&#x2F;next&#x2F;source&#x2F;images中，命名为background.jpg（直接重命名就行）。在根目录的source文件夹下新建文件夹_data与style文件(style文件如何创建：直接创建个文本文档，然后重命名就可以。重命名为styles.styl)source&#x2F;_data&#x2F;styles.styl，输入以下代码：<br>body {<br>     background:url(&#x2F;images&#x2F;background.jpg);<br>     background-repeat: no-repeat;<br>    background-attachment:fixed;<br>    background-position:100% 100%;<br>}<br>background:url为图片路径，也可以直接使用链接。<br>background-repeat：若果背景图片不能全屏，那么是否平铺显示，充满屏幕<br>background-attachment：背景是否随着网页上下滚动而滚动，fixed为固定<br>background-position：图片展示大小这里设置 100%，100% 的意义为：如果背景图片不能全屏，那么是否通过拉伸的方式将背景强制拉伸至全屏显示。<br>再在主题_config.yml文件中找到对应的custom_file_path：<br><img src="https://img-blog.csdnimg.cn/67eb0000cb7d4403bcb82cfc254b3c6c.png" alt="在这里插入图片描述"><br>把这个去掉#就可以。<br>接着：1.hexo clean  2.hexo g  3.hexo d<br>二.修改博客内容透明度<br>注：博客内容不是透明的，背景图片会看不到。<br>在上述的styles.styl文件中，直接粘贴以下代码：<br>.content-wrap {<br>  opacity: 0.9;<br>}</p>
-<p>.sidebar {<br>  opacity: 0.9;<br>}</p>
-<p>.header-inner {<br>  background: rgba(255,255,255,0.9);<br>}</p>
-<p>.popup {<br>  opacity: 0.9;<br>}<br>然后 1.hexo clean  2.hexo g   3.hexo d</p>
+    <title>NEXT主题美化：添加作者头像</title>
+    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E4%BD%9C%E8%80%85%E5%A4%B4%E5%83%8F/</url>
+    <content><![CDATA[<p>把自己想要换的头像放在themes&#x2F;next&#x2F;source&#x2F;images&#x2F;<br>把头像名称重命名为avatar_2.gif<br>然后在themes&#x2F;next&#x2F;_config.yml中找到下面这行，进行修改<br><img src="https://img-blog.csdnimg.cn/24d93bdce45a40bda292f4ae5253560e.png" alt="在这里插入图片描述"><br>最后hexo  clean，hexo g,hexo d</p>
 ]]></content>
       <tags>
         <tag>NEXT主题美化</tag>
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：添加作者头像</title>
-    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E4%BD%9C%E8%80%85%E5%A4%B4%E5%83%8F/</url>
-    <content><![CDATA[<p>把自己想要换的头像放在themes&#x2F;next&#x2F;source&#x2F;images&#x2F;<br>把头像名称重命名为avatar_2.gif<br>然后在themes&#x2F;next&#x2F;_config.yml中找到下面这行，进行修改<br><img src="https://img-blog.csdnimg.cn/24d93bdce45a40bda292f4ae5253560e.png" alt="在这里插入图片描述"><br>最后hexo  clean，hexo g,hexo d</p>
+    <title>NEXT主题美化：修改背景图片</title>
+    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E4%BF%AE%E6%94%B9%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<p>一.修改背景图片。<br>找到自己想换的壁纸，存放在themes&#x2F;next&#x2F;source&#x2F;images中，命名为background.jpg（直接重命名就行）。在根目录的source文件夹下新建文件夹_data与style文件(style文件如何创建：直接创建个文本文档，然后重命名就可以。重命名为styles.styl)source&#x2F;_data&#x2F;styles.styl，输入以下代码：<br>body {<br>     background:url(&#x2F;images&#x2F;background.jpg);<br>     background-repeat: no-repeat;<br>    background-attachment:fixed;<br>    background-position:100% 100%;<br>}<br>background:url为图片路径，也可以直接使用链接。<br>background-repeat：若果背景图片不能全屏，那么是否平铺显示，充满屏幕<br>background-attachment：背景是否随着网页上下滚动而滚动，fixed为固定<br>background-position：图片展示大小这里设置 100%，100% 的意义为：如果背景图片不能全屏，那么是否通过拉伸的方式将背景强制拉伸至全屏显示。<br>再在主题_config.yml文件中找到对应的custom_file_path：<br><img src="https://img-blog.csdnimg.cn/67eb0000cb7d4403bcb82cfc254b3c6c.png" alt="在这里插入图片描述"><br>把这个去掉#就可以。<br>接着：1.hexo clean  2.hexo g  3.hexo d<br>二.修改博客内容透明度<br>注：博客内容不是透明的，背景图片会看不到。<br>在上述的styles.styl文件中，直接粘贴以下代码：<br>.content-wrap {<br>  opacity: 0.9;<br>}</p>
+<p>.sidebar {<br>  opacity: 0.9;<br>}</p>
+<p>.header-inner {<br>  background: rgba(255,255,255,0.9);<br>}</p>
+<p>.popup {<br>  opacity: 0.9;<br>}<br>然后 1.hexo clean  2.hexo g   3.hexo d</p>
 ]]></content>
       <tags>
         <tag>NEXT主题美化</tag>
