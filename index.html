@@ -134,7 +134,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档<span class="badge">4</span></a>
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档<span class="badge">6</span></a>
 
   </li>
         <li class="menu-item menu-item-schedule">
@@ -192,6 +192,171 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar_2.gif">
+      <meta itemprop="name" content="sheeps1mple">
+      <meta itemprop="description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="陆の博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/" class="post-title-link" itemprop="url">NEXT主题美化：文章评论功能</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-01-11 16:12:14 / 修改时间：17:00:43" itemprop="dateCreated datePublished" datetime="2023-01-11T16:12:14+08:00">2023-01-11</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/NEXT/" itemprop="url" rel="index"><span itemprop="name">NEXT</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/ebdccd9616894058831afdde218e0870.png" alt="在这里插入图片描述"><br>Valine - 一款快速、简洁高效的无后端评论系统。</p>
+<p>NexT 主题已经集成了 Valine 评论系统，只要填写一些参数即可使用。<br>首先进入<a target="_blank" rel="noopener" href="https://www.leancloud.cn/%EF%BC%8C%E6%B3%A8%E5%86%8CLeanCloud%E3%80%82">https://www.leancloud.cn/，注册LeanCloud。</a><br>找到创建应用<br><img src="https://img-blog.csdnimg.cn/fd26a48571f743daaca3278722ed1b1d.png" alt="在这里插入图片描述"><br>在这里填写你的应用名称,名称可以自己定义，然后下面选择开发版 点击创建。<br>接着点击设置，点击应用凭证<br><img src="https://img-blog.csdnimg.cn/2f60cda49dc74c9e93a1f37c5bafa902.png" alt="在这里插入图片描述"><br>获取App ID和AppKey<br><img src="https://img-blog.csdnimg.cn/7a2ec13dce9445c08a30b6ccf8243a3c.png" alt="在这里插入图片描述"><br>登录Valine（<a target="_blank" rel="noopener" href="https://valine.js.org/quickstart.html%EF%BC%89">https://valine.js.org/quickstart.html）</a><br>点击快速开始，点击登录，选择LeanCloud登录，然后输入刚才的注册好的账号就行。<br><img src="https://img-blog.csdnimg.cn/4f61d2b7718c48bc8795de06ac546672.png" alt="在这里插入图片描述"><br>打开主题配置文件，找到valine配置<br>注意（App ID和AppKey填你自己的）<br><img src="https://img-blog.csdnimg.cn/786f926cf12447f18770b8bfdd1800f5.png" alt="在这里插入图片描述"><br>最后三连：hexo clean……</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar_2.gif">
+      <meta itemprop="name" content="sheeps1mple">
+      <meta itemprop="description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="陆の博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/" class="post-title-link" itemprop="url">NEXT主题美化：文章打赏功能</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-01-11 16:11:47 / 修改时间：16:18:44" itemprop="dateCreated datePublished" datetime="2023-01-11T16:11:47+08:00">2023-01-11</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/NEXT/" itemprop="url" rel="index"><span itemprop="name">NEXT</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/d8b7fd0ecc03473f9f6375d0cf579c96.png" alt="在这里插入图片描述"><br>找到主题配置文件 _config.yml 中的 Reward(donate) 部分，将其设置为如下所示：<br><img src="https://img-blog.csdnimg.cn/23f07fd0f871419bbac94f8d879d65c4.png" alt="在这里插入图片描述"><br>把wechatpay和alipay前面的#去掉即可。<br>然后三连：hexo clean……</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -605,7 +770,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
