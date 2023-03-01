@@ -90,9 +90,12 @@
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：添加网易云背景音乐</title>
-    <url>/2023/01/13/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<p>打开网易云音乐网页版<a href="https://music.163.com/">https://music.163.com/</a><br>找到自己要放的歌。<br><img src="https://img-blog.csdnimg.cn/11e6bc6b68e04baab85e03d1ded07b73.png" alt="在这里插入图片描述"><br>点击生成外链播放器<br><img src="https://img-blog.csdnimg.cn/48f6f95742e14cb4b4b4917a8001411e.png" alt="在这里插入图片描述"><br>然后复制代码。<br>进入next主题文件夹\themes\next\layout_macro<br>找到<img src="https://img-blog.csdnimg.cn/6a826b7f3d7f474a886d32be7eebf08e.png" alt="在这里插入图片描述"><br>点进去，将链接粘贴进去就可以了（注：粘贴的位置不一样，歌在网页中的位置也不一样，建议多试几次）</p>
+    <title>NEXT主题美化：修改背景图片</title>
+    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E4%BF%AE%E6%94%B9%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<p>一.修改背景图片。<br>找到自己想换的壁纸，存放在themes&#x2F;next&#x2F;source&#x2F;images中，命名为background.jpg（直接重命名就行）。在根目录的source文件夹下新建文件夹_data与style文件(style文件如何创建：直接创建个文本文档，然后重命名就可以。重命名为styles.styl)source&#x2F;_data&#x2F;styles.styl，输入以下代码：<br>body {<br>     background:url(&#x2F;images&#x2F;background.jpg);<br>     background-repeat: no-repeat;<br>    background-attachment:fixed;<br>    background-position:100% 100%;<br>}<br>background:url为图片路径，也可以直接使用链接。<br>background-repeat：若果背景图片不能全屏，那么是否平铺显示，充满屏幕<br>background-attachment：背景是否随着网页上下滚动而滚动，fixed为固定<br>background-position：图片展示大小这里设置 100%，100% 的意义为：如果背景图片不能全屏，那么是否通过拉伸的方式将背景强制拉伸至全屏显示。<br>再在主题_config.yml文件中找到对应的custom_file_path：<br><img src="https://img-blog.csdnimg.cn/67eb0000cb7d4403bcb82cfc254b3c6c.png" alt="在这里插入图片描述"><br>把这个去掉#就可以。<br>接着：1.hexo clean  2.hexo g  3.hexo d<br>二.修改博客内容透明度<br>注：博客内容不是透明的，背景图片会看不到。<br>在上述的styles.styl文件中，直接粘贴以下代码：<br>.content-wrap {<br>  opacity: 0.9;<br>}</p>
+<p>.sidebar {<br>  opacity: 0.9;<br>}</p>
+<p>.header-inner {<br>  background: rgba(255,255,255,0.9);<br>}</p>
+<p>.popup {<br>  opacity: 0.9;<br>}<br>然后 1.hexo clean  2.hexo g   3.hexo d</p>
 ]]></content>
       <categories>
         <category>NEXT</category>
@@ -102,12 +105,9 @@
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：修改背景图片</title>
-    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E4%BF%AE%E6%94%B9%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<p>一.修改背景图片。<br>找到自己想换的壁纸，存放在themes&#x2F;next&#x2F;source&#x2F;images中，命名为background.jpg（直接重命名就行）。在根目录的source文件夹下新建文件夹_data与style文件(style文件如何创建：直接创建个文本文档，然后重命名就可以。重命名为styles.styl)source&#x2F;_data&#x2F;styles.styl，输入以下代码：<br>body {<br>     background:url(&#x2F;images&#x2F;background.jpg);<br>     background-repeat: no-repeat;<br>    background-attachment:fixed;<br>    background-position:100% 100%;<br>}<br>background:url为图片路径，也可以直接使用链接。<br>background-repeat：若果背景图片不能全屏，那么是否平铺显示，充满屏幕<br>background-attachment：背景是否随着网页上下滚动而滚动，fixed为固定<br>background-position：图片展示大小这里设置 100%，100% 的意义为：如果背景图片不能全屏，那么是否通过拉伸的方式将背景强制拉伸至全屏显示。<br>再在主题_config.yml文件中找到对应的custom_file_path：<br><img src="https://img-blog.csdnimg.cn/67eb0000cb7d4403bcb82cfc254b3c6c.png" alt="在这里插入图片描述"><br>把这个去掉#就可以。<br>接着：1.hexo clean  2.hexo g  3.hexo d<br>二.修改博客内容透明度<br>注：博客内容不是透明的，背景图片会看不到。<br>在上述的styles.styl文件中，直接粘贴以下代码：<br>.content-wrap {<br>  opacity: 0.9;<br>}</p>
-<p>.sidebar {<br>  opacity: 0.9;<br>}</p>
-<p>.header-inner {<br>  background: rgba(255,255,255,0.9);<br>}</p>
-<p>.popup {<br>  opacity: 0.9;<br>}<br>然后 1.hexo clean  2.hexo g   3.hexo d</p>
+    <title>NEXT主题美化：文章打赏功能</title>
+    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
+    <content><![CDATA[<p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/d8b7fd0ecc03473f9f6375d0cf579c96.png" alt="在这里插入图片描述"><br>找到主题配置文件 _config.yml 中的 Reward(donate) 部分，将其设置为如下所示：<br><img src="https://img-blog.csdnimg.cn/23f07fd0f871419bbac94f8d879d65c4.png" alt="在这里插入图片描述"><br>把wechatpay和alipay前面的#去掉即可。<br>然后三连：hexo clean……</p>
 ]]></content>
       <categories>
         <category>NEXT</category>
@@ -130,6 +130,18 @@
       </tags>
   </entry>
   <entry>
+    <title>NEXT主题美化：添加网易云背景音乐</title>
+    <url>/2023/01/13/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<p>打开网易云音乐网页版<a href="https://music.163.com/">https://music.163.com/</a><br>找到自己要放的歌。<br><img src="https://img-blog.csdnimg.cn/11e6bc6b68e04baab85e03d1ded07b73.png" alt="在这里插入图片描述"><br>点击生成外链播放器<br><img src="https://img-blog.csdnimg.cn/48f6f95742e14cb4b4b4917a8001411e.png" alt="在这里插入图片描述"><br>然后复制代码。<br>进入next主题文件夹\themes\next\layout_macro<br>找到<img src="https://img-blog.csdnimg.cn/6a826b7f3d7f474a886d32be7eebf08e.png" alt="在这里插入图片描述"><br>点进去，将链接粘贴进去就可以了（注：粘贴的位置不一样，歌在网页中的位置也不一样，建议多试几次）</p>
+]]></content>
+      <categories>
+        <category>NEXT</category>
+      </categories>
+      <tags>
+        <tag>NEXT主题美化</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NEXT主题美化：添加作者头像</title>
     <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E4%BD%9C%E8%80%85%E5%A4%B4%E5%83%8F/</url>
     <content><![CDATA[<p>把自己想要换的头像放在themes&#x2F;next&#x2F;source&#x2F;images&#x2F;<br>把头像名称重命名为avatar_2.gif<br>然后在themes&#x2F;next&#x2F;_config.yml中找到下面这行，进行修改<br><img src="https://img-blog.csdnimg.cn/24d93bdce45a40bda292f4ae5253560e.png" alt="在这里插入图片描述"><br>最后hexo  clean，hexo g,hexo d</p>
@@ -142,9 +154,10 @@
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：文章打赏功能</title>
-    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
-    <content><![CDATA[<p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/d8b7fd0ecc03473f9f6375d0cf579c96.png" alt="在这里插入图片描述"><br>找到主题配置文件 _config.yml 中的 Reward(donate) 部分，将其设置为如下所示：<br><img src="https://img-blog.csdnimg.cn/23f07fd0f871419bbac94f8d879d65c4.png" alt="在这里插入图片描述"><br>把wechatpay和alipay前面的#去掉即可。<br>然后三连：hexo clean……</p>
+    <title>怎样发文章到自己的个人博客上？</title>
+    <url>/2023/01/06/%E6%80%8E%E6%A0%B7%E5%8F%91%E6%96%87%E7%AB%A0%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%8A%EF%BC%9F/</url>
+    <content><![CDATA[<p>1.首先注册一个csdn账号，因为我们要用其中的markdown编译器<br><img src="https://img-blog.csdnimg.cn/653d70dbfb7c43849cf6e64c5a6fa7b5.png" alt="在这里插入图片描述"><br>2.进入之后，选择写博客，然后在左上角选择markdown编辑器<br><img src="https://img-blog.csdnimg.cn/2c72aecf00a94b7b8c33120952a8281a.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/c3ec217cd0ad41668d6665784a02b758.png" alt="在这里插入图片描述"><br>3.写完之后，点击上面的导出，然后选择右面的导出为Markdown文件。<br><img src="https://img-blog.csdnimg.cn/c4adc7e47ded463ba1d2b8469c6ae386.png" alt="在这里插入图片描述"></p>
+<p>4.导出来之后，在电脑中找到这个.md文件。将其复制下来后，粘贴到你的hexo博客文件夹 中 source 下的 _posts 中。<br>5.右击选择Git Bash Here,依次输入：<br>hexo g<br>hexo s<br>hexo d<br>5.最后浏览器中输入<br>https:&#x2F;&#x2F;(你的博客名).github.io&#x2F; 回车就可以看到你刚刚发的文章了。<br>（我用CSDN直接导出的markdown文件上传到博客会没有显示没有标题。所以我经常是在根目录打开Git Bash Here，输入hexo new”(标题)”。然后复制从CSDN导出来的内容，粘贴到创建的文件里面，然后再上传到博客。这样就会有标题了）</p>
 ]]></content>
       <categories>
         <category>NEXT</category>
@@ -164,19 +177,6 @@
       </categories>
       <tags>
         <tag>汇编</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>怎样发文章到自己的个人博客上？</title>
-    <url>/2023/01/06/%E6%80%8E%E6%A0%B7%E5%8F%91%E6%96%87%E7%AB%A0%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%8A%EF%BC%9F/</url>
-    <content><![CDATA[<p>1.首先注册一个csdn账号，因为我们要用其中的markdown编译器<br><img src="https://img-blog.csdnimg.cn/653d70dbfb7c43849cf6e64c5a6fa7b5.png" alt="在这里插入图片描述"><br>2.进入之后，选择写博客，然后在左上角选择markdown编辑器<br><img src="https://img-blog.csdnimg.cn/2c72aecf00a94b7b8c33120952a8281a.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/c3ec217cd0ad41668d6665784a02b758.png" alt="在这里插入图片描述"><br>3.写完之后，点击上面的导出，然后选择右面的导出为Markdown文件。<br><img src="https://img-blog.csdnimg.cn/c4adc7e47ded463ba1d2b8469c6ae386.png" alt="在这里插入图片描述"></p>
-<p>4.导出来之后，在电脑中找到这个.md文件。将其复制下来后，粘贴到你的hexo博客文件夹 中 source 下的 _posts 中。<br>5.右击选择Git Bash Here,依次输入：<br>hexo g<br>hexo s<br>hexo d<br>5.最后浏览器中输入<br>https:&#x2F;&#x2F;(你的博客名).github.io&#x2F; 回车就可以看到你刚刚发的文章了。<br>（我用CSDN直接导出的markdown文件上传到博客会没有显示没有标题。所以我经常是在根目录打开Git Bash Here，输入hexo new”(标题)”。然后复制从CSDN导出来的内容，粘贴到创建的文件里面，然后再上传到博客。这样就会有标题了）</p>
-]]></content>
-      <categories>
-        <category>NEXT</category>
-      </categories>
-      <tags>
-        <tag>NEXT主题美化</tag>
       </tags>
   </entry>
 </search>
