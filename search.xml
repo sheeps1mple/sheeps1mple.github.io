@@ -90,9 +90,9 @@
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：文章打赏功能</title>
-    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
-    <content><![CDATA[<p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/d8b7fd0ecc03473f9f6375d0cf579c96.png" alt="在这里插入图片描述"><br>找到主题配置文件 _config.yml 中的 Reward(donate) 部分，将其设置为如下所示：<br><img src="https://img-blog.csdnimg.cn/23f07fd0f871419bbac94f8d879d65c4.png" alt="在这里插入图片描述"><br>把wechatpay和alipay前面的#去掉即可。<br>然后三连：hexo clean……</p>
+    <title>NEXT主题美化：添加网易云背景音乐</title>
+    <url>/2023/01/13/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<p>打开网易云音乐网页版<a href="https://music.163.com/">https://music.163.com/</a><br>找到自己要放的歌。<br><img src="https://img-blog.csdnimg.cn/11e6bc6b68e04baab85e03d1ded07b73.png" alt="在这里插入图片描述"><br>点击生成外链播放器<br><img src="https://img-blog.csdnimg.cn/48f6f95742e14cb4b4b4917a8001411e.png" alt="在这里插入图片描述"><br>然后复制代码。<br>进入next主题文件夹\themes\next\layout_macro<br>找到<img src="https://img-blog.csdnimg.cn/6a826b7f3d7f474a886d32be7eebf08e.png" alt="在这里插入图片描述"><br>点进去，将链接粘贴进去就可以了（注：粘贴的位置不一样，歌在网页中的位置也不一样，建议多试几次）</p>
 ]]></content>
       <categories>
         <category>NEXT</category>
@@ -117,6 +117,19 @@
       </tags>
   </entry>
   <entry>
+    <title>NEXT主题美化：文章评论功能</title>
+    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</url>
+    <content><![CDATA[<p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/ebdccd9616894058831afdde218e0870.png" alt="在这里插入图片描述"><br>Valine - 一款快速、简洁高效的无后端评论系统。</p>
+<p>NexT 主题已经集成了 Valine 评论系统，只要填写一些参数即可使用。<br>首先进入<a href="https://www.leancloud.cn/%EF%BC%8C%E6%B3%A8%E5%86%8CLeanCloud%E3%80%82">https://www.leancloud.cn/，注册LeanCloud。</a><br>找到创建应用<br><img src="https://img-blog.csdnimg.cn/fd26a48571f743daaca3278722ed1b1d.png" alt="在这里插入图片描述"><br>在这里填写你的应用名称,名称可以自己定义，然后下面选择开发版 点击创建。<br>接着点击设置，点击应用凭证<br><img src="https://img-blog.csdnimg.cn/2f60cda49dc74c9e93a1f37c5bafa902.png" alt="在这里插入图片描述"><br>获取App ID和AppKey<br><img src="https://img-blog.csdnimg.cn/7a2ec13dce9445c08a30b6ccf8243a3c.png" alt="在这里插入图片描述"><br>登录Valine（<a href="https://valine.js.org/quickstart.html%EF%BC%89">https://valine.js.org/quickstart.html）</a><br>点击快速开始，点击登录，选择LeanCloud登录，然后输入刚才的注册好的账号就行。<br><img src="https://img-blog.csdnimg.cn/4f61d2b7718c48bc8795de06ac546672.png" alt="在这里插入图片描述"><br>打开主题配置文件，找到valine配置<br>注意（App ID和AppKey填你自己的）<br><img src="https://img-blog.csdnimg.cn/786f926cf12447f18770b8bfdd1800f5.png" alt="在这里插入图片描述"><br>最后三连：hexo clean……</p>
+]]></content>
+      <categories>
+        <category>NEXT</category>
+      </categories>
+      <tags>
+        <tag>NEXT主题美化</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NEXT主题美化：添加作者头像</title>
     <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E4%BD%9C%E8%80%85%E5%A4%B4%E5%83%8F/</url>
     <content><![CDATA[<p>把自己想要换的头像放在themes&#x2F;next&#x2F;source&#x2F;images&#x2F;<br>把头像名称重命名为avatar_2.gif<br>然后在themes&#x2F;next&#x2F;_config.yml中找到下面这行，进行修改<br><img src="https://img-blog.csdnimg.cn/24d93bdce45a40bda292f4ae5253560e.png" alt="在这里插入图片描述"><br>最后hexo  clean，hexo g,hexo d</p>
@@ -129,10 +142,9 @@
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：文章评论功能</title>
-    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</url>
-    <content><![CDATA[<p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/ebdccd9616894058831afdde218e0870.png" alt="在这里插入图片描述"><br>Valine - 一款快速、简洁高效的无后端评论系统。</p>
-<p>NexT 主题已经集成了 Valine 评论系统，只要填写一些参数即可使用。<br>首先进入<a href="https://www.leancloud.cn/%EF%BC%8C%E6%B3%A8%E5%86%8CLeanCloud%E3%80%82">https://www.leancloud.cn/，注册LeanCloud。</a><br>找到创建应用<br><img src="https://img-blog.csdnimg.cn/fd26a48571f743daaca3278722ed1b1d.png" alt="在这里插入图片描述"><br>在这里填写你的应用名称,名称可以自己定义，然后下面选择开发版 点击创建。<br>接着点击设置，点击应用凭证<br><img src="https://img-blog.csdnimg.cn/2f60cda49dc74c9e93a1f37c5bafa902.png" alt="在这里插入图片描述"><br>获取App ID和AppKey<br><img src="https://img-blog.csdnimg.cn/7a2ec13dce9445c08a30b6ccf8243a3c.png" alt="在这里插入图片描述"><br>登录Valine（<a href="https://valine.js.org/quickstart.html%EF%BC%89">https://valine.js.org/quickstart.html）</a><br>点击快速开始，点击登录，选择LeanCloud登录，然后输入刚才的注册好的账号就行。<br><img src="https://img-blog.csdnimg.cn/4f61d2b7718c48bc8795de06ac546672.png" alt="在这里插入图片描述"><br>打开主题配置文件，找到valine配置<br>注意（App ID和AppKey填你自己的）<br><img src="https://img-blog.csdnimg.cn/786f926cf12447f18770b8bfdd1800f5.png" alt="在这里插入图片描述"><br>最后三连：hexo clean……</p>
+    <title>NEXT主题美化：文章打赏功能</title>
+    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
+    <content><![CDATA[<p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/d8b7fd0ecc03473f9f6375d0cf579c96.png" alt="在这里插入图片描述"><br>找到主题配置文件 _config.yml 中的 Reward(donate) 部分，将其设置为如下所示：<br><img src="https://img-blog.csdnimg.cn/23f07fd0f871419bbac94f8d879d65c4.png" alt="在这里插入图片描述"><br>把wechatpay和alipay前面的#去掉即可。<br>然后三连：hexo clean……</p>
 ]]></content>
       <categories>
         <category>NEXT</category>
@@ -152,18 +164,6 @@
       </categories>
       <tags>
         <tag>汇编</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NEXT主题美化：添加网易云背景音乐</title>
-    <url>/2023/01/13/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<p>打开网易云音乐网页版<a href="https://music.163.com/">https://music.163.com/</a><br>找到自己要放的歌。<br><img src="https://img-blog.csdnimg.cn/11e6bc6b68e04baab85e03d1ded07b73.png" alt="在这里插入图片描述"><br>点击生成外链播放器<br><img src="https://img-blog.csdnimg.cn/48f6f95742e14cb4b4b4917a8001411e.png" alt="在这里插入图片描述"><br>然后复制代码。<br>进入next主题文件夹\themes\next\layout_macro<br>找到<img src="https://img-blog.csdnimg.cn/6a826b7f3d7f474a886d32be7eebf08e.png" alt="在这里插入图片描述"><br>点进去，将链接粘贴进去就可以了（注：粘贴的位置不一样，歌在网页中的位置也不一样，建议多试几次）</p>
-]]></content>
-      <categories>
-        <category>NEXT</category>
-      </categories>
-      <tags>
-        <tag>NEXT主题美化</tag>
       </tags>
   </entry>
   <entry>
