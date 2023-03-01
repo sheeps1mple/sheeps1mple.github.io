@@ -143,9 +143,9 @@
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：文章打赏功能</title>
-    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
-    <content><![CDATA[<p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/d8b7fd0ecc03473f9f6375d0cf579c96.png" alt="在这里插入图片描述"><br>找到主题配置文件 _config.yml 中的 Reward(donate) 部分，将其设置为如下所示：<br><img src="https://img-blog.csdnimg.cn/23f07fd0f871419bbac94f8d879d65c4.png" alt="在这里插入图片描述"><br>把wechatpay和alipay前面的#去掉即可。<br>然后三连：hexo clean……</p>
+    <title>NEXT主题美化：添加网易云背景音乐</title>
+    <url>/2023/01/13/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<p>打开网易云音乐网页版<a href="https://music.163.com/">https://music.163.com/</a><br>找到自己要放的歌。<br><img src="https://img-blog.csdnimg.cn/11e6bc6b68e04baab85e03d1ded07b73.png" alt="在这里插入图片描述"><br>点击生成外链播放器<br><img src="https://img-blog.csdnimg.cn/48f6f95742e14cb4b4b4917a8001411e.png" alt="在这里插入图片描述"><br>然后复制代码。<br>进入next主题文件夹\themes\next\layout_macro<br>找到<img src="https://img-blog.csdnimg.cn/6a826b7f3d7f474a886d32be7eebf08e.png" alt="在这里插入图片描述"><br>点进去，将链接粘贴进去就可以了（注：粘贴的位置不一样，歌在网页中的位置也不一样，建议多试几次）</p>
 ]]></content>
       <categories>
         <category>NEXT</category>
@@ -168,9 +168,9 @@
       </tags>
   </entry>
   <entry>
-    <title>NEXT主题美化：添加网易云背景音乐</title>
-    <url>/2023/01/13/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<p>打开网易云音乐网页版<a href="https://music.163.com/">https://music.163.com/</a><br>找到自己要放的歌。<br><img src="https://img-blog.csdnimg.cn/11e6bc6b68e04baab85e03d1ded07b73.png" alt="在这里插入图片描述"><br>点击生成外链播放器<br><img src="https://img-blog.csdnimg.cn/48f6f95742e14cb4b4b4917a8001411e.png" alt="在这里插入图片描述"><br>然后复制代码。<br>进入next主题文件夹\themes\next\layout_macro<br>找到<img src="https://img-blog.csdnimg.cn/6a826b7f3d7f474a886d32be7eebf08e.png" alt="在这里插入图片描述"><br>点进去，将链接粘贴进去就可以了（注：粘贴的位置不一样，歌在网页中的位置也不一样，建议多试几次）</p>
+    <title>NEXT主题美化：文章打赏功能</title>
+    <url>/2023/01/11/NEXT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%96%87%E7%AB%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
+    <content><![CDATA[<p>最终效果如下：<br><img src="https://img-blog.csdnimg.cn/d8b7fd0ecc03473f9f6375d0cf579c96.png" alt="在这里插入图片描述"><br>找到主题配置文件 _config.yml 中的 Reward(donate) 部分，将其设置为如下所示：<br><img src="https://img-blog.csdnimg.cn/23f07fd0f871419bbac94f8d879d65c4.png" alt="在这里插入图片描述"><br>把wechatpay和alipay前面的#去掉即可。<br>然后三连：hexo clean……</p>
 ]]></content>
       <categories>
         <category>NEXT</category>
