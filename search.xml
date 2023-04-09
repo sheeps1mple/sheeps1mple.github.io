@@ -149,16 +149,6 @@
       </tags>
   </entry>
   <entry>
-    <title>虚拟机实验</title>
-    <url>/2023/04/05/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%9E%E9%AA%8C/</url>
-    <content><![CDATA[<p>1.tar -xvf datalab.tar</p>
-<p>遇到问题</p>
-<p>![12a8b32eb16ce20d30d96b16a382fb6](C:\Users\86198\AppData\Local\Temp\WeChat Files\12a8b32eb16ce20d30d96b16a382fb6.jpg)</p>
-<p>文件打不开</p>
-<p>解决方法：把datalab.tar 替换为 桌面&#x2F;datalab.tar</p>
-]]></content>
-  </entry>
-  <entry>
     <title>3.26周赛</title>
     <url>/2023/03/28/3-26%E5%91%A8%E8%B5%9B/</url>
     <content><![CDATA[<h1 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h1><h2 id="鲜衣怒马少年郎，谁人不识理塘王！"><a href="#鲜衣怒马少年郎，谁人不识理塘王！" class="headerlink" title="鲜衣怒马少年郎，谁人不识理塘王！"></a>鲜衣怒马少年郎，谁人不识理塘王！</h2><p>顶真</p>
@@ -227,6 +217,27 @@
       </categories>
       <tags>
         <tag>周赛wp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【深入理解计算机系统】CSAPP-实验一：DataLab思路以及代码</title>
+    <url>/2023/04/09/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E3%80%91CSAPP-%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%9ADataLab%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>虚拟机实验</title>
+    <url>/2023/04/05/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%9E%E9%AA%8C/</url>
+    <content><![CDATA[<p>##tar -xvf datalab.tar</p>
+<p>遇到问题</p>
+<p>![12a8b32eb16ce20d30d96b16a382fb6](C:\Users\86198\AppData\Local\Temp\WeChat Files\12a8b32eb16ce20d30d96b16a382fb6.jpg)</p>
+<p>文件打不开</p>
+<p>解决方法：把datalab.tar 替换为 桌面&#x2F;datalab.tar</p>
+]]></content>
+      <tags>
+        <tag>实验</tag>
       </tags>
   </entry>
 </search>
