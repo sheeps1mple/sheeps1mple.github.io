@@ -27,14 +27,11 @@
 <meta property="og:site_name" content="陆の博客">
 <meta property="og:description" content="前言实验说明datalab主要是对整型以及浮点型的实验，其中对条件语句、算数运算以及逻辑运算限定了不同的规则。 Referencehttps:&#x2F;&#x2F;blog.csdn.net&#x2F;qq_42234461&#x2F;article&#x2F;details&#x2F;108531976?ops_request_misc&#x3D;%7B%22request%5Fid%22%3A%22168101666516800192280526%22%2C%">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230409141153512.png">
-<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230409141221884.png">
 <meta property="article:published_time" content="2023-04-09T05:30:12.000Z">
-<meta property="article:modified_time" content="2023-04-09T07:00:52.508Z">
+<meta property="article:modified_time" content="2023-04-10T11:38:08.861Z">
 <meta property="article:author" content="sheeps1mple">
 <meta property="article:tag" content="实验">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230409141153512.png">
 
 <link rel="canonical" href="http://example.com/2023/04/09/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E3%80%91CSAPP-%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%9ADataLab%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/">
 
@@ -140,7 +137,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档<span class="badge">5</span></a>
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档<span class="badge">6</span></a>
 
   </li>
         <li class="menu-item menu-item-schedule">
@@ -225,10 +222,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-04-09 13:30:12 / 修改时间：15:00:52" itemprop="dateCreated datePublished" datetime="2023-04-09T13:30:12+08:00">2023-04-09</time>
+              <time title="创建时间：2023-04-09 13:30:12" itemprop="dateCreated datePublished" datetime="2023-04-09T13:30:12+08:00">2023-04-09</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-10 19:38:08" itemprop="dateModified" datetime="2023-04-10T19:38:08+08:00">2023-04-10</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -419,9 +422,7 @@ return !(bit5_6^(3&lt;&lt;4)) &amp; ( !bit4|bit4&amp;( !bit2 &amp; !bit3 ) );
 <p>*Max ops: 90</p>
 <p>*Rating: 4</p>
 <h2 id="思路-8"><a href="#思路-8" class="headerlink" title="思路"></a>思路</h2><p>这题很好地考察了规格化数与非规格化数。</p>
-<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230409141153512.png" alt="image-20230409141153512"></p>
 <p>以及自己琢磨一下这个例子，这题就会了</p>
-<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230409141221884.png" alt="image-20230409141221884"></p>
 <h2 id="代码-9"><a href="#代码-9" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatScale2(unsigned uf) {<br>  unsigned s &#x3D; uf &amp; 0x80000000;<br>  unsigned exp &#x3D; uf &amp; 0x7f800000;<br>  unsigned frac &#x3D; uf &amp; 0x007fffff;</p>
 <p>  if(!exp){ &#x2F;&#x2F; 非规格化数<br>    frac&lt;&lt;&#x3D;1;<br>  }<br>  else if(exp^ 0x7f800000){ &#x2F;&#x2F;规格化数（非规格化数除去NAN)<br>      exp+&#x3D;0x00800000;<br>      &#x2F;&#x2F;相加之后可能变成无穷大，此时要将尾数置0<br>      if(!(exp^0x7f800000)){<br>        frac &#x3D; 0;<br>      }<br>  }</p>
 <p>  return s|exp|frac;<br>}</p>
@@ -505,10 +506,13 @@ if(x&gt;127) return inf;
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/04/05/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%9E%E9%AA%8C/" rel="prev" title="虚拟机实验">
-      <i class="fa fa-chevron-left"></i> 虚拟机实验
+    <a href="/2023/03/28/3-26%E5%91%A8%E8%B5%9B/" rel="prev" title="3.26周赛">
+      <i class="fa fa-chevron-left"></i> 3.26周赛
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2023/04/10/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9FCSAPP%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%8C%E5%AE%9E%E9%AA%8C%E8%AE%B0%E5%BD%95/" rel="next" title="深入理解计算机系统CSAPP实验一，实验记录">
+      深入理解计算机系统CSAPP实验一，实验记录 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -584,7 +588,7 @@ if(x&gt;127) return inf;
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
