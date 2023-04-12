@@ -1,77 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>3.26周赛</title>
-    <url>/2023/03/28/3-26%E5%91%A8%E8%B5%9B/</url>
-    <content><![CDATA[<h1 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h1><h2 id="鲜衣怒马少年郎，谁人不识理塘王！"><a href="#鲜衣怒马少年郎，谁人不识理塘王！" class="headerlink" title="鲜衣怒马少年郎，谁人不识理塘王！"></a>鲜衣怒马少年郎，谁人不识理塘王！</h2><p>顶真</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="keyword">include</span>(<span class="string">&#x27;flag.php&#x27;</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SLsec</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>=<span class="string">&#x27;鍒€涓嶉攱鍒╅┈澶槮&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$pass</span>=<span class="string">&#x27;浣犳嬁浠€涔堝拰鍥涚偣鏂�&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$jk</span>=<span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a4</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt;jk;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a6</span>(<span class="params"><span class="variable">$ding</span>,<span class="variable">$zhen</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt; name==<span class="variable">$ding</span>&amp;&amp;<span class="variable language_">$this</span>-&gt;pass==<span class="variable">$zhen</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a8</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">$this</span>-&gt;jk)&#123;<span class="comment">#$jk为真</span></span><br><span class="line">            <span class="keyword">global</span> <span class="variable">$flag</span>;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$flag</span>; </span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">           <span class="keyword">echo</span> <span class="string">&quot;椴滆。鎬掗┈灏戝勾閮庯紝璋佷汉涓嶈瘑鐞嗗鐜嬶紒&quot;</span>;&#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$name</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;name&#x27;</span>];</span><br><span class="line"><span class="variable">$pass</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;pass&#x27;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;name&#x27;</span>]) &amp;&amp; <span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;pass&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$user</span> = <span class="title function_ invoke__">unserialize</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;user&#x27;</span>]);</span><br><span class="line">    <span class="keyword">if</span>(<span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a6</span>(<span class="variable">$name</span>,<span class="variable">$pass</span>))&#123;<span class="comment">#赋值判断pass传参与两个GET是否相同</span></span><br><span class="line">        <span class="keyword">if</span>(<span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a4</span>())&#123;<span class="comment">#赋值</span></span><br><span class="line">            <span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a8</span>();&#125;<span class="comment">#调用flag</span></span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;Snow leopards are really hard to ride, so it&#x27;s better to exchange money for an Audi&quot;</span>;</span><br><span class="line">    &#125;&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SLsec</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>=<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$pass</span>=<span class="string">&#x27;aa&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$jk</span>=<span class="literal">true</span>;&#125;</span><br><span class="line">  <span class="variable">$f</span>=<span class="keyword">new</span> <span class="title class_">SLsec</span>();</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">serialize</span>(<span class="variable">$f</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p><a href="https://k5hai-1311151548.cos.ap-shanghai.myqcloud.com/https://k5hai-1311151548.cos.ap-shanghai.myqcloud.comimage-20230326200954241.png">https://k5hai-1311151548.cos.ap-shanghai.myqcloud.com/https://k5hai-1311151548.cos.ap-shanghai.myqcloud.comimage-20230326200954241.png</a></p>
-<p>play：GET： name&#x3D;a&amp;pass&#x3D;aa</p>
-<p>​	     POST:   user&#x3D;O:5:”SLsec”:3:{s:4:”name”;s:1:”a”;s:4:”pass”;s:2:”aa”;s:2:”jk”;b:1;}</p>
-<h1 id="CRYPTO"><a href="#CRYPTO" class="headerlink" title="CRYPTO"></a>CRYPTO</h1><h2 id="babyrsa"><a href="#babyrsa" class="headerlink" title="babyrsa"></a>babyrsa</h2><figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line">from Crypto.Util.number import *</span><br><span class="line">import gmpy2</span><br><span class="line">p= 174900179045398405758362887050510099953351230680589941223587187096927676318250039003867347118828470850766614025136710989402078055968449696991925901611318398319579226096026113980420314613233522410263933804832601250567540744629955554545762144406833636478599885984277733223077146277644459138695484730091497123653</span><br><span class="line">q= 138394168894464614599095635109542670799766048108401527799025178725205133812543876982783399176166727189388896418668604671443249386259427967695540806910521362186865886429031334061503953791903407614931162328753160467494420213786798800975785789856116685244900988587164035039772328579334638131513694977152566697693</span><br><span class="line">dq= 91144988599155922537286812069488697332186431610461674212452885608698963724568088535192289473758461311143377744214326484716015838529829408451331802003020019755397796512654690339237890864185649014688783869167705450325681146031490758620578699998011937814370759561761662578187180465099739857369029748140120600665</span><br><span class="line">dp= 77086099023854203737282939293131883320148165131282183381041486477787447250448637817213304263658092078129814396693072568608252203284383928126276449456687549559196269981593821846047893367155199274005122723844388469454558713530315183683329104798684553606121087426276184813900290984173218215988206302221537366933</span><br><span class="line">c= 15801371432169186780418480692589791195238785876344412995045613608181370212202255665942402417893437199493695445538341476746293760869621577715385796212569911097161252465453342990879413408685475673255790355354475333896669490479548332300912398201417641777563849663680004298227798906936140992367106039486966585574927214313333872682519241375796031187317957899045859494277570277966275262219924901316942847426675912933662265462110997773928571167535352177539455991039999517915239795197245498033201847388365903662518433723721091041449528248327695253818581438003566115867963542838871840099584964228370817957241460684463142116638</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">I = gmpy2.invert(q,p)</span><br><span class="line">mp = pow(c,dp,p)</span><br><span class="line">mq = pow(c,dq,q)               <span class="comment">#求幂取模运算</span></span><br><span class="line"></span><br><span class="line">m = (((mp-mq)*I)%p)*q+mq       <span class="comment">#求明文公式</span></span><br><span class="line"></span><br><span class="line">print( long_to_bytes(m))         <span class="comment">#转为十六进制</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="base？"><a href="#base？" class="headerlink" title="base？"></a>base？</h2><p>很简单的base64换表解码。<br>首先写个python脚本提取编码表</p>
-<figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">这是提取的编码表：</span><br><span class="line">JKLxNOMyUzVABCDEFGH798PQIacbdefghijklmWXYZ0123456SRTnopqrstuvw+<span class="string">/=</span></span><br></pre></td></tr></table></figure>
-
-<p>然后编写脚本解码：</p>
-<figure class="highlight maxima"><table><tr><td class="code"><pre><span class="line">import <span class="built_in">base64</span></span><br><span class="line">import <span class="built_in">string</span></span><br><span class="line"></span><br><span class="line">str1 = <span class="string">&quot;9nSTaPCu8MimQoamdXmg9qGRIPsXa8wjIQCmQTIngF==&quot;</span></span><br><span class="line"></span><br><span class="line">string1 = <span class="string">&quot;JKLxNOMyUzVABCDEFGH798PQIacbdefghijklmWXYZ0123456SRTnopqrstuvw+/=&quot;</span></span><br><span class="line">string2 = <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="built_in">base64</span>.b64decode(str1.<span class="built_in">translate</span>(str.maketrans(string1,string2))))</span><br></pre></td></tr></table></figure>
-
-<p>也可以网站解密：<br><img src="https://xmzbk-1310919595.cos.ap-nanjing.myqcloud.com/image-20230326113727063.png" alt="image-20230326113727063"></p>
-<h1 id="MISC"><a href="#MISC" class="headerlink" title="MISC"></a>MISC</h1><h2 id="看不懂的文件"><a href="#看不懂的文件" class="headerlink" title="看不懂的文件"></a>看不懂的文件</h2><p>把文件复制到虚拟机，打开终端执行 cat flag就出flag了</p>
-<p>flag:SLsec{!2023_Will_Be_Special,2022_Was_Not!}</p>
-<h2 id="里在干什莫？"><a href="#里在干什莫？" class="headerlink" title="里在干什莫？"></a>里在干什莫？</h2><p>16进制文件是反的很容易看出来</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">tmp = <span class="string">&#x27;&#x27;</span></span><br><span class="line">with <span class="built_in">open</span>(<span class="string">&#x27;flag.txt&#x27;</span>,<span class="string">&#x27;r&#x27;</span>) as file: <span class="selector-id">#flag</span>.txt里保存的是反着的<span class="number">16</span>进制文本</span><br><span class="line">    re_str = file<span class="selector-class">.read</span>()</span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> re_str:</span><br><span class="line">   tmp += <span class="selector-tag">i</span><span class="selector-class">.strip</span>()</span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(tmp[::-<span class="number">1</span>])</span></span></span><br><span class="line">#<span class="number">504</span>B0304140000000800F8BE7956F4507576100000000E00000008000000666C61672E747874AB4D2D2E4A2D4B2DAA4E4E2DF6090600504B01021400140000000800F8BE7956F4507576100000000E000000080024000000000000002000000000000000666C61672E7478740A00200000000000010018001F7EE443325FD901FF777E4A325FD901C6D233C4245FD901504B050600000000010001005A000000360000000000</span><br></pre></td></tr></table></figure>
-
-<p>将输出的16进制010重新读取一下就是flag</p>
-<h2 id="你知道什么是xor吗？"><a href="#你知道什么是xor吗？" class="headerlink" title="你知道什么是xor吗？"></a>你知道什么是xor吗？</h2><p>这道题是shangu👴赞助的</p>
-<p>附件很简单，一个key，一个flag,还有题目的关键描述 ‘xor’</p>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">key</span> = <span class="string">&#x27;jaks&#123;qwertyui-opas-dfgh-jklz-xcvbnmqwertu&#125;&#x27;</span></span><br><span class="line"><span class="attr">flag</span> = <span class="string">&#x27;óòõëÿ¾»®¿íâë÷ÿñë­îÿ¨ û ÿ¤­¥±ÿ¿ú½®÷öïº®º²¼ÿ&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<p>这道题脑洞很大，所以我就按我的分析来了</p>
-<p>首先看key，标准的flag格式，但是前四位被替换成了’jaks’，里面是按照键盘的qwer顺序，最开始分析的是字母在表中的顺序之类的，但是死活凑不出flag就放弃了。</p>
-<p>换一条思路，异或具有可逆性，或许’jask‘与’flag‘异或的结果就是我们要找的关键</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312153303362.png" alt="image-20230312153303362"></p>
-<p>再看flag这串乱码，先取前四位找一下规律,由于乱码的ascii码值通常是很大的，超出了标准ascii码的范围，我们可以先看一下他的ascii值是多少</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312153728805.png" alt="image-20230312153728805"></p>
-<p>还是找不到什么规律，由于xor本质上是二进制比特位之间的操作，我们进一步观察他们的二进制形式</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312154001470.png" alt="image-20230312154001470"></p>
-<p>再看’jask‘与’flag‘异或结果的二进制</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312154148276.png" alt="image-20230312154148276"></p>
-<p>其实到这里就已经很明显了，</p>
-<p>将flag的各位取反再与key异或</p>
-<p>脚本</p>
-<figure class="highlight sas"><table><tr><td class="code"><pre><span class="line"><span class="keyword">key</span> = <span class="string">&#x27;jaks&#123;qwertyui-opas-dfgh-jklz-xcvbnmqwertu&#125;&#x27;</span></span><br><span class="line">flag = <span class="string">&#x27;óòõëÿ¾»®¿íâë÷ÿñë­îÿ¨ û ÿ¤­¥±ÿ¿ú½®÷öïº®º²¼ÿ&#x27;</span></span><br><span class="line"><span class="keyword">data </span>= [0xff ^ ord(i) for i <span class="keyword">in</span> flag]</span><br><span class="line">for i <span class="keyword">in</span> <span class="meta">range</span>(le<span class="meta">n</span>(data)):</span><br><span class="line">    pr<span class="meta">int</span>(chr(ord(<span class="keyword">key</span>[i])^data[i]),<span class="keyword">end</span>=<span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>最后看一下出题人视角</p>
-<p>拿到flag &gt; 与随便打出来的key异或 &gt; 将异或结果按位取反 &gt; 给出附件</p>
-<h1 id="REVERSE"><a href="#REVERSE" class="headerlink" title="REVERSE"></a>REVERSE</h1><h2 id="re2"><a href="#re2" class="headerlink" title="re2"></a>re2</h2><p>程序是有一个upx壳，壳没有魔改可以直接脱</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326203037222.png" alt="image-20230326203037222"></p>
-<p>首先是通过循环可以看出来12个总共12位，<strong>v4</strong>含有转义字符需要去一下，所以这里为了方便直接用ascii码，加密就是找到v4中字符在__data_strart__ 表中的位置，然后将他的ascii减1（其实可以看出来表中的字符就是倒着的ascii码表）</p>
-<p>脚本</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">v4 = <span class="selector-attr">[42,70,39,34,78,44,34,40,73,63,43,64]</span></span><br><span class="line">flag = <span class="string">&#x27;&#x27;</span></span><br><span class="line">__data_strart__ = <span class="string">&#x27;~&#125;|&#123;zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:9876543210/.-,+*)(\&#x27;&amp;%$# !&quot;&#x27;</span></span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> v4:</span><br><span class="line">    flag += <span class="built_in">chr</span>(__data_strart__<span class="selector-class">.find</span>(<span class="built_in">chr</span>(i))+<span class="number">1</span>)</span><br><span class="line">    <span class="built_in">print</span>(flag)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="贪吃蛇"><a href="#贪吃蛇" class="headerlink" title="贪吃蛇"></a>贪吃蛇</h2><p>贪吃蛇小游戏来自SWPUCTF 2022 新生赛</p>
-<p>反编译可以看到一个v18</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326205454666.png" alt="image-20230326205454666"></p>
-<p>这个代码写这里八九不离十可以猜到v18就是分数</p>
-<p>ce直接改数值</p>
-<p>因为刚开始v18&#x3D;4，就从4开始扫，分数加一慢慢筛选</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211220393.png" alt="image-20230326211220393"></p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211243449.png" alt="image-20230326211243449"></p>
-<p>改下数值直接就能出flag</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211341663.png" alt="image-20230326211341663"></p>
-]]></content>
-      <categories>
-        <category>周赛</category>
-      </categories>
-      <tags>
-        <tag>周赛wp</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2.26周赛wp</title>
     <url>/2023/02/27/2-26%E5%91%A8%E8%B5%9Bwp/</url>
     <content><![CDATA[<h1 id="周赛（02-x2F-26）WP"><a href="#周赛（02-x2F-26）WP" class="headerlink" title="周赛（02&#x2F;26）WP"></a>周赛（02&#x2F;26）WP</h1><h2 id="CRYPTO"><a href="#CRYPTO" class="headerlink" title="CRYPTO"></a>CRYPTO</h2><h3 id="1-Keyed-Caesar"><a href="#1-Keyed-Caesar" class="headerlink" title="1.Keyed Caesar"></a>1.Keyed Caesar</h3><p>key里字母在字母表中的数字就是偏移量</p>
@@ -149,6 +78,77 @@
       </tags>
   </entry>
   <entry>
+    <title>3.26周赛</title>
+    <url>/2023/03/28/3-26%E5%91%A8%E8%B5%9B/</url>
+    <content><![CDATA[<h1 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h1><h2 id="鲜衣怒马少年郎，谁人不识理塘王！"><a href="#鲜衣怒马少年郎，谁人不识理塘王！" class="headerlink" title="鲜衣怒马少年郎，谁人不识理塘王！"></a>鲜衣怒马少年郎，谁人不识理塘王！</h2><p>顶真</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="keyword">include</span>(<span class="string">&#x27;flag.php&#x27;</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SLsec</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>=<span class="string">&#x27;鍒€涓嶉攱鍒╅┈澶槮&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$pass</span>=<span class="string">&#x27;浣犳嬁浠€涔堝拰鍥涚偣鏂�&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$jk</span>=<span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a4</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt;jk;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a6</span>(<span class="params"><span class="variable">$ding</span>,<span class="variable">$zhen</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt; name==<span class="variable">$ding</span>&amp;&amp;<span class="variable language_">$this</span>-&gt;pass==<span class="variable">$zhen</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a8</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">$this</span>-&gt;jk)&#123;<span class="comment">#$jk为真</span></span><br><span class="line">            <span class="keyword">global</span> <span class="variable">$flag</span>;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$flag</span>; </span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">           <span class="keyword">echo</span> <span class="string">&quot;椴滆。鎬掗┈灏戝勾閮庯紝璋佷汉涓嶈瘑鐞嗗鐜嬶紒&quot;</span>;&#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$name</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;name&#x27;</span>];</span><br><span class="line"><span class="variable">$pass</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;pass&#x27;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;name&#x27;</span>]) &amp;&amp; <span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;pass&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$user</span> = <span class="title function_ invoke__">unserialize</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;user&#x27;</span>]);</span><br><span class="line">    <span class="keyword">if</span>(<span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a6</span>(<span class="variable">$name</span>,<span class="variable">$pass</span>))&#123;<span class="comment">#赋值判断pass传参与两个GET是否相同</span></span><br><span class="line">        <span class="keyword">if</span>(<span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a4</span>())&#123;<span class="comment">#赋值</span></span><br><span class="line">            <span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a8</span>();&#125;<span class="comment">#调用flag</span></span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;Snow leopards are really hard to ride, so it&#x27;s better to exchange money for an Audi&quot;</span>;</span><br><span class="line">    &#125;&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SLsec</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>=<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$pass</span>=<span class="string">&#x27;aa&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$jk</span>=<span class="literal">true</span>;&#125;</span><br><span class="line">  <span class="variable">$f</span>=<span class="keyword">new</span> <span class="title class_">SLsec</span>();</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">serialize</span>(<span class="variable">$f</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><a href="https://k5hai-1311151548.cos.ap-shanghai.myqcloud.com/https://k5hai-1311151548.cos.ap-shanghai.myqcloud.comimage-20230326200954241.png">https://k5hai-1311151548.cos.ap-shanghai.myqcloud.com/https://k5hai-1311151548.cos.ap-shanghai.myqcloud.comimage-20230326200954241.png</a></p>
+<p>play：GET： name&#x3D;a&amp;pass&#x3D;aa</p>
+<p>​	     POST:   user&#x3D;O:5:”SLsec”:3:{s:4:”name”;s:1:”a”;s:4:”pass”;s:2:”aa”;s:2:”jk”;b:1;}</p>
+<h1 id="CRYPTO"><a href="#CRYPTO" class="headerlink" title="CRYPTO"></a>CRYPTO</h1><h2 id="babyrsa"><a href="#babyrsa" class="headerlink" title="babyrsa"></a>babyrsa</h2><figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line">from Crypto.Util.number import *</span><br><span class="line">import gmpy2</span><br><span class="line">p= 174900179045398405758362887050510099953351230680589941223587187096927676318250039003867347118828470850766614025136710989402078055968449696991925901611318398319579226096026113980420314613233522410263933804832601250567540744629955554545762144406833636478599885984277733223077146277644459138695484730091497123653</span><br><span class="line">q= 138394168894464614599095635109542670799766048108401527799025178725205133812543876982783399176166727189388896418668604671443249386259427967695540806910521362186865886429031334061503953791903407614931162328753160467494420213786798800975785789856116685244900988587164035039772328579334638131513694977152566697693</span><br><span class="line">dq= 91144988599155922537286812069488697332186431610461674212452885608698963724568088535192289473758461311143377744214326484716015838529829408451331802003020019755397796512654690339237890864185649014688783869167705450325681146031490758620578699998011937814370759561761662578187180465099739857369029748140120600665</span><br><span class="line">dp= 77086099023854203737282939293131883320148165131282183381041486477787447250448637817213304263658092078129814396693072568608252203284383928126276449456687549559196269981593821846047893367155199274005122723844388469454558713530315183683329104798684553606121087426276184813900290984173218215988206302221537366933</span><br><span class="line">c= 15801371432169186780418480692589791195238785876344412995045613608181370212202255665942402417893437199493695445538341476746293760869621577715385796212569911097161252465453342990879413408685475673255790355354475333896669490479548332300912398201417641777563849663680004298227798906936140992367106039486966585574927214313333872682519241375796031187317957899045859494277570277966275262219924901316942847426675912933662265462110997773928571167535352177539455991039999517915239795197245498033201847388365903662518433723721091041449528248327695253818581438003566115867963542838871840099584964228370817957241460684463142116638</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">I = gmpy2.invert(q,p)</span><br><span class="line">mp = pow(c,dp,p)</span><br><span class="line">mq = pow(c,dq,q)               <span class="comment">#求幂取模运算</span></span><br><span class="line"></span><br><span class="line">m = (((mp-mq)*I)%p)*q+mq       <span class="comment">#求明文公式</span></span><br><span class="line"></span><br><span class="line">print( long_to_bytes(m))         <span class="comment">#转为十六进制</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="base？"><a href="#base？" class="headerlink" title="base？"></a>base？</h2><p>很简单的base64换表解码。<br>首先写个python脚本提取编码表</p>
+<figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">这是提取的编码表：</span><br><span class="line">JKLxNOMyUzVABCDEFGH798PQIacbdefghijklmWXYZ0123456SRTnopqrstuvw+<span class="string">/=</span></span><br></pre></td></tr></table></figure>
+
+<p>然后编写脚本解码：</p>
+<figure class="highlight maxima"><table><tr><td class="code"><pre><span class="line">import <span class="built_in">base64</span></span><br><span class="line">import <span class="built_in">string</span></span><br><span class="line"></span><br><span class="line">str1 = <span class="string">&quot;9nSTaPCu8MimQoamdXmg9qGRIPsXa8wjIQCmQTIngF==&quot;</span></span><br><span class="line"></span><br><span class="line">string1 = <span class="string">&quot;JKLxNOMyUzVABCDEFGH798PQIacbdefghijklmWXYZ0123456SRTnopqrstuvw+/=&quot;</span></span><br><span class="line">string2 = <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="built_in">base64</span>.b64decode(str1.<span class="built_in">translate</span>(str.maketrans(string1,string2))))</span><br></pre></td></tr></table></figure>
+
+<p>也可以网站解密：<br><img src="https://xmzbk-1310919595.cos.ap-nanjing.myqcloud.com/image-20230326113727063.png" alt="image-20230326113727063"></p>
+<h1 id="MISC"><a href="#MISC" class="headerlink" title="MISC"></a>MISC</h1><h2 id="看不懂的文件"><a href="#看不懂的文件" class="headerlink" title="看不懂的文件"></a>看不懂的文件</h2><p>把文件复制到虚拟机，打开终端执行 cat flag就出flag了</p>
+<p>flag:SLsec{!2023_Will_Be_Special,2022_Was_Not!}</p>
+<h2 id="里在干什莫？"><a href="#里在干什莫？" class="headerlink" title="里在干什莫？"></a>里在干什莫？</h2><p>16进制文件是反的很容易看出来</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">tmp = <span class="string">&#x27;&#x27;</span></span><br><span class="line">with <span class="built_in">open</span>(<span class="string">&#x27;flag.txt&#x27;</span>,<span class="string">&#x27;r&#x27;</span>) as file: <span class="selector-id">#flag</span>.txt里保存的是反着的<span class="number">16</span>进制文本</span><br><span class="line">    re_str = file<span class="selector-class">.read</span>()</span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> re_str:</span><br><span class="line">   tmp += <span class="selector-tag">i</span><span class="selector-class">.strip</span>()</span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(tmp[::-<span class="number">1</span>])</span></span></span><br><span class="line">#<span class="number">504</span>B0304140000000800F8BE7956F4507576100000000E00000008000000666C61672E747874AB4D2D2E4A2D4B2DAA4E4E2DF6090600504B01021400140000000800F8BE7956F4507576100000000E000000080024000000000000002000000000000000666C61672E7478740A00200000000000010018001F7EE443325FD901FF777E4A325FD901C6D233C4245FD901504B050600000000010001005A000000360000000000</span><br></pre></td></tr></table></figure>
+
+<p>将输出的16进制010重新读取一下就是flag</p>
+<h2 id="你知道什么是xor吗？"><a href="#你知道什么是xor吗？" class="headerlink" title="你知道什么是xor吗？"></a>你知道什么是xor吗？</h2><p>这道题是shangu👴赞助的</p>
+<p>附件很简单，一个key，一个flag,还有题目的关键描述 ‘xor’</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">key</span> = <span class="string">&#x27;jaks&#123;qwertyui-opas-dfgh-jklz-xcvbnmqwertu&#125;&#x27;</span></span><br><span class="line"><span class="attr">flag</span> = <span class="string">&#x27;óòõëÿ¾»®¿íâë÷ÿñë­îÿ¨ û ÿ¤­¥±ÿ¿ú½®÷öïº®º²¼ÿ&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>这道题脑洞很大，所以我就按我的分析来了</p>
+<p>首先看key，标准的flag格式，但是前四位被替换成了’jaks’，里面是按照键盘的qwer顺序，最开始分析的是字母在表中的顺序之类的，但是死活凑不出flag就放弃了。</p>
+<p>换一条思路，异或具有可逆性，或许’jask‘与’flag‘异或的结果就是我们要找的关键</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312153303362.png" alt="image-20230312153303362"></p>
+<p>再看flag这串乱码，先取前四位找一下规律,由于乱码的ascii码值通常是很大的，超出了标准ascii码的范围，我们可以先看一下他的ascii值是多少</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312153728805.png" alt="image-20230312153728805"></p>
+<p>还是找不到什么规律，由于xor本质上是二进制比特位之间的操作，我们进一步观察他们的二进制形式</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312154001470.png" alt="image-20230312154001470"></p>
+<p>再看’jask‘与’flag‘异或结果的二进制</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312154148276.png" alt="image-20230312154148276"></p>
+<p>其实到这里就已经很明显了，</p>
+<p>将flag的各位取反再与key异或</p>
+<p>脚本</p>
+<figure class="highlight sas"><table><tr><td class="code"><pre><span class="line"><span class="keyword">key</span> = <span class="string">&#x27;jaks&#123;qwertyui-opas-dfgh-jklz-xcvbnmqwertu&#125;&#x27;</span></span><br><span class="line">flag = <span class="string">&#x27;óòõëÿ¾»®¿íâë÷ÿñë­îÿ¨ û ÿ¤­¥±ÿ¿ú½®÷öïº®º²¼ÿ&#x27;</span></span><br><span class="line"><span class="keyword">data </span>= [0xff ^ ord(i) for i <span class="keyword">in</span> flag]</span><br><span class="line">for i <span class="keyword">in</span> <span class="meta">range</span>(le<span class="meta">n</span>(data)):</span><br><span class="line">    pr<span class="meta">int</span>(chr(ord(<span class="keyword">key</span>[i])^data[i]),<span class="keyword">end</span>=<span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>最后看一下出题人视角</p>
+<p>拿到flag &gt; 与随便打出来的key异或 &gt; 将异或结果按位取反 &gt; 给出附件</p>
+<h1 id="REVERSE"><a href="#REVERSE" class="headerlink" title="REVERSE"></a>REVERSE</h1><h2 id="re2"><a href="#re2" class="headerlink" title="re2"></a>re2</h2><p>程序是有一个upx壳，壳没有魔改可以直接脱</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326203037222.png" alt="image-20230326203037222"></p>
+<p>首先是通过循环可以看出来12个总共12位，<strong>v4</strong>含有转义字符需要去一下，所以这里为了方便直接用ascii码，加密就是找到v4中字符在__data_strart__ 表中的位置，然后将他的ascii减1（其实可以看出来表中的字符就是倒着的ascii码表）</p>
+<p>脚本</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">v4 = <span class="selector-attr">[42,70,39,34,78,44,34,40,73,63,43,64]</span></span><br><span class="line">flag = <span class="string">&#x27;&#x27;</span></span><br><span class="line">__data_strart__ = <span class="string">&#x27;~&#125;|&#123;zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:9876543210/.-,+*)(\&#x27;&amp;%$# !&quot;&#x27;</span></span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> v4:</span><br><span class="line">    flag += <span class="built_in">chr</span>(__data_strart__<span class="selector-class">.find</span>(<span class="built_in">chr</span>(i))+<span class="number">1</span>)</span><br><span class="line">    <span class="built_in">print</span>(flag)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="贪吃蛇"><a href="#贪吃蛇" class="headerlink" title="贪吃蛇"></a>贪吃蛇</h2><p>贪吃蛇小游戏来自SWPUCTF 2022 新生赛</p>
+<p>反编译可以看到一个v18</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326205454666.png" alt="image-20230326205454666"></p>
+<p>这个代码写这里八九不离十可以猜到v18就是分数</p>
+<p>ce直接改数值</p>
+<p>因为刚开始v18&#x3D;4，就从4开始扫，分数加一慢慢筛选</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211220393.png" alt="image-20230326211220393"></p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211243449.png" alt="image-20230326211243449"></p>
+<p>改下数值直接就能出flag</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211341663.png" alt="image-20230326211341663"></p>
+]]></content>
+      <categories>
+        <category>周赛</category>
+      </categories>
+      <tags>
+        <tag>周赛wp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3.12周赛wp</title>
     <url>/2023/03/12/3-12%E5%91%A8%E8%B5%9Bwp/</url>
     <content><![CDATA[<h1 id="WP-0312"><a href="#WP-0312" class="headerlink" title="WP(0312)"></a>WP(0312)</h1><h2 id="MISC"><a href="#MISC" class="headerlink" title="MISC"></a>MISC</h2><h3 id="MISC1"><a href="#MISC1" class="headerlink" title="MISC1"></a>MISC1</h3><p>明文攻击+修改图片高度</p>
@@ -217,17 +217,6 @@
       </categories>
       <tags>
         <tag>周赛wp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>实验题目要求解释</title>
-    <url>/2023/04/10/%E5%AE%9E%E9%AA%8C%E9%A2%98%E7%9B%AE%E8%A6%81%E6%B1%82%E8%A7%A3%E9%87%8A/</url>
-    <content><![CDATA[<h1 id="Legal-ops"><a href="#Legal-ops" class="headerlink" title="Legal ops"></a>Legal ops</h1><p>在计算机程序设计中，有些操作符被认为是合法的（legal），有些操作符则被认为是不合法的（illegal）。Legal ops 是指在编程中可以使用的合法的操作符，而不包括任何不合法的操作符。通常，在编程题目中，会明确规定 Legal ops 的范围，以限制参与者使用某些运算符，从而增加题目的挑战和限制。</p>
-<h1 id="Max-ops"><a href="#Max-ops" class="headerlink" title="Max ops"></a>Max ops</h1><p>在编程题目中，Max ops（或者Maximum Operations）是指在解题过程中可以使用的操作符的最大数量。通常，为了增加编程的挑战和难度，会规定在解决问题的过程中只能使用有限的操作符数量。因此，题目的难度通常与所允许使用的操作符数量有关。在题目中，一般会给出最大操作数的限制，以提示解决问题时需要注意的事项。</p>
-<h1 id="Rating"><a href="#Rating" class="headerlink" title="Rating"></a>Rating</h1><p>在编程题目中，Rating（或者Difficulty Rating）是指题目的难度评级。通常，难度评级是基于题目的复杂度、解决问题的难度和需要的知识量等因素来评定的。不同的平台或者网站可能会采用不同的评级系统，但通常都会以数字或者符号等形式表示。在一些网站中，例如LeetCode，难度评级一般被划分为Easy、Medium和Hard三个级别。对于参与编程竞赛或者考试的人来说，难度评级是选择题目时需要考虑的因素之一，也是评估自己编程能力的一种方式。</p>
-]]></content>
-      <tags>
-        <tag>实验</tag>
       </tags>
   </entry>
   <entry>
@@ -443,6 +432,22 @@ if(x&gt;127) return inf;
       </tags>
   </entry>
   <entry>
+    <title>刷题笔记：REVERSE</title>
+    <url>/2023/04/12/%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0%EF%BC%9AREVERSE/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>实验题目要求解释</title>
+    <url>/2023/04/10/%E5%AE%9E%E9%AA%8C%E9%A2%98%E7%9B%AE%E8%A6%81%E6%B1%82%E8%A7%A3%E9%87%8A/</url>
+    <content><![CDATA[<h1 id="Legal-ops"><a href="#Legal-ops" class="headerlink" title="Legal ops"></a>Legal ops</h1><p>在计算机程序设计中，有些操作符被认为是合法的（legal），有些操作符则被认为是不合法的（illegal）。Legal ops 是指在编程中可以使用的合法的操作符，而不包括任何不合法的操作符。通常，在编程题目中，会明确规定 Legal ops 的范围，以限制参与者使用某些运算符，从而增加题目的挑战和限制。</p>
+<h1 id="Max-ops"><a href="#Max-ops" class="headerlink" title="Max ops"></a>Max ops</h1><p>在编程题目中，Max ops（或者Maximum Operations）是指在解题过程中可以使用的操作符的最大数量。通常，为了增加编程的挑战和难度，会规定在解决问题的过程中只能使用有限的操作符数量。因此，题目的难度通常与所允许使用的操作符数量有关。在题目中，一般会给出最大操作数的限制，以提示解决问题时需要注意的事项。</p>
+<h1 id="Rating"><a href="#Rating" class="headerlink" title="Rating"></a>Rating</h1><p>在编程题目中，Rating（或者Difficulty Rating）是指题目的难度评级。通常，难度评级是基于题目的复杂度、解决问题的难度和需要的知识量等因素来评定的。不同的平台或者网站可能会采用不同的评级系统，但通常都会以数字或者符号等形式表示。在一些网站中，例如LeetCode，难度评级一般被划分为Easy、Medium和Hard三个级别。对于参与编程竞赛或者考试的人来说，难度评级是选择题目时需要考虑的因素之一，也是评估自己编程能力的一种方式。</p>
+]]></content>
+      <tags>
+        <tag>实验</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>深入理解计算机系统CSAPP实验一，实验记录</title>
     <url>/2023/04/10/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9FCSAPP%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%8C%E5%AE%9E%E9%AA%8C%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="itXor"><a href="#itXor" class="headerlink" title="itXor"></a>itXor</h1><p>这个 <code>bitXor</code> 函数的实现仅使用 <code>~</code>（取反）和 <code>&amp;</code>（按位与）运算符，其工作原理如下：</p>
@@ -510,6 +515,17 @@ if(x&gt;127) return inf;
 <p>int isTmax(int x) {<br>    int y &#x3D; x + 1;  &#x2F;&#x2F; 计算x+1<br>    int negX &#x3D; !x;  &#x2F;&#x2F; 判断x是否为0<br>    int isTmax &#x3D; !(y ^ x) &amp; !negX;  &#x2F;&#x2F; 判断是否为最大值<br>    return isTmax;<br>}</p>
 <p>其中，使用了逻辑运算符!（逻辑非）、~（按位取反）、&amp;（按位与）、^（按位异或）和+（加法）等运算符，而且使用了三个中间变量，即y、negX和isTmax。根据题目要求，最大操作次数为10次。</p>
 <h3 id="注：为什么要计算x-1-在二进制补码表示中，最大的二进制补码整数是0111…111，最小的二进制补码整数是1000…000。如果x是最大的二进制补码整数，那么x-1会溢出成最小的二进制补码整数，也就是tmin。因此，我们可以检查x-1是否等于-tmin来判断x是否为最大的二进制补码整数。"><a href="#注：为什么要计算x-1-在二进制补码表示中，最大的二进制补码整数是0111…111，最小的二进制补码整数是1000…000。如果x是最大的二进制补码整数，那么x-1会溢出成最小的二进制补码整数，也就是tmin。因此，我们可以检查x-1是否等于-tmin来判断x是否为最大的二进制补码整数。" class="headerlink" title="注：为什么要计算x+1 :在二进制补码表示中，最大的二进制补码整数是0111…111，最小的二进制补码整数是1000…000。如果x是最大的二进制补码整数，那么x+1会溢出成最小的二进制补码整数，也就是tmin。因此，我们可以检查x+1是否等于-tmin来判断x是否为最大的二进制补码整数。"></a>注：为什么要计算x+1 :在二进制补码表示中，最大的二进制补码整数是0111…111，最小的二进制补码整数是1000…000。如果x是最大的二进制补码整数，那么x+1会溢出成最小的二进制补码整数，也就是tmin。因此，我们可以检查x+1是否等于-tmin来判断x是否为最大的二进制补码整数。</h3><h2 id="答案-2"><a href="#答案-2" class="headerlink" title="答案"></a>答案</h2><p>int isTmax(int x) {<br>    int y &#x3D; x + 1;  &#x2F;&#x2F; 计算x+1<br>    int negX &#x3D; !x;  &#x2F;&#x2F; 判断x是否为0<br>    int isTmax &#x3D; !(y ^ x) &amp; !negX;  &#x2F;&#x2F; 判断是否为最大值<br>    return isTmax;<br>}</p>
+<h1 id="allOddBits"><a href="#allOddBits" class="headerlink" title="allOddBits"></a>allOddBits</h1><h2 id="题目解释-2"><a href="#题目解释-2" class="headerlink" title="题目解释"></a>题目解释</h2><p>函数的名字为 “allOddBits”，它的输入参数是一个 “word”，这个 word 可能是一个整数或者一个二进制字符串。</p>
+<p>这个函数的作用是检查输入的 word 是否所有的奇数位（即二进制表示中从右往左数的第1位、第3位、第5位等）都设置为了 1。如果是，那么函数就返回 1（表示真或成功）；否则返回 0（表示假或失败）。</p>
+<p>例如，如果输入的 word 是一个 16 位的二进制字符串 “1010101010101010”，其中奇数位是 “1111”。如果所有的奇数位都设置为了 1，那么函数就返回 1；如果任意一个奇数位设置为了 0，那么函数就返回 0。</p>
+<p>总的来说，这个函数可以用于检查一个二进制数字中的特定位是否被设置为了指定的值。</p>
+<h2 id="解题思路-2"><a href="#解题思路-2" class="headerlink" title="解题思路"></a>解题思路</h2><ol>
+<li>首先，定义一个掩码 <code>mask</code>，该掩码的二进制数值为 <code>10101010...</code>，即所有奇数位都为 1，偶数位都为 0。</li>
+<li>然后，通过位运算将 <code>mask</code> 扩展到 32 位，得到一个可以用来检测所有奇数位的掩码。</li>
+<li>最后，将输入的数值 <code>x</code> 与 <code>mask</code> 做 “&amp;” 运算，得到所有奇数位的值，然后将这个值与 <code>mask</code> 做 “^” 运算，得到所有奇数位为 0 的值。如果这个值等于 0，则说明所有奇数位都为 1，返回 1；否则返回 0。</li>
+</ol>
+<p>该代码中，使用了 4 次位运算符：”|”, “&lt;&lt;”, “&amp;” 和 “^”，没有使用除法、乘法等高级运算符。因此，代码满足了题目的要求，使用的最大运算符次数为 4 + 4 + 2 + 2 &#x3D; 12，符合最大运算符次数的限制。同时，该代码可以处理输入的数值为任意 32 位整数的情况，且能够正确地返回 1 或 0。</p>
+<h2 id="答案-3"><a href="#答案-3" class="headerlink" title="答案"></a>答案</h2><p>int allOddBits(int x) {<br>  int mask &#x3D; 0xAA;<br>  mask |&#x3D; mask &lt;&lt; 8;<br>  mask |&#x3D; mask &lt;&lt; 16;<br>  return !((x &amp; mask) ^ mask);<br>}</p>
 </li>
 </ol>
 ]]></content>
