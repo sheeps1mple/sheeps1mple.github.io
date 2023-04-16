@@ -20,17 +20,29 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
+  <meta name="description" content="1.reverse2拖入IDA64位 空格，SHIFT+F12 找到flag的一半，如图   先把105 114 49转成字符（选中按R即可）  可以发现，输入的v2要和&amp;flag做比较，而双击&amp;flag发现内容就是之前的hacking_for_fun}再分析循环，会将flag中的i和r替换成1，使用最后得到flag flag{hack1ng_fo1_fun} 2.xor第 第7行">
 <meta property="og:type" content="article">
 <meta property="og:title" content="刷题笔记：REVERSE">
 <meta property="og:url" content="http://example.com/2023/04/12/%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0%EF%BC%9AREVERSE/index.html">
 <meta property="og:site_name" content="陆の博客">
-<meta property="og:description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
+<meta property="og:description" content="1.reverse2拖入IDA64位 空格，SHIFT+F12 找到flag的一半，如图   先把105 114 49转成字符（选中按R即可）  可以发现，输入的v2要和&amp;flag做比较，而双击&amp;flag发现内容就是之前的hacking_for_fun}再分析循环，会将flag中的i和r替换成1，使用最后得到flag flag{hack1ng_fo1_fun} 2.xor第 第7行">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416191948474.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416192405830.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416192609668.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416193733057.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416193953100.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416194124795.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416195855231.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416203243959.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416203934440.png">
+<meta property="og:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416204213546.png">
 <meta property="article:published_time" content="2023-04-12T11:36:18.000Z">
-<meta property="article:modified_time" content="2023-04-12T11:36:18.988Z">
+<meta property="article:modified_time" content="2023-04-16T12:51:59.938Z">
 <meta property="article:author" content="sheeps1mple">
+<meta property="article:tag" content="BUUCTF">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416191948474.png">
 
 <link rel="canonical" href="http://example.com/2023/04/12/%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0%EF%BC%9AREVERSE/">
 
@@ -126,7 +138,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签<span class="badge">2</span></a>
+    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -224,6 +236,13 @@
 
               <time title="创建时间：2023-04-12 19:36:18" itemprop="dateCreated datePublished" datetime="2023-04-12T19:36:18+08:00">2023-04-12</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-16 20:51:59" itemprop="dateModified" datetime="2023-04-16T20:51:59+08:00">2023-04-16</time>
+              </span>
 
           
   
@@ -250,7 +269,56 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        
+        <h1 id="1-reverse2"><a href="#1-reverse2" class="headerlink" title="1.reverse2"></a>1.reverse2</h1><p>拖入IDA64位</p>
+<p>空格，SHIFT+F12</p>
+<p>找到flag的一半，如图</p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416191948474.png" alt="image-20230416191948474"></p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416192405830.png" alt="image-20230416192405830"></p>
+<p>先把105 114 49转成字符（选中按R即可）</p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416192609668.png" alt="image-20230416192609668"></p>
+<p>可以发现，输入的v2要和&amp;flag做比较，而双击&amp;flag发现内容就是之前的hacking_for_fun}<br>再分析循环，会将flag中的i和r替换成1，使用最后得到flag</p>
+<p>flag{hack1ng_fo1_fun}</p>
+<h1 id="2-xor"><a href="#2-xor" class="headerlink" title="2.xor"></a>2.xor</h1><p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416193733057.png" alt="image-20230416193733057">第</p>
+<p>第7行：输入flag</p>
+<p>第9行：输入的flag长度要为33</p>
+<p>第11行：输入的flag与自身前一位异或</p>
+<p>第13行：与global比较</p>
+<p>查看一下global值</p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416193953100.png" alt="image-20230416193953100"></p>
+<p>双击前面的aFKWOXZUPFVMDGH跳转</p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416194124795.png" alt="image-20230416194124795"></p>
+<p>python脚本</p>
+<p>tmp &#x3D; [‘f’, 0x0A, ‘k’, 0x0C, ‘w’, ‘&amp;’, ‘O’, ‘.’, ‘@’, 0x11, ‘x’, 0x0D, ‘Z’, ‘;’, ‘U’, 0x11, ‘p’, 0x19, ‘F’, 0x1F, ‘v’,<br>        ‘“‘, ‘M’, ‘#’, ‘D’, 0x0E, ‘g’, 6, ‘h’, 0x0F, ‘G’, ‘2’, ‘O’]<br>flag &#x3D; ‘f’<br>for i in range(1, len(tmp)):<br>    if (isinstance(tmp[i], str)):<br>        if (isinstance(tmp[i - 1], str)):<br>            flag +&#x3D; chr(ord(tmp[i]) ^ ord(tmp[i - 1]))#如果都是字符串<br>        else:#tmp[i]为字符串，tmp[i-1]不是字符串<br>            flag +&#x3D; chr(ord(tmp[i]) ^ tmp[i- 1])<br>    else:#tmp[i]和tmp[i-1]都不是字符串<br>        flag +&#x3D; chr(tmp[i] ^ ord(tmp[i - 1]))<br>print(flag)</p>
+<p>这个脚本首先定义了一个列表 <code>tmp</code>，其中包含了一些字符串和整数。</p>
+<p>接下来，脚本定义了一个变量 <code>flag</code>，初始化为列表中的第一个元素 <code>&#39;f&#39;</code>。</p>
+<p>然后，脚本使用一个 for 循环来遍历列表 <code>tmp</code> 中的元素。对于每个元素，脚本判断它的类型，分为以下 3 种情况：</p>
+<ol>
+<li>如果当前元素和前一个元素都是字符串，则将它们的 ASCII 码值进行异或操作，并将结果转换为字符，添加到 <code>flag</code> 中。</li>
+<li>如果当前元素是字符串而前一个元素不是字符串，则将当前元素的 ASCII 码值和前一个元素的数值进行异或操作，并将结果转换为字符，添加到 <code>flag</code> 中。</li>
+<li>如果当前元素和前一个元素都不是字符串，则将它们的数值进行异或操作，并将结果转换为字符，添加到 <code>flag</code> 中。</li>
+</ol>
+<p>最终，脚本输出变量 <code>flag</code>，即得到了解密后的字符串。整个脚本的目的是对加密的字符串进行解密，解密算法是通过将相邻元素进行异或操作，并将结果转换为 ASCII 码对应的字符。</p>
+<p>其中，isinstance函数的作用是检测是否为已知类型，这里即比较tmp[i]与tmp[i-1]是否为字符串</p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416195855231.png" alt="image-20230416195855231">flag{QianQiuWanDai_YiTongJiangHu}</p>
+<p>注：其中，isinstance函数的作用是检测是否为已知类型，这里即比较tmp[i]与tmp[i-1]是否为字符串。</p>
+<h1 id="3-reverse3"><a href="#3-reverse3" class="headerlink" title="3.reverse3"></a>3.reverse3</h1><p>IDA打开，搜字符串能明显看到base<br>查看main伪代码，简单来说，输入的str加密后得到v1，再进入for循环后得到Dest后的字符与str2进行比较</p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416203243959.png" alt="image-20230416203243959"></p>
+<p>第30行：Str2与Dest比较</p>
+<p>其中 str2的内容为e3nifIH9b_C@n@dH</p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416203934440.png" alt="image-20230416203934440"></p>
+<p>跟进sub_4110BE函数</p>
+<p><img src="C:\Users\86198\AppData\Roaming\Typora\typora-user-images\image-20230416204213546.png" alt="image-20230416204213546"></p>
+<p>发现使用了这个进行数组变换，跟进发现就是之前的base64。</p>
+<p>解码过程：<br>首先for循环将Dest每一位都加了j，所以写脚本还原v1，然后进行base64解码</p>
+<h2 id="原脚本："><a href="#原脚本：" class="headerlink" title="原脚本："></a>原脚本：</h2><p>import base64</p>
+<p>str &#x3D; ‘e3nifIH9b_C@n@dH’<br>flag &#x3D; ‘’<br>for i in range(len(str)):<br>    flag+&#x3D;chr(ord(str[i])-i)</p>
+<p>flag &#x3D; base64.b64decode(flag)<br>print(flag)</p>
+<h2 id="优化后："><a href="#优化后：" class="headerlink" title="优化后："></a>优化后：</h2><p>import base64</p>
+<p>s &#x3D; ‘e3nifIH9b_C@n@dH’<br>flag &#x3D; ‘’.join(chr(ord(c) - i) for i, c in enumerate(s))<br>decoded &#x3D; base64.b64decode(flag.encode(‘utf-8’))<br>print(decoded)</p>
+<p>这个版本使用了列表推导式和 <code>join</code> 方法来构建 <code>flag</code> 字符串。在列表推导式中，使用了 <code>enumerate</code> 函数来同时遍历字符串中的字符和它们的下标，避免使用循环和索引来访问字符串中的字符。使用 <code>join</code> 方法可以将一个列表中的元素连接成一个字符串。</p>
+<p>注意到 <code>b64decode</code> 函数的参数是一个 bytes 对象，因此在将 <code>flag</code> 转换为 bytes 对象后再进行解码。</p>
+<p>另外，同样避免使用 <code>str</code> 作为变量名，这里将变量名改为 <code>s</code>。</p>
+
     </div>
 
     
@@ -278,6 +346,9 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/BUUCTF/" rel="tag"># BUUCTF</a>
+          </div>
 
         
 
@@ -348,6 +419,7 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=191060&auto=1&height=66"></iframe>
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-reverse2"><span class="nav-number">1.</span> <span class="nav-text">1.reverse2</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-xor"><span class="nav-number">2.</span> <span class="nav-text">2.xor</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-reverse3"><span class="nav-number">3.</span> <span class="nav-text">3.reverse3</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8E%9F%E8%84%9A%E6%9C%AC%EF%BC%9A"><span class="nav-number">3.1.</span> <span class="nav-text">原脚本：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BC%98%E5%8C%96%E5%90%8E%EF%BC%9A"><span class="nav-number">3.2.</span> <span class="nav-text">优化后：</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -376,7 +448,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
