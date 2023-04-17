@@ -227,7 +227,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-17 20:14:52" itemprop="dateModified" datetime="2023-04-17T20:14:52+08:00">2023-04-17</time>
+                <time title="修改时间：2023-04-17 21:00:06" itemprop="dateModified" datetime="2023-04-17T21:00:06+08:00">2023-04-17</time>
               </span>
 
           
@@ -310,6 +310,32 @@
 <p>这个版本使用了列表推导式和 <code>join</code> 方法来构建 <code>flag</code> 字符串。在列表推导式中，使用了 <code>enumerate</code> 函数来同时遍历字符串中的字符和它们的下标，避免使用循环和索引来访问字符串中的字符。使用 <code>join</code> 方法可以将一个列表中的元素连接成一个字符串。</p>
 <p>注意到 <code>b64decode</code> 函数的参数是一个 bytes 对象，因此在将 <code>flag</code> 转换为 bytes 对象后再进行解码。</p>
 <p>另外，同样避免使用 <code>str</code> 作为变量名，这里将变量名改为 <code>s</code>。</p>
+<h1 id="4-不一样的flag"><a href="#4-不一样的flag" class="headerlink" title="4.不一样的flag"></a>4.不一样的flag</h1><p>用32位的IDA打开，一打开就看到01串</p>
+<img src="https://i.328888.xyz/2023/04/17/iziYbE.png" alt="iziYbE.png" border="0" />
+
+<img src="https://i.328888.xyz/2023/04/17/izVVgt.png" alt="izVVgt.png" border="0" />
+
+<p>划到下面，把49，35，按R换成1和#</p>
+<img src="https://i.328888.xyz/2023/04/17/izVNFU.png" alt="izVNFU.png" border="0" />
+
+<img src="https://i.328888.xyz/2023/04/17/izVrQv.png" alt="izVrQv.png" border="0" />
+
+<p>可以发现，遇到1退出，遇到#输出flag</p>
+<p>开头的0串刚好25个</p>
+<img src="https://i.328888.xyz/2023/04/17/izVScc.png" alt="izVScc.png" border="0" />
+
+
+
+<p>再根据上面的1 up，2  down ……</p>
+<p>得出flag{222441144222}</p>
+<h1 id="5-SimpleRev"><a href="#5-SimpleRev" class="headerlink" title="5.SimpleRev"></a>5.SimpleRev</h1><p>拖入64位IDA查看main，发现输入D进入游戏。</p>
+<img src="https://i.328888.xyz/2023/04/17/izfUt5.png" alt="izfUt5.png" border="0" />
+
+<p>跟进Decry</p>
+<img src="https://i.328888.xyz/2023/04/17/izf8mJ.png" alt="izf8mJ.png" border="0" />
+
+
+
 
       
     </div>
