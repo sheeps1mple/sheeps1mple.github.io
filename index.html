@@ -227,7 +227,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-17 22:25:40" itemprop="dateModified" datetime="2023-04-17T22:25:40+08:00">2023-04-17</time>
+                <time title="修改时间：2023-04-17 22:35:59" itemprop="dateModified" datetime="2023-04-17T22:35:59+08:00">2023-04-17</time>
               </span>
 
           
@@ -255,7 +255,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="1-reverse2"><a href="#1-reverse2" class="headerlink" title="1.reverse2"></a>1.reverse2</h1><p>拖入IDA64位</p>
+          <h1 id="reverse2"><a href="#reverse2" class="headerlink" title="reverse2"></a>reverse2</h1><p>拖入IDA64位</p>
 <p>空格，SHIFT+F12</p>
 <p>找到flag的一半，如图</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172223353.png" alt="image-20230417222352316"></p>
@@ -264,7 +264,7 @@
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172223254.png" alt="image-20230417222341232"></p>
 <p>可以发现，输入的v2要和&amp;flag做比较，而双击&amp;flag发现内容就是之前的hacking_for_fun}<br>再分析循环，会将flag中的i和r替换成1，使用最后得到flag</p>
 <p>flag{hack1ng_fo1_fun}</p>
-<h1 id="2-xor"><a href="#2-xor" class="headerlink" title="2.xor"></a>2.xor</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172223636.png" alt="image-20230417222329604"></p>
+<h1 id="xor"><a href="#xor" class="headerlink" title="xor"></a>xor</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172223636.png" alt="image-20230417222329604"></p>
 <p>第7行：输入flag</p>
 <p>第9行：输入的flag长度要为33</p>
 <p>第11行：输入的flag与自身前一位异或</p>
@@ -285,7 +285,7 @@
 <p>其中，isinstance函数的作用是检测是否为已知类型，这里即比较tmp[i]与tmp[i-1]是否为字符串</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172223879.png" alt="image-20230417222311853">flag{QianQiuWanDai_YiTongJiangHu}</p>
 <p>注：其中，isinstance函数的作用是检测是否为已知类型，这里即比较tmp[i]与tmp[i-1]是否为字符串。</p>
-<h1 id="3-reverse3"><a href="#3-reverse3" class="headerlink" title="3.reverse3"></a>3.reverse3</h1><p>IDA打开，搜字符串能明显看到base<br>查看main伪代码，简单来说，输入的str加密后得到v1，再进入for循环后得到Dest后的字符与str2进行比较</p>
+<h1 id="reverse3"><a href="#reverse3" class="headerlink" title="reverse3"></a>reverse3</h1><p>IDA打开，搜字符串能明显看到base<br>查看main伪代码，简单来说，输入的str加密后得到v1，再进入for循环后得到Dest后的字符与str2进行比较</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172223702.png" alt="image-20230417222306669"></p>
 <p>第30行：Str2与Dest比较</p>
 <p>其中 str2的内容为e3nifIH9b_C@n@dH</p>
@@ -302,7 +302,7 @@
 <p>这个版本使用了列表推导式和 <code>join</code> 方法来构建 <code>flag</code> 字符串。在列表推导式中，使用了 <code>enumerate</code> 函数来同时遍历字符串中的字符和它们的下标，避免使用循环和索引来访问字符串中的字符。使用 <code>join</code> 方法可以将一个列表中的元素连接成一个字符串。</p>
 <p>注意到 <code>b64decode</code> 函数的参数是一个 bytes 对象，因此在将 <code>flag</code> 转换为 bytes 对象后再进行解码。</p>
 <p>另外，同样避免使用 <code>str</code> 作为变量名，这里将变量名改为 <code>s</code>。</p>
-<h1 id="4-不一样的flag"><a href="#4-不一样的flag" class="headerlink" title="4.不一样的flag"></a>4.不一样的flag</h1><p>用32位的IDA打开，一打开就看到01串</p>
+<h1 id="不一样的flag"><a href="#不一样的flag" class="headerlink" title="不一样的flag"></a>不一样的flag</h1><p>用32位的IDA打开，一打开就看到01串</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172222266.png" alt="image-20230417222248240"></p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172222636.png" alt="image-20230417222239598"></p>
 <p>划到下面，把49，35，按R换成1和#</p>
@@ -313,7 +313,7 @@
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172222968.png" alt="image-20230417222219946"></p>
 <p>再根据上面的1 up，2  down ……</p>
 <p>得出flag{222441144222}</p>
-<h1 id="5-SimpleRev"><a href="#5-SimpleRev" class="headerlink" title="5.SimpleRev"></a>5.SimpleRev</h1><p>拖入64位IDA查看main，发现输入D进入游戏。</p>
+<h1 id="SimpleRev"><a href="#SimpleRev" class="headerlink" title="SimpleRev"></a>SimpleRev</h1><p>拖入64位IDA查看main，发现输入D进入游戏。</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172222352.png" alt="image-20230417222208321"></p>
 <p>跟进Decry</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172221914.png" alt="image-20230417222154887"></p>
