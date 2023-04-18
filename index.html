@@ -227,7 +227,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-18 19:54:36" itemprop="dateModified" datetime="2023-04-18T19:54:36+08:00">2023-04-18</time>
+                <time title="修改时间：2023-04-18 20:58:35" itemprop="dateModified" datetime="2023-04-18T20:58:35+08:00">2023-04-18</time>
               </span>
 
           
@@ -337,6 +337,7 @@
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304181938679.png" alt="image-20230418193816634"></p>
 <p>最后text需要和str2进行比较，既然已经知道了加密后的字符串和key(注意key在第2张图被+32，即大写变成了小写），所以可以直接写脚本一位一位的进行爆破</p>
 <p>key &#x3D; “adsfkndcls”<br>text &#x3D; “killshadow”<br>flag &#x3D; “”<br>dict &#x3D; “ABCDEFGHIJKLMNOPQRSTUVWXYZ”<br>v5 &#x3D; len(text)<br>for i in range(v5):<br>    for v1 in dict:<br>        if ord(text[i]) &#x3D;&#x3D; (ord(v1) - 39 - ord(key[i % v5]) + 97) % 26 + 97:<br>            flag +&#x3D; v1<br>print(flag)</p>
+<p>这段代码是一个简单的凯撒密码加密算法，其中key代表密钥，text代表明文，flag代表密文，dict是用于表示密文中可能出现的字符集。每次对于明文的一个字符，先根据key中的密钥计算出偏移量，然后通过凯撒密码加密算法，将该字符替换成偏移量之后的字符，即得到密文。</p>
 <p>这段代码的作用是对字符串 “text” 进行加密，加密的密钥是 “key”。它遍历了 “text” 中的每个字符，对于每个字符，它通过循环枚举字母表中的每个字母，并计算该字母加密后是否与 “text” 中的字符相等。具体地，它使用如下公式计算加密后的字母：</p>
 <p>(ord(v1) - 39 - ord(key[i % v5]) + 97) % 26 + 97</p>
 <p>其中，ord(v1) 表示字母 v1 的 ASCII 码值，39 和 97 是常数，v5 是 “text” 的长度，i % v5 计算出当前字符在 “text” 中的位置，ord(key[i % v5]) 表示使用密钥 “key” 中对应位置的字符作为加密密钥。</p>
@@ -351,6 +352,8 @@
 <li><code>+ 97</code>：将取模后的结果再加上 97，得到最终的加密后的字符的 ASCII 码值。</li>
 </ol>
 <p>这个过程中，<code>ord(key[i % v5])</code> 表示从 key 中取出与当前处理字符的位置相对应的字符的 ASCII 码值，<code>v5</code> 表示 text 的长度，<code>i % v5</code> 表示当前处理字符在 text 中的位置，因此可以用 i % v5 计算出对应位置的 key 字符。<code>97</code> 和 <code>26</code> 分别是小写字母的起始 ASCII 码值和字母表中字母的个数，用于保证加密后的结果为小写字母。</p>
+<h1 id="刮开有奖"><a href="#刮开有奖" class="headerlink" title="刮开有奖"></a>刮开有奖</h1><p>32位程序，IDA打开<br>找到关键函数DialogFunc</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304182033973.png" alt="image-20230418203312907"></p>
 
       
     </div>
