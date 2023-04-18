@@ -227,7 +227,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-17 22:35:59" itemprop="dateModified" datetime="2023-04-17T22:35:59+08:00">2023-04-17</time>
+                <time title="修改时间：2023-04-18 19:54:36" itemprop="dateModified" datetime="2023-04-18T19:54:36+08:00">2023-04-18</time>
               </span>
 
           
@@ -317,6 +317,40 @@
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172222352.png" alt="image-20230417222208321"></p>
 <p>跟进Decry</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304172221914.png" alt="image-20230417222154887"></p>
+<h2 id="代码解读"><a href="#代码解读" class="headerlink" title="代码解读"></a>代码解读</h2><p>这段代码中，<code>v11 = __readfsqword(0x28u);</code> 是获取CPU中的控制寄存器FS的值，可以用来防止缓冲区溢出攻击。<code>*(_QWORD *)src = 0x534C43444ELL;</code> 给 <code>src</code> 赋了一个十六进制值，等价于将其转换为字符数组 “SLCDD”。接着，变量 <code>v7</code>、<code>v8</code>、<code>v10</code> 都被初始化为0。数组 <code>v9</code> 的第一个元素被赋值为十六进制数值 0x776F646168，第二个元素赋值为0。<code>join(key3, v9)</code> 将字符串数组 <code>key3</code> 和 <code>v9</code> 合并成一个新的字符串，赋值给变量 <code>text</code>。<code>strcpy(key, key1)</code> 复制字符串 <code>key1</code> 到 <code>key</code> 中，<code>strcat(key, src)</code> 将字符串 <code>src</code> 连接到 <code>key</code> 后面。最后，<code>v2</code> 和 <code>v3</code> 都被初始化为0，<code>getchar()</code> 是用来暂停程序，等待用户按下任意键后再继续执行下去。</p>
+<p><code>join()</code> 是 Python 中的一个字符串方法，用于将一个可迭代对象（例如列表、元组、集合等）中的字符串按照指定的分隔符连接成一个新的字符串。</p>
+<p>例子：my_list &#x3D; [‘hello’, ‘world’, ‘python’]<br>new_str &#x3D; ‘ ‘.join(my_list)<br>print(new_str)  # 输出：’hello world python’</p>
+<p>在上述代码中，<code>join</code>函数将<code>key3</code>和<code>v9</code>中的元素进行拼接，并返回拼接结果的指针，然后将该指针赋值给<code>text</code>变量。</p>
+<p>其中text&#x3D;key3+v9</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304181942207.png" alt="image-20230418194224164"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304181943060.png" alt="image-20230418194354042"></p>
+<p>key3为kills，因为是小端序存储，则text为killshadow<br>key为key1+src，key1为ADSFK</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304181932065.png" alt="image-20230418193225027"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304181930203.png" alt="image-20230418193039127"></p>
+<p>则key为ADSFKNDCLS</p>
+<h2 id="小端序存储"><a href="#小端序存储" class="headerlink" title="小端序存储"></a>小端序存储</h2><p>小端序储存（Little Endian）是一种数据存储的方式。在小端序储存中，数据的最低有效字节（即数值最小的字节）被存储在最前面的地址，而最高有效字节（即数值最大的字节）则被存储在最后面的地址。这与大端序储存（Big Endian）相反，在大端序储存中，数据的最高有效字节被存储在最前面的地址，最低有效字节则被存储在最后面的地址。</p>
+<p>举例来说，如果我们要存储数值为0x12345678的32位整数，在小端序储存中，它的字节序列将被储存为0x78, 0x56, 0x34, 0x12，而在大端序储存中，它的字节序列将被储存为0x12, 0x34, 0x56, 0x78。在计算机中，x86架构的处理器是小端序的，而其他的处理器如PowerPC和SPARC则是大端序的。</p>
+<p>下面查看加密过程</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304181933851.png" alt="image-20230418193348806"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304181934057.png" alt="image-20230418193409020"></p>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p><code>!strcmp</code> 是用于判断两个字符串是否相同的函数。<code>strcmp</code> 函数的返回值是一个整数，当两个字符串相等时返回 0，不相等时返回非 0 的值。因此，<code>!strcmp(str1, str2)</code> 的含义是：如果 <code>str1</code> 和 <code>str2</code> 相等，则返回 1，否则返回 0。<code>!</code> 符号表示逻辑非，可以将非 0 的值转换为 0，将 0 转换为 1。因此，<code>!strcmp(str1, str2)</code> 实际上等价于判断 <code>str1</code> 和 <code>str2</code> 是否相等，如果相等则返回 1，否则返回 0。</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304181938679.png" alt="image-20230418193816634"></p>
+<p>最后text需要和str2进行比较，既然已经知道了加密后的字符串和key(注意key在第2张图被+32，即大写变成了小写），所以可以直接写脚本一位一位的进行爆破</p>
+<p>key &#x3D; “adsfkndcls”<br>text &#x3D; “killshadow”<br>flag &#x3D; “”<br>dict &#x3D; “ABCDEFGHIJKLMNOPQRSTUVWXYZ”<br>v5 &#x3D; len(text)<br>for i in range(v5):<br>    for v1 in dict:<br>        if ord(text[i]) &#x3D;&#x3D; (ord(v1) - 39 - ord(key[i % v5]) + 97) % 26 + 97:<br>            flag +&#x3D; v1<br>print(flag)</p>
+<p>这段代码的作用是对字符串 “text” 进行加密，加密的密钥是 “key”。它遍历了 “text” 中的每个字符，对于每个字符，它通过循环枚举字母表中的每个字母，并计算该字母加密后是否与 “text” 中的字符相等。具体地，它使用如下公式计算加密后的字母：</p>
+<p>(ord(v1) - 39 - ord(key[i % v5]) + 97) % 26 + 97</p>
+<p>其中，ord(v1) 表示字母 v1 的 ASCII 码值，39 和 97 是常数，v5 是 “text” 的长度，i % v5 计算出当前字符在 “text” 中的位置，ord(key[i % v5]) 表示使用密钥 “key” 中对应位置的字符作为加密密钥。</p>
+<p>如果计算得到的加密后的字母等于 “text” 中的字符，就将该字母添加到 “flag” 中，最终得到的 “flag” 就是加密后的结果。</p>
+<p><code>(ord(v1) - 39 - ord(key[i % v5]) + 97) % 26 + 97</code> 是对字符 v1 进行加密的过程，可以分为以下几步：</p>
+<ol>
+<li><code>ord(v1)</code>：将字符 v1 转换成对应的 ASCII 码值。</li>
+<li><code>- 39</code>：将 ASCII 码值减去 39。</li>
+<li><code>- ord(key[i % v5])</code>：将减去的结果再减去对应位置上的 key 字符的 ASCII 码值。</li>
+<li><code>+ 97</code>：将减去的结果加上 97。</li>
+<li><code>% 26</code>：将加上 97 的结果对 26 取模。</li>
+<li><code>+ 97</code>：将取模后的结果再加上 97，得到最终的加密后的字符的 ASCII 码值。</li>
+</ol>
+<p>这个过程中，<code>ord(key[i % v5])</code> 表示从 key 中取出与当前处理字符的位置相对应的字符的 ASCII 码值，<code>v5</code> 表示 text 的长度，<code>i % v5</code> 表示当前处理字符在 text 中的位置，因此可以用 i % v5 计算出对应位置的 key 字符。<code>97</code> 和 <code>26</code> 分别是小写字母的起始 ASCII 码值和字母表中字母的个数，用于保证加密后的结果为小写字母。</p>
 
       
     </div>
