@@ -227,7 +227,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-18 20:58:35" itemprop="dateModified" datetime="2023-04-18T20:58:35+08:00">2023-04-18</time>
+                <time title="修改时间：2023-04-19 19:50:03" itemprop="dateModified" datetime="2023-04-19T19:50:03+08:00">2023-04-19</time>
               </span>
 
           
@@ -354,6 +354,30 @@
 <p>这个过程中，<code>ord(key[i % v5])</code> 表示从 key 中取出与当前处理字符的位置相对应的字符的 ASCII 码值，<code>v5</code> 表示 text 的长度，<code>i % v5</code> 表示当前处理字符在 text 中的位置，因此可以用 i % v5 计算出对应位置的 key 字符。<code>97</code> 和 <code>26</code> 分别是小写字母的起始 ASCII 码值和字母表中字母的个数，用于保证加密后的结果为小写字母。</p>
 <h1 id="刮开有奖"><a href="#刮开有奖" class="headerlink" title="刮开有奖"></a>刮开有奖</h1><p>32位程序，IDA打开<br>找到关键函数DialogFunc</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304182033973.png" alt="image-20230418203312907"></p>
+<p>跟进</p>
+<h2 id="分析伪代码"><a href="#分析伪代码" class="headerlink" title="分析伪代码"></a>分析伪代码</h2><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304191917893.png" alt="image-20230419191730801"></p>
+<p>memset函数就是初始化的。</p>
+<h2 id="找到字符串加密函数"><a href="#找到字符串加密函数" class="headerlink" title="找到字符串加密函数"></a>找到字符串加密函数</h2><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304191921735.png" alt="image-20230419192130696"></p>
+<p>（把数字按R转换了一下）</p>
+<p>看到这里，String，应该是我们要的flag，flag &#x3D; 8.，也就是有8个字符了。</p>
+<p>看到这里有11个字符，，但是还有一个函数sub_4010F0，跟进去看看。</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304191928167.png" alt="image-20230419192817103"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304191928712.png" alt="image-20230419192832672"></p>
+<p>很显然，这个函数会把这已知的11个字符，加密成其他的，这里我们直接把伪代码换为C语言代码，运行就能得到新的加密字符是什么。</p>
+<p>#include &lt;stdio.h&gt;<br>int  sub_4010F0(char* a1, int a2, int a3)<br>{<br>  int result; &#x2F;&#x2F; eax<br>  int i; &#x2F;&#x2F; esi<br>  int v5; &#x2F;&#x2F; ecx<br>  int v6; &#x2F;&#x2F; edx</p>
+<p>  result &#x3D; a3;<br>  for ( i &#x3D; a2; i &lt;&#x3D; a3; a2 &#x3D; i )<br>  {<br>    v5 &#x3D; i;<br>    v6 &#x3D; i[a1];<br>    if ( a2 &lt; result &amp;&amp; i &lt; result )<br>    {<br>      do<br>      {<br>        if ( v6 &gt; a1[result])<br>        {<br>          if ( i &gt;&#x3D; result )<br>            break;<br>          ++i;<br>          a1[v5] &#x3D; a1[result];<br>          if ( i &gt;&#x3D; result )<br>            break;<br>          while ( a1[i] &lt;&#x3D; v6 )<br>          {<br>            if ( ++i &gt;&#x3D; result )<br>              goto LABEL_13;<br>          }<br>          if ( i &gt;&#x3D; result )<br>            break;<br>          v5 &#x3D; i;<br>         a1[result] &#x3D; a1[i];<br>        }<br>        –result;<br>      }<br>      while ( i &lt; result );<br>    }<br>LABEL_13:<br>    a1[result] &#x3D; v6 ;<br>    sub_4010F0(a1, a2, i - 1);<br>    result &#x3D; a3;<br>    ++i;<br>  }<br>  return result;<br>}</p>
+<p>int main()<br>{<br>    char str[] &#x3D; “ZJSECaNH3ng”;<br>    sub_4010F0(str,0,10);<br>    printf(“%s”, str);<br>    return 0;<br>}</p>
+<h2 id="注释-1"><a href="#注释-1" class="headerlink" title="注释"></a>注释</h2><h3 id="在伪代码中，有a1-4-i，a1-4-result，这样的字符。但是在C语言代码中，为什么没有了？"><a href="#在伪代码中，有a1-4-i，a1-4-result，这样的字符。但是在C语言代码中，为什么没有了？" class="headerlink" title="在伪代码中，有a1+ 4 * i，a1+4 *result，这样的字符。但是在C语言代码中，为什么没有了？"></a>在伪代码中，有a1+ 4 * i，a1+4 *result，这样的字符。但是在C语言代码中，为什么没有了？</h3><p>int占四个字节，所以需要*4.如果是char类型，就不需要.</p>
+<p>我们知道，计算机会给每个内存单元分配一个地址，计算机通过地址来访问内存中的数据。当计算机需要随机访问数组中的某个元素时，它会首先通过下面的寻址公式，计算出该元素存储的内存地址:</p>
+<p>a[i]_address &#x3D; base_address + i * data__type_size</p>
+<p>其中 data_type_size 表示数组中每个元素的大小。我们举的这个例子里，数组中存储的是 int 类型数据，所以data_type_size  就为 4 个字节.</p>
+<p>从这里，我们知道a1+4*i，也就是a1【i】，a1+4 * result，也就是a1【result】。</p>
+<p>将伪代码的寻址方式改为数组寻址，然后将*(_DWORD*) 删掉，因为这是汇编的表示。</p>
+<p>所以伪代码变成了C语言代码。</p>
+<p>运行C语言代码得到</p>
+<p>3CEHJNSZagn</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304191949181.png" alt="image-20230419194916137"></p>
+<p>得到加密之后的字符。继续分析</p>
 
       
     </div>
@@ -479,7 +503,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-12 19:33:07" itemprop="dateModified" datetime="2023-04-12T19:33:07+08:00">2023-04-12</time>
+                <time title="修改时间：2023-04-19 19:48:23" itemprop="dateModified" datetime="2023-04-19T19:48:23+08:00">2023-04-19</time>
               </span>
 
           
