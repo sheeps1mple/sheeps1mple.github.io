@@ -134,7 +134,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档<span class="badge">10</span></a>
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档<span class="badge">11</span></a>
 
   </li>
         <li class="menu-item menu-item-schedule">
@@ -192,6 +192,77 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/27/2022ISCC%E7%BB%83%E4%B9%A0%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar_2.gif">
+      <meta itemprop="name" content="sheeps1mple">
+      <meta itemprop="description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="陆の博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/04/27/2022ISCC%E7%BB%83%E4%B9%A0%E9%A2%98/" class="post-title-link" itemprop="url">2022ISCC练习题</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-04-27 10:01:31" itemprop="dateCreated datePublished" datetime="2023-04-27T10:01:31+08:00">2023-04-27</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2023/04/27/2022ISCC%E7%BB%83%E4%B9%A0%E9%A2%98/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2023/04/27/2022ISCC%E7%BB%83%E4%B9%A0%E9%A2%98/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -590,7 +661,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-19 20:54:20" itemprop="dateModified" datetime="2023-04-19T20:54:20+08:00">2023-04-19</time>
+                <time title="修改时间：2023-04-27 10:01:00" itemprop="dateModified" datetime="2023-04-27T10:01:00+08:00">2023-04-27</time>
               </span>
 
           
@@ -787,6 +858,60 @@
 <p>print(‘The decrypted flag is:’, flag)</p>
 <p>在PC里面运行得出flagGWHT{Just_Re_1s_Ha66y!}</p>
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304192053997.png" alt="image-20230419205344935"></p>
+<h1 id="简单注册器"><a href="#简单注册器" class="headerlink" title="简单注册器"></a>简单注册器</h1><p>下载出来是apk文件，所以是一道安卓逆向题目</p>
+<p>用jadx-gui打开</p>
+<p>找到main函数</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270819756.png" alt="image-20230427081858642"></p>
+<p>找到关键函数</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270822147.png" alt="image-20230427082259116"></p>
+<p>由此可知dd2940c04462b4dd7c450528835cca15就是我们要的flag</p>
+<p>对字符串进行转换</p>
+<p>脚本：</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">input_str = <span class="string">&quot;dd2940c04462b4dd7c450528835cca15&quot;</span></span><br><span class="line">input_list = <span class="built_in">list</span>(input_str)</span><br><span class="line">input_list<span class="selector-attr">[2]</span> = <span class="built_in">chr</span>(<span class="built_in">ord</span>(input_list<span class="selector-attr">[2]</span>) + <span class="built_in">ord</span>(input_list<span class="selector-attr">[3]</span>) - <span class="number">50</span>)</span><br><span class="line">input_list<span class="selector-attr">[4]</span> = <span class="built_in">chr</span>(<span class="built_in">ord</span>(input_list<span class="selector-attr">[2]</span>) + <span class="built_in">ord</span>(input_list<span class="selector-attr">[5]</span>) - <span class="number">48</span>)</span><br><span class="line">input_list<span class="selector-attr">[30]</span> = <span class="built_in">chr</span>(<span class="built_in">ord</span>(input_list<span class="selector-attr">[31]</span>) + <span class="built_in">ord</span>(input_list<span class="selector-attr">[9]</span>) - <span class="number">48</span>)</span><br><span class="line">input_list<span class="selector-attr">[14]</span> = <span class="built_in">chr</span>(<span class="built_in">ord</span>(input_list<span class="selector-attr">[27]</span>) + <span class="built_in">ord</span>(input_list<span class="selector-attr">[28]</span>) - <span class="number">97</span>)</span><br><span class="line">input_list = input_list<span class="selector-attr">[::-1]</span></span><br><span class="line">output_str = <span class="string">&quot;flag&#123;&quot;</span> + <span class="string">&quot;&quot;</span><span class="selector-class">.join</span>(input_list) + <span class="string">&quot;&#125;&quot;</span></span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(output_str)</span></span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270839781.png" alt="image-20230427083933747"></p>
+<p>flag{59acc538825054c7de4b26440c0999dd}</p>
+<h1 id="ACTF新生赛2020-easyre-1"><a href="#ACTF新生赛2020-easyre-1" class="headerlink" title="[ACTF新生赛2020]easyre 1"></a>[ACTF新生赛2020]easyre 1</h1><p>下载的文件有UPX壳</p>
+<p>拖入UPXSHell中脱壳，脱完壳发现是32位</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270843590.png" alt="image-20230427084357548"></p>
+<p>拖入IDA 32位</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270847718.png" alt="image-20230427084727677"></p>
+<p>找到可疑字符串，先留着</p>
+<p>}|{zyxwvutsrqponmlkjihgfedcba&#96;_^][ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;&#x3D;&lt;;:9876543210&#x2F;.-,+*)(‘,27h,’&amp;%</p>
+<p>找到main函数</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270851828.png" alt="image-20230427085149793"></p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">int __cdecl main(int argc, const char argv, const char envp)</span><br><span class="line">&#123;</span><br><span class="line">  _BYTE v4[<span class="number">12</span>]; <span class="regexp">//</span> [esp+<span class="number">12</span>h] [ebp-<span class="number">2</span>Eh] BYREF</span><br><span class="line">  _DWORD v5[<span class="number">3</span>]; <span class="regexp">//</span> [esp+<span class="number">1</span>Eh] [ebp-<span class="number">22</span>h]</span><br><span class="line">  _BYTE v6[<span class="number">5</span>]; <span class="regexp">//</span> [esp+<span class="number">2</span>Ah] [ebp-<span class="number">16</span>h] BYREF</span><br><span class="line">  int v7; <span class="regexp">//</span> [esp+<span class="number">2</span>Fh] [ebp-<span class="number">11</span>h]</span><br><span class="line">  int v8; <span class="regexp">//</span> [esp+<span class="number">33</span>h] [ebp-Dh]</span><br><span class="line">  int v9; <span class="regexp">//</span> [esp+<span class="number">37</span>h] [ebp-<span class="number">9</span>h]</span><br><span class="line">  char v10; <span class="regexp">//</span> [esp+<span class="number">3</span>Bh] [ebp-<span class="number">5</span>h]</span><br><span class="line">  int i; <span class="regexp">//</span> [esp+<span class="number">3</span>Ch] [ebp-<span class="number">4</span>h]</span><br><span class="line"></span><br><span class="line">_main()；</span><br><span class="line">  qmemcpy(v4, <span class="string">&quot;*F&#x27;\&quot;N,\&quot;(I?+@&quot;</span>, sizeof(v4)); <span class="regexp">//</span> 将 <span class="string">&quot;*F&#x27;\&quot;N,\&quot;(I?+@&quot;</span> 复制到 v4 数组中</span><br><span class="line">  printf(<span class="string">&quot;Please input:&quot;</span>); <span class="regexp">//</span> 提示用户输入</span><br><span class="line">  scanf(<span class="string">&quot;%s&quot;</span>, v6); <span class="regexp">//</span> 获取用户输入</span><br><span class="line">  <span class="keyword">if</span> ( v6[<span class="number">0</span>] != <span class="number">65</span> || v6[<span class="number">1</span>] != <span class="number">67</span> || v6[<span class="number">2</span>] != <span class="number">84</span> || v6[<span class="number">3</span>] != <span class="number">70</span> || v6[<span class="number">4</span>] != <span class="number">123</span> || v10 != <span class="number">125</span> ) <span class="regexp">//</span> 判断用户输入的前五个字符是否为 <span class="string">&quot;ACTF&#123;&quot;</span>，最后一个字符是否为 <span class="string">&quot;&#125;&quot;</span></span><br><span class="line">    return <span class="number">0</span>; <span class="regexp">//</span> 如果不是，则直接退出</span><br><span class="line">  v5[<span class="number">0</span>] = v7; <span class="regexp">//</span> 将变量 v7 的值赋给 v5[<span class="number">0</span>]</span><br><span class="line">  v5[<span class="number">1</span>] = v8; <span class="regexp">//</span> 将变量 v8 的值赋给 v5[<span class="number">1</span>]</span><br><span class="line">  v5[<span class="number">2</span>] = v9; <span class="regexp">//</span> 将变量 v9 的值赋给 v5[<span class="number">2</span>]</span><br><span class="line">  <span class="keyword">for</span> ( i = <span class="number">0</span>; i &lt;= <span class="number">11</span>; ++i ) <span class="regexp">//</span> 循环遍历 v5 数组</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">if</span> ( v4[i] != _data_start__[*((char *)v5 + i) - <span class="number">1</span>] ) <span class="regexp">//</span> 判断 v4 数组和指针 v5 指向的数据是否一致</span><br><span class="line">      return <span class="number">0</span>; <span class="regexp">//</span> 如果不一致，则直接退出</span><br><span class="line">  &#125;</span><br><span class="line">  printf(<span class="string">&quot;You are correct!&quot;</span>); <span class="regexp">//</span> 输出 <span class="string">&quot;You are correct!&quot;</span></span><br><span class="line">  return <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>将*F’&quot;N,&quot;(I?+@转为10进制</p>
+<figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s <span class="operator">=</span> <span class="string">&quot;*F&#x27;\&quot;</span>N<span class="punctuation">,</span>\<span class="string">&quot;(I?+@&quot;</span></span><br><span class="line">for <span class="keyword">c</span> in s:</span><br><span class="line">    print(<span class="keyword">ord</span>(<span class="keyword">c</span>))</span><br></pre></td></tr></table></figure>
+
+<p>42<br>70<br>39<br>34<br>78<br>44<br>34<br>40<br>73<br>63<br>43<br>64</p>
+<p>综上可知：v4 &#x3D; [42,70,39,34,78,44,34,40,73,63,43,64]</p>
+<p>​                   <em>data_start</em>_&#x3D;}|{zyxwvutsrqponmlkjihgfedcba&#96;_^][ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;&#x3D;&lt;;:9876543210&#x2F;.-,+*)(‘,27h,’&amp;%</p>
+<ol>
+<li>将 v4 中的每个数字转化成对应的 ASCII 字符，得到字符串：*F’”N,”(I?+@</li>
+<li>对于每个字符，在 <strong>data_start</strong> 中找到对应的位置，并将位置加 1 得到新的数字</li>
+<li>将每个数字转换成对应的 ASCII 字符，并连接成字符串，得到 flag</li>
+</ol>
+<p>根据上述过程，可以得到如下 Python 代码实现：</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">v4 = <span class="selector-attr">[42,70,39,34,78,44,34,40,73,63,43,64]</span></span><br><span class="line">__data_start__ = <span class="string">&#x27;~&#125;|&#123;zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:9876543210/.-,+*)(\&#x27;&amp;%$# !&quot;&#x27;</span></span><br><span class="line">flag = <span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> v4:</span><br><span class="line">    idx = __data_start__<span class="selector-class">.find</span>(<span class="built_in">chr</span>(i))</span><br><span class="line">    flag += <span class="built_in">chr</span>(idx+<span class="number">1</span>)</span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(flag)</span></span></span><br></pre></td></tr></table></figure>
+
+<p>这段脚本的作用是将给定的数字列表 v4 转换为一个字符串 flag。在这个过程中，将 v4 中的每个数字当作 <strong>data_start</strong> 字符串中的一个索引，然后找到该索引在 <strong>data_start</strong> 中对应的字符，将该字符加入到 flag 字符串中。</p>
+<p>具体而言，该脚本使用了一个字符串 <strong>data_start</strong>，其中包含了所有可以使用的字符。然后，遍历 v4 中的每个数字，使用 <code>chr(i)</code> 将其转换为对应的字符，并使用 <code>__data_start__.find()</code> 方法查找该字符在 <strong>data_start</strong> 中的索引。因为在 <strong>data_start</strong> 中的索引从 0 开始，所以最后还需要将找到的索引值加 1，才能得到正确的字符。将每次得到的字符加入到 flag 字符串中，最终得到转换后的字符串。</p>
+<p>flag{U9X_1S_W6@T?}</p>
+<h1 id="findit"><a href="#findit" class="headerlink" title="findit"></a>findit</h1><p>apk文件，用jadx-gui打开</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270949209.png" alt="image-20230427094930141"></p>
+<p>发现字符串，猜测是flag</p>
+<h2 id="解法1"><a href="#解法1" class="headerlink" title="解法1"></a>解法1</h2><p>整理得到pvkq{m164675262033l4m49lnp7p9mnk28k75}</p>
+<p>仔细观察pvkq，发现f——&gt;p为10，l——&gt;v为10，a——&gt;k为10，g——&gt;q为10</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270952369.png" alt="image-20230427095222339"></p>
+<h2 id="解法2"><a href="#解法2" class="headerlink" title="解法2"></a>解法2</h2><p>这段代码中没有直接使用凯撒密码加密，但是在点击按钮的事件中有一个对字符数组b的处理，这个数组中包含了一个加密过的字符串，处理的过程中使用了字符加密和解密时的位移，可以看出该字符串是通过凯撒密码加密的。具体来说，对于字符数组b中的每个字符，如果它是字母，就将它向右移动16个位置，如果移动后不在字母范围内，就将它减去26，即从字母表的末尾又回到了字母表的开头。</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270953320.png" alt="image-20230427095334281"></p>
+<p>脚本：</p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">cipher = <span class="string">&quot;pvkq&#123;m164675262033l4m49lnp7p9mnk28k75&#125;&quot;</span></span><br><span class="line"><span class="keyword">for</span> i in range(<span class="number">26</span>):</span><br><span class="line">    plain = <span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">for</span> c in cipher:</span><br><span class="line">        <span class="keyword">if</span> c.isalpha():</span><br><span class="line">            ascii_code = <span class="keyword">ord</span>(c) - <span class="number">97</span>  <span class="comment"># 转换为0~25的数字</span></span><br><span class="line">            shifted_ascii = (ascii_code + i) % <span class="number">26</span>  <span class="comment"># 进行偏移</span></span><br><span class="line">            plain += <span class="keyword">chr</span>(shifted_ascii + <span class="number">97</span>)  <span class="comment"># 转换回字母并拼接</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            plain += c  <span class="comment"># 非字母字符保持不变</span></span><br><span class="line">    <span class="keyword">print</span>(<span class="string">&quot;Shift %d: %s&quot;</span> % (i, plain))</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304270954610.png" alt="image-20230427095402576"></p>
+<p>flag{c164675262033b4c49bdf7f9cda28a75}</p>
 
       
     </div>
@@ -1603,155 +1728,12 @@ if(x&gt;127) return inf;
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/27/2-26%E5%91%A8%E8%B5%9Bwp/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar_2.gif">
-      <meta itemprop="name" content="sheeps1mple">
-      <meta itemprop="description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="陆の博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/02/27/2-26%E5%91%A8%E8%B5%9Bwp/" class="post-title-link" itemprop="url">2.26周赛wp</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2023-02-27 19:13:56 / 修改时间：19:17:08" itemprop="dateCreated datePublished" datetime="2023-02-27T19:13:56+08:00">2023-02-27</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%91%A8%E8%B5%9B/" itemprop="url" rel="index"><span itemprop="name">周赛</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2023/02/27/2-26%E5%91%A8%E8%B5%9Bwp/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2023/02/27/2-26%E5%91%A8%E8%B5%9Bwp/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="周赛（02-x2F-26）WP"><a href="#周赛（02-x2F-26）WP" class="headerlink" title="周赛（02&#x2F;26）WP"></a>周赛（02&#x2F;26）WP</h1><h2 id="CRYPTO"><a href="#CRYPTO" class="headerlink" title="CRYPTO"></a>CRYPTO</h2><h3 id="1-Keyed-Caesar"><a href="#1-Keyed-Caesar" class="headerlink" title="1.Keyed Caesar"></a>1.Keyed Caesar</h3><p>key里字母在字母表中的数字就是偏移量</p>
-<p>注意凯撒通常只针对二十六个字母</p>
-<h3 id="2-找找看"><a href="#2-找找看" class="headerlink" title="2.找找看"></a>2.找找看</h3><p>这道题是原题</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/14c0f5c3b41d2973085306c546ae83f2.png" alt="image-20230226184700958"></p>
-<h2 id="REVERSE"><a href="#REVERSE" class="headerlink" title="REVERSE"></a>REVERSE</h2><h3 id="1-re1"><a href="#1-re1" class="headerlink" title="1.re1"></a>1.re1</h3><p>再简单不过的一道re，考虑到你们寒假有点懈怠（我也是）出的及其入门的题目找点自信</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/7e45dc88c1445c8fd8fd26a73ed9623a.png" alt="image-20230225115535710"></p>
-<p>没什么可说的 3替换成e 4替换成a结束</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">flag = <span class="string">&quot;&#123;34sy_r3v3rs3&#125;&quot;</span></span><br><span class="line">flag=flag.replace(<span class="string">&quot;3&quot;</span>,<span class="string">&quot;e&quot;</span>).replace(<span class="string">&quot;4&quot;</span>,<span class="string">&quot;a&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;SLsec&quot;</span> + flag)</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-re2"><a href="#2-re2" class="headerlink" title="2.re2"></a>2.re2</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/e64c2ac95e77c3fd6f1d11b0f90d28cf.png" alt="image-20230225134651061"></p>
-<p>只挑选了 97 98 65 66 这几个数字加24 其他都是减2(比赛的发现判断范围有问题，但是不影响做题)</p>
-<p>第一种方法</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">char</span> str1[<span class="number">64</span>] = <span class="string">&quot;QJqcaypc]fcjjm&#123;&quot;</span>;</span><br><span class="line">    <span class="comment">//char flag[64] = &quot;SLsec&#123;re_hello&#125;&quot;;</span></span><br><span class="line">    <span class="type">int</span> len = <span class="built_in">strlen</span>(str1);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;len;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> ( str1[i] &gt; <span class="number">94</span> &amp;&amp; str1[i] &lt;= <span class="number">96</span> || str1[i] &gt; <span class="number">62</span> &amp;&amp; str1[i] &lt;= <span class="number">64</span> )</span><br><span class="line">        &#123;</span><br><span class="line">            str1[i] -= <span class="number">24</span>;  </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> </span><br><span class="line">        &#123;</span><br><span class="line">            str1[i] += <span class="number">2</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%c&quot;</span>,str1[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">     </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>第二种方法是爆破</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">char</span> Str1[<span class="number">16</span>] = <span class="string">&quot;QJqcaypc]fcjjm&#123;&quot;</span>;</span><br><span class="line">    <span class="type">char</span> flag[<span class="number">16</span>] = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="type">int</span> i,j = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">16</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span>(j=<span class="number">65</span>;j&lt;<span class="number">126</span>;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			flag[i] = j;</span><br><span class="line">			<span class="keyword">if</span> ( flag[i] &gt; <span class="number">96</span> &amp;&amp; flag[i] &lt;= <span class="number">98</span> || flag[i] &gt; <span class="number">64</span> &amp;&amp; flag[i] &lt;= <span class="number">66</span> )</span><br><span class="line">			&#123;</span><br><span class="line">      			flag[i] += <span class="number">24</span>;</span><br><span class="line">			&#125;</span><br><span class="line">    		<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">     			flag[i] -= <span class="number">2</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">if</span>(flag[i] == Str1[i])</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">printf</span>(<span class="string">&quot;%c&quot;</span>,j);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">     </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-re3"><a href="#3-re3" class="headerlink" title="3.re3"></a>3.re3</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/88fbf1bbcc60a47e40d12082cc87aee8.png" alt="image-20230226013043966"></p>
-<p>主函数啥都没有，在函数列表发现了名为ques的可疑函数，经过调试程序并没有执行这个函数，思路是修改EIP即可</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/3fd2c04e586fc72ce9df9ac09d6c5d2b.png" alt="image-20230226013109781"></p>
-<p>ques函数地址00401520</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/53fcc3b508e43f3b8df9b18b48f099be.png" alt="image-20230226013328290"></p>
-<p>修改之后按F9执行就可</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/22986ba5bcf25ac3d16219d9c2bd6a30.png" alt="image-20230226013418305"></p>
-<p>HACKIT4FUN</p>
-<h2 id="MISC"><a href="#MISC" class="headerlink" title="MISC"></a>MISC</h2><h3 id="1-神奇的二维码"><a href="#1-神奇的二维码" class="headerlink" title="1.神奇的二维码"></a>1.神奇的二维码</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;hex.txt&#x27;</span>, <span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> h:</span><br><span class="line">    h = h.read()</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;./ascii.txt&#x27;</span>, <span class="string">&#x27;a&#x27;</span>) <span class="keyword">as</span> a:</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(h), <span class="number">2</span>):</span><br><span class="line">        tmp = <span class="string">&#x27;0x&#x27;</span>+h[i]+h[i+<span class="number">1</span>]</span><br><span class="line">        tmp = <span class="built_in">int</span>(tmp, base=<span class="number">16</span>)</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">chr</span>(tmp) != <span class="string">&#x27;(&#x27;</span> <span class="keyword">and</span> <span class="built_in">chr</span>(tmp) != <span class="string">&#x27;)&#x27;</span>:</span><br><span class="line">            a.write(<span class="built_in">chr</span>(tmp))</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">x, y = np.loadtxt(<span class="string">&#x27;./ascii.txt&#x27;</span>, delimiter=<span class="string">&#x27;,&#x27;</span>, unpack=<span class="literal">True</span>)</span><br><span class="line">plt.plot(x, y,  <span class="string">&#x27;.&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-
-<p>010打开图片发现很多16进制数据，提取出来转化为字符串就是坐标，再利用坐标画个二维码就可</p>
-<p>第二种方法更简单，在linux利用gnuplot插件就能画图</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/cf1eda22ffe32576e96cff640fbb4830.png" alt="image-20230226184450729"></p>
-<h3 id="2-re4"><a href="#2-re4" class="headerlink" title="2.re4"></a>2.re4</h3><p>明文爆破压缩包</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/5db0201d0b9c9971100d64f69c9e958a.png" alt="image-20230226191238175"></p>
-<p>随后用IDA打开看主函数</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> __cdecl <span class="title">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">const</span> <span class="type">char</span> **argv, <span class="type">const</span> <span class="type">char</span> **envp)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  FILE *stream; <span class="comment">// ST08_8</span></span><br><span class="line">  <span class="type">signed</span> <span class="type">int</span> i; <span class="comment">// [rsp+4h] [rbp-2Ch]</span></span><br><span class="line">  <span class="type">char</span> ptr[<span class="number">24</span>]; <span class="comment">// [rsp+10h] [rbp-20h]</span></span><br><span class="line">  <span class="type">unsigned</span> __int64 v7; <span class="comment">// [rsp+28h] [rbp-8h]</span></span><br><span class="line"></span><br><span class="line">  v7 = __readfsqword(<span class="number">40u</span>);</span><br><span class="line">  stream = <span class="built_in">fopen</span>(<span class="string">&quot;flag&quot;</span>, <span class="string">&quot;r&quot;</span>);</span><br><span class="line">  <span class="built_in">fread</span>(ptr, <span class="number">1uLL</span>, <span class="number">20uLL</span>, stream);</span><br><span class="line">  <span class="built_in">fclose</span>(stream);</span><br><span class="line">  <span class="keyword">for</span> ( i = <span class="number">1</span>; i &lt;= <span class="number">19</span>; ++i )</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">if</span> ( i &amp; <span class="number">1</span> )</span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;%ld\n&quot;</span>, (<span class="type">unsigned</span> <span class="type">int</span>)(ptr[i] &lt;&lt; i));</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">      <span class="built_in">printf</span>(<span class="string">&quot;%ld\n&quot;</span>, (<span class="type">unsigned</span> <span class="type">int</span>)(i * ptr[i]));</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>没什么加密，顺着逆一下就出了</p>
-<p>脚本</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	 <span class="type">int</span> arr[<span class="number">20</span>] = &#123; <span class="number">0</span>, <span class="number">198</span>,<span class="number">232</span>,<span class="number">816</span>,<span class="number">200</span>,<span class="number">1536</span>,<span class="number">300</span>,<span class="number">6144</span>,<span class="number">984</span>,<span class="number">51200</span>,<span class="number">570</span>,<span class="number">92160</span>,<span class="number">1200</span>,<span class="number">565248</span>,<span class="number">756</span>,<span class="number">1474560</span>,<span class="number">800</span>,<span class="number">6291456</span>,<span class="number">1782</span>,<span class="number">65536000</span>&#125;;</span><br><span class="line">	<span class="comment">//a[0]补0保证正常循环</span></span><br><span class="line">	<span class="type">char</span> c;</span><br><span class="line">	<span class="keyword">for</span> ( <span class="type">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">19</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span> ((i &amp; <span class="number">1</span>))</span><br><span class="line">			c = (arr[i] &gt;&gt; i);</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">			c = (arr[i] / i);</span><br><span class="line">		<span class="built_in">putchar</span>(c);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-小狗玩偶"><a href="#3-小狗玩偶" class="headerlink" title="3.小狗玩偶"></a>3.小狗玩偶</h3><p>flag总共两部分，16进制文本里能看到一部分，另一部分在LSB隐写</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/26b95f751f19647737bc484e131a07fd.png" alt="image-20230226185133964"></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/95a59a35de4a3338aa59b2d0d15c25db.png" alt="image-20230226185302457"></p>
-<h4 id="4-zip"><a href="#4-zip" class="headerlink" title="4.zip"></a>4.zip</h4><p>有密码尝试一下确定不是伪加密，爆破4到7为纯数字成功，打开压缩包是一串编码，16进制解一下就是flag</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/8982f5d79059cc2b18637d5e250508cb.png" alt="image-20230226185650652"></p>
-<h2 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h2><h3 id="1-web1"><a href="#1-web1" class="headerlink" title="1.web1"></a>1.web1</h3><?PHP 
-
-  show_source(__FILE__);
-
-  ini_set("allow_url_include","on");
-
-  error_reporting(0);
-
-  $file=$_GET['file'];
-
-  $q=$_GET['q'];
-
-  $a = $GET['a'];
-
-  $b = $_GET['b'];
-
-  $c = $_POST['c'];
-
-  $v = $_POST['v'];
-
-  if($q==1 && $q+1 !== 2){ #q==弱比较，不同格式会先转换成同类型再比较，q!+1!==2是强比较必须类型数值完全相同科学计数法绕过即可
-
-​    if($a != $b && md5($a) == md5($b))
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">&lt;i class&#x3D;&quot;fa fa-angle-right&quot;&gt;&lt;&#x2F;i&gt;</a>
+  </nav>
+
 
 
 
@@ -1819,7 +1801,7 @@ if(x&gt;127) return inf;
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
