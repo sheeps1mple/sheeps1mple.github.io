@@ -219,10 +219,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-04-27 10:01:31 / 修改时间：20:55:57" itemprop="dateCreated datePublished" datetime="2023-04-27T10:01:31+08:00">2023-04-27</time>
+              <time title="创建时间：2023-04-27 10:01:31" itemprop="dateCreated datePublished" datetime="2023-04-27T10:01:31+08:00">2023-04-27</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-04-28 11:29:18" itemprop="dateModified" datetime="2023-04-28T11:29:18+08:00">2023-04-28</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -369,6 +375,28 @@
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304272055252.png" alt="image-20230427205518224"></p>
 <p>base32解码</p>
 <p>ISCC{Yourdiscount2.15}</p>
+<h1 id="Sad-Code"><a href="#Sad-Code" class="headerlink" title="Sad Code"></a>Sad Code</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304280921856.png" alt="image-20230428092148772"></p>
+<p>无壳，32位</p>
+<p>找到main函数</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304280934583.png" alt="image-20230428093429548"></p>
+<p>解题关键</p>
+<p>放入脚本，先解出a[0]~a[6]和b然后求flag</p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">from</span> z3 import *</span><br><span class="line"></span><br><span class="line"><span class="attribute">v14</span> =<span class="meta"> [Int(&quot;v14%s&quot; % i) for i in range(8)]</span></span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span> = Solver()</span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span>.add(v14[<span class="number">2</span>] + <span class="number">7</span> * v14[<span class="number">1</span>] - <span class="number">4</span> * v14[<span class="number">0</span>] - <span class="number">2</span> * v14[<span class="number">3</span>] == <span class="number">0</span>x212278F95)</span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span>.add(<span class="number">5</span> * v14[<span class="number">3</span>] + <span class="number">3</span> * v14[<span class="number">2</span>] - v14[<span class="number">1</span>] - <span class="number">2</span> * v14[<span class="number">0</span>] == <span class="number">0</span>x146E7D971)</span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span>.add(<span class="number">2</span> * v14[<span class="number">1</span>] + <span class="number">8</span> * v14[<span class="number">3</span>] + <span class="number">10</span> * v14[<span class="number">0</span>] - <span class="number">5</span> * v14[<span class="number">2</span>] == <span class="number">0</span>x419AB1349)</span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span>.add(<span class="number">7</span> * v14[<span class="number">0</span>] + <span class="number">15</span> * v14[<span class="number">1</span>] - <span class="number">3</span> * v14[<span class="number">3</span>] - <span class="number">2</span> * v14[<span class="number">2</span>] == <span class="number">0</span>x7C35A4CA7)</span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span>.add(<span class="number">15</span> * v14[<span class="number">4</span>] + <span class="number">35</span> * v14[<span class="number">7</span>] - v14[<span class="number">5</span>] - v14[<span class="number">6</span>] == <span class="number">0</span>xF867F3C4C)</span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span>.add(<span class="number">38</span> * v14[<span class="number">6</span>] + v14[<span class="number">4</span>] + v14[<span class="number">7</span>] - <span class="number">24</span> * v14[<span class="number">5</span>] == <span class="number">0</span>x7AFCBCA32)</span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span>.add(<span class="number">38</span> * v14[<span class="number">5</span>] + <span class="number">32</span> * v14[<span class="number">4</span>] - v14[<span class="number">6</span>] - v14[<span class="number">7</span>] == <span class="number">0</span>x139360369D)</span><br><span class="line"></span><br><span class="line"><span class="attribute">s</span>.add(v14[<span class="number">4</span>] + <span class="number">41</span> * v14[<span class="number">6</span>] - v14[<span class="number">5</span>] - <span class="number">25</span> * v14[<span class="number">7</span>] == <span class="number">0</span>x653CABE3E)</span><br><span class="line"></span><br><span class="line"><span class="attribute">v4</span> =<span class="meta"> []</span></span><br><span class="line"></span><br><span class="line"><span class="attribute">if</span> (s.check() == sat):</span><br><span class="line"></span><br><span class="line">    <span class="attribute">m</span> = s.model()</span><br><span class="line"></span><br><span class="line">    <span class="attribute">for</span> i in range(<span class="number">8</span>):</span><br><span class="line">        <span class="attribute">v4</span>.append(hex(int(str(m[v14[i]])))[<span class="number">2</span>:])</span><br><span class="line"></span><br><span class="line"><span class="attribute">print</span>(v4)</span><br><span class="line"></span><br><span class="line"><span class="attribute">for</span> i in range(<span class="number">8</span>):</span><br><span class="line"></span><br><span class="line">    <span class="attribute">for</span> j in range(<span class="number">4</span>):</span><br><span class="line">        <span class="attribute">print</span>(chr(int(v4[i][j * <span class="number">2</span>:j * <span class="number">2</span> + <span class="number">2</span>], <span class="number">16</span>)), end=<span class="string">&quot;&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304281017541.png" alt="image-20230428101704499"></p>
+<p>ISCC{ZFHZWWAA-SLSCQABG-LYIZNRQP}</p>
+<h1 id="隐秘的信息"><a href="#隐秘的信息" class="headerlink" title="隐秘的信息"></a>隐秘的信息</h1><p>题目给的提示是base64，解密出来是压缩包里面图片的密码</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304281035205.png" alt="image-20230428103514167"></p>
+<p>easy_to_find_the_flag</p>
+<p>用stegsolve打开，LSB隐写</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304281125612.png" alt="image-20230428112500570"></p>
+<p>e92a68686f688aed ec8929064de62ded<br>4b2a87260888a92f 4b4fbffc01f8007f<br>fffc7e3fe00fff00 71ffffffffffffff</p>
+<p>网站<a target="_blank" rel="noopener" href="https://cyberchef.org/">CyberChef</a></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304281125089.png" alt="345cd0346516216ce9ab2a689a0e882"></p>
+<p>然后</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304281126374.png" alt="image-20230428112612326"></p>
+<p>注意删掉前面的111</p>
+<p>得到ISCC{DWodIH2o1ojYT90DEIzZ}</p>
 
       
     </div>
