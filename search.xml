@@ -333,6 +333,137 @@
       </tags>
   </entry>
   <entry>
+    <title>3.26周赛</title>
+    <url>/2023/03/28/3-26%E5%91%A8%E8%B5%9B/</url>
+    <content><![CDATA[<h1 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h1><h2 id="鲜衣怒马少年郎，谁人不识理塘王！"><a href="#鲜衣怒马少年郎，谁人不识理塘王！" class="headerlink" title="鲜衣怒马少年郎，谁人不识理塘王！"></a>鲜衣怒马少年郎，谁人不识理塘王！</h2><p>顶真</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="keyword">include</span>(<span class="string">&#x27;flag.php&#x27;</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SLsec</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>=<span class="string">&#x27;鍒€涓嶉攱鍒╅┈澶槮&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$pass</span>=<span class="string">&#x27;浣犳嬁浠€涔堝拰鍥涚偣鏂�&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$jk</span>=<span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a4</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt;jk;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a6</span>(<span class="params"><span class="variable">$ding</span>,<span class="variable">$zhen</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt; name==<span class="variable">$ding</span>&amp;&amp;<span class="variable language_">$this</span>-&gt;pass==<span class="variable">$zhen</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a8</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">$this</span>-&gt;jk)&#123;<span class="comment">#$jk为真</span></span><br><span class="line">            <span class="keyword">global</span> <span class="variable">$flag</span>;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$flag</span>; </span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">           <span class="keyword">echo</span> <span class="string">&quot;椴滆。鎬掗┈灏戝勾閮庯紝璋佷汉涓嶈瘑鐞嗗鐜嬶紒&quot;</span>;&#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$name</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;name&#x27;</span>];</span><br><span class="line"><span class="variable">$pass</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;pass&#x27;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;name&#x27;</span>]) &amp;&amp; <span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;pass&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$user</span> = <span class="title function_ invoke__">unserialize</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;user&#x27;</span>]);</span><br><span class="line">    <span class="keyword">if</span>(<span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a6</span>(<span class="variable">$name</span>,<span class="variable">$pass</span>))&#123;<span class="comment">#赋值判断pass传参与两个GET是否相同</span></span><br><span class="line">        <span class="keyword">if</span>(<span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a4</span>())&#123;<span class="comment">#赋值</span></span><br><span class="line">            <span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a8</span>();&#125;<span class="comment">#调用flag</span></span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;Snow leopards are really hard to ride, so it&#x27;s better to exchange money for an Audi&quot;</span>;</span><br><span class="line">    &#125;&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SLsec</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>=<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$pass</span>=<span class="string">&#x27;aa&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$jk</span>=<span class="literal">true</span>;&#125;</span><br><span class="line">  <span class="variable">$f</span>=<span class="keyword">new</span> <span class="title class_">SLsec</span>();</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">serialize</span>(<span class="variable">$f</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><a href="https://k5hai-1311151548.cos.ap-shanghai.myqcloud.com/https://k5hai-1311151548.cos.ap-shanghai.myqcloud.comimage-20230326200954241.png">https://k5hai-1311151548.cos.ap-shanghai.myqcloud.com/https://k5hai-1311151548.cos.ap-shanghai.myqcloud.comimage-20230326200954241.png</a></p>
+<p>play：GET： name&#x3D;a&amp;pass&#x3D;aa</p>
+<p>​	     POST:   user&#x3D;O:5:”SLsec”:3:{s:4:”name”;s:1:”a”;s:4:”pass”;s:2:”aa”;s:2:”jk”;b:1;}</p>
+<h1 id="CRYPTO"><a href="#CRYPTO" class="headerlink" title="CRYPTO"></a>CRYPTO</h1><h2 id="babyrsa"><a href="#babyrsa" class="headerlink" title="babyrsa"></a>babyrsa</h2><figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line">from Crypto.Util.number import *</span><br><span class="line">import gmpy2</span><br><span class="line">p= 174900179045398405758362887050510099953351230680589941223587187096927676318250039003867347118828470850766614025136710989402078055968449696991925901611318398319579226096026113980420314613233522410263933804832601250567540744629955554545762144406833636478599885984277733223077146277644459138695484730091497123653</span><br><span class="line">q= 138394168894464614599095635109542670799766048108401527799025178725205133812543876982783399176166727189388896418668604671443249386259427967695540806910521362186865886429031334061503953791903407614931162328753160467494420213786798800975785789856116685244900988587164035039772328579334638131513694977152566697693</span><br><span class="line">dq= 91144988599155922537286812069488697332186431610461674212452885608698963724568088535192289473758461311143377744214326484716015838529829408451331802003020019755397796512654690339237890864185649014688783869167705450325681146031490758620578699998011937814370759561761662578187180465099739857369029748140120600665</span><br><span class="line">dp= 77086099023854203737282939293131883320148165131282183381041486477787447250448637817213304263658092078129814396693072568608252203284383928126276449456687549559196269981593821846047893367155199274005122723844388469454558713530315183683329104798684553606121087426276184813900290984173218215988206302221537366933</span><br><span class="line">c= 15801371432169186780418480692589791195238785876344412995045613608181370212202255665942402417893437199493695445538341476746293760869621577715385796212569911097161252465453342990879413408685475673255790355354475333896669490479548332300912398201417641777563849663680004298227798906936140992367106039486966585574927214313333872682519241375796031187317957899045859494277570277966275262219924901316942847426675912933662265462110997773928571167535352177539455991039999517915239795197245498033201847388365903662518433723721091041449528248327695253818581438003566115867963542838871840099584964228370817957241460684463142116638</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">I = gmpy2.invert(q,p)</span><br><span class="line">mp = pow(c,dp,p)</span><br><span class="line">mq = pow(c,dq,q)               <span class="comment">#求幂取模运算</span></span><br><span class="line"></span><br><span class="line">m = (((mp-mq)*I)%p)*q+mq       <span class="comment">#求明文公式</span></span><br><span class="line"></span><br><span class="line">print( long_to_bytes(m))         <span class="comment">#转为十六进制</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="base？"><a href="#base？" class="headerlink" title="base？"></a>base？</h2><p>很简单的base64换表解码。<br>首先写个python脚本提取编码表</p>
+<figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">这是提取的编码表：</span><br><span class="line">JKLxNOMyUzVABCDEFGH798PQIacbdefghijklmWXYZ0123456SRTnopqrstuvw+<span class="string">/=</span></span><br></pre></td></tr></table></figure>
+
+<p>然后编写脚本解码：</p>
+<figure class="highlight maxima"><table><tr><td class="code"><pre><span class="line">import <span class="built_in">base64</span></span><br><span class="line">import <span class="built_in">string</span></span><br><span class="line"></span><br><span class="line">str1 = <span class="string">&quot;9nSTaPCu8MimQoamdXmg9qGRIPsXa8wjIQCmQTIngF==&quot;</span></span><br><span class="line"></span><br><span class="line">string1 = <span class="string">&quot;JKLxNOMyUzVABCDEFGH798PQIacbdefghijklmWXYZ0123456SRTnopqrstuvw+/=&quot;</span></span><br><span class="line">string2 = <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="built_in">base64</span>.b64decode(str1.<span class="built_in">translate</span>(str.maketrans(string1,string2))))</span><br></pre></td></tr></table></figure>
+
+<p>也可以网站解密：<br><img src="https://xmzbk-1310919595.cos.ap-nanjing.myqcloud.com/image-20230326113727063.png" alt="image-20230326113727063"></p>
+<h1 id="MISC"><a href="#MISC" class="headerlink" title="MISC"></a>MISC</h1><h2 id="看不懂的文件"><a href="#看不懂的文件" class="headerlink" title="看不懂的文件"></a>看不懂的文件</h2><p>把文件复制到虚拟机，打开终端执行 cat flag就出flag了</p>
+<p>flag:SLsec{!2023_Will_Be_Special,2022_Was_Not!}</p>
+<h2 id="里在干什莫？"><a href="#里在干什莫？" class="headerlink" title="里在干什莫？"></a>里在干什莫？</h2><p>16进制文件是反的很容易看出来</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">tmp = <span class="string">&#x27;&#x27;</span></span><br><span class="line">with <span class="built_in">open</span>(<span class="string">&#x27;flag.txt&#x27;</span>,<span class="string">&#x27;r&#x27;</span>) as file: <span class="selector-id">#flag</span>.txt里保存的是反着的<span class="number">16</span>进制文本</span><br><span class="line">    re_str = file<span class="selector-class">.read</span>()</span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> re_str:</span><br><span class="line">   tmp += <span class="selector-tag">i</span><span class="selector-class">.strip</span>()</span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(tmp[::-<span class="number">1</span>])</span></span></span><br><span class="line">#<span class="number">504</span>B0304140000000800F8BE7956F4507576100000000E00000008000000666C61672E747874AB4D2D2E4A2D4B2DAA4E4E2DF6090600504B01021400140000000800F8BE7956F4507576100000000E000000080024000000000000002000000000000000666C61672E7478740A00200000000000010018001F7EE443325FD901FF777E4A325FD901C6D233C4245FD901504B050600000000010001005A000000360000000000</span><br></pre></td></tr></table></figure>
+
+<p>将输出的16进制010重新读取一下就是flag</p>
+<h2 id="你知道什么是xor吗？"><a href="#你知道什么是xor吗？" class="headerlink" title="你知道什么是xor吗？"></a>你知道什么是xor吗？</h2><p>这道题是shangu👴赞助的</p>
+<p>附件很简单，一个key，一个flag,还有题目的关键描述 ‘xor’</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">key</span> = <span class="string">&#x27;jaks&#123;qwertyui-opas-dfgh-jklz-xcvbnmqwertu&#125;&#x27;</span></span><br><span class="line"><span class="attr">flag</span> = <span class="string">&#x27;óòõëÿ¾»®¿íâë÷ÿñë­îÿ¨ û ÿ¤­¥±ÿ¿ú½®÷öïº®º²¼ÿ&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>这道题脑洞很大，所以我就按我的分析来了</p>
+<p>首先看key，标准的flag格式，但是前四位被替换成了’jaks’，里面是按照键盘的qwer顺序，最开始分析的是字母在表中的顺序之类的，但是死活凑不出flag就放弃了。</p>
+<p>换一条思路，异或具有可逆性，或许’jask‘与’flag‘异或的结果就是我们要找的关键</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312153303362.png" alt="image-20230312153303362"></p>
+<p>再看flag这串乱码，先取前四位找一下规律,由于乱码的ascii码值通常是很大的，超出了标准ascii码的范围，我们可以先看一下他的ascii值是多少</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312153728805.png" alt="image-20230312153728805"></p>
+<p>还是找不到什么规律，由于xor本质上是二进制比特位之间的操作，我们进一步观察他们的二进制形式</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312154001470.png" alt="image-20230312154001470"></p>
+<p>再看’jask‘与’flag‘异或结果的二进制</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312154148276.png" alt="image-20230312154148276"></p>
+<p>其实到这里就已经很明显了，</p>
+<p>将flag的各位取反再与key异或</p>
+<p>脚本</p>
+<figure class="highlight sas"><table><tr><td class="code"><pre><span class="line"><span class="keyword">key</span> = <span class="string">&#x27;jaks&#123;qwertyui-opas-dfgh-jklz-xcvbnmqwertu&#125;&#x27;</span></span><br><span class="line">flag = <span class="string">&#x27;óòõëÿ¾»®¿íâë÷ÿñë­îÿ¨ û ÿ¤­¥±ÿ¿ú½®÷öïº®º²¼ÿ&#x27;</span></span><br><span class="line"><span class="keyword">data </span>= [0xff ^ ord(i) for i <span class="keyword">in</span> flag]</span><br><span class="line">for i <span class="keyword">in</span> <span class="meta">range</span>(le<span class="meta">n</span>(data)):</span><br><span class="line">    pr<span class="meta">int</span>(chr(ord(<span class="keyword">key</span>[i])^data[i]),<span class="keyword">end</span>=<span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>最后看一下出题人视角</p>
+<p>拿到flag &gt; 与随便打出来的key异或 &gt; 将异或结果按位取反 &gt; 给出附件</p>
+<h1 id="REVERSE"><a href="#REVERSE" class="headerlink" title="REVERSE"></a>REVERSE</h1><h2 id="re2"><a href="#re2" class="headerlink" title="re2"></a>re2</h2><p>程序是有一个upx壳，壳没有魔改可以直接脱</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326203037222.png" alt="image-20230326203037222"></p>
+<p>首先是通过循环可以看出来12个总共12位，<strong>v4</strong>含有转义字符需要去一下，所以这里为了方便直接用ascii码，加密就是找到v4中字符在__data_strart__ 表中的位置，然后将他的ascii减1（其实可以看出来表中的字符就是倒着的ascii码表）</p>
+<p>脚本</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">v4 = <span class="selector-attr">[42,70,39,34,78,44,34,40,73,63,43,64]</span></span><br><span class="line">flag = <span class="string">&#x27;&#x27;</span></span><br><span class="line">__data_strart__ = <span class="string">&#x27;~&#125;|&#123;zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:9876543210/.-,+*)(\&#x27;&amp;%$# !&quot;&#x27;</span></span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> v4:</span><br><span class="line">    flag += <span class="built_in">chr</span>(__data_strart__<span class="selector-class">.find</span>(<span class="built_in">chr</span>(i))+<span class="number">1</span>)</span><br><span class="line">    <span class="built_in">print</span>(flag)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="贪吃蛇"><a href="#贪吃蛇" class="headerlink" title="贪吃蛇"></a>贪吃蛇</h2><p>贪吃蛇小游戏来自SWPUCTF 2022 新生赛</p>
+<p>反编译可以看到一个v18</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326205454666.png" alt="image-20230326205454666"></p>
+<p>这个代码写这里八九不离十可以猜到v18就是分数</p>
+<p>ce直接改数值</p>
+<p>因为刚开始v18&#x3D;4，就从4开始扫，分数加一慢慢筛选</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211220393.png" alt="image-20230326211220393"></p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211243449.png" alt="image-20230326211243449"></p>
+<p>改下数值直接就能出flag</p>
+<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211341663.png" alt="image-20230326211341663"></p>
+]]></content>
+      <categories>
+        <category>周赛</category>
+      </categories>
+      <tags>
+        <tag>周赛wp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>4.22周赛</title>
+    <url>/2023/04/22/4-22%E5%91%A8%E8%B5%9B%E3%80%90%E4%B8%8A%E5%8D%88%E5%9C%BA%E3%80%91/</url>
+    <content><![CDATA[<h1 id="好玩的时间戳"><a href="#好玩的时间戳" class="headerlink" title="好玩的时间戳"></a>好玩的时间戳</h1><p>时间戳转换网站<a href="https://tool.lu/timestamp/">时间戳(Unix timestamp)转换工具 - 在线工具 (tool.lu)</a></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221021008.png" alt="image-20230422102059943"></p>
+<p><a href="https://blog.csdn.net/u010418732/article/details/125178250?ops_request_misc=%7B%22request_id%22:%22168212901116800213015712%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=168212901116800213015712&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-125178250-null-null.142%5Ev86%5Econtrol_2,239%5Ev2%5Einsert_chatgpt&utm_term=%E5%8C%BF%E4%BA%8E%E6%97%B6%E4%B9%8B%E4%B8%8B&spm=1018.2226.3001.4187">(30条消息) 【CTF-MISC出题思路分享】匿于时之下_ctf misc怎么出题_Tokeii的博客-CSDN博客</a></p>
+<p>看了上述文章，大概知道了出题人的思路。</p>
+<p>在CSDN搜了一下，对应<a href="https://so.csdn.net/so/search?q=%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8CMISC&spm=1001.2101.3001.7020">攻防世界MISC</a>题Time_losing</p>
+<p>已知源时间戳为2000000000</p>
+<p>定义一下 并且定义一个a来存储最终的flag</p>
+<p><strong>oldtime&#x3D;2000000000</strong><br><strong>a&#x3D;””</strong></p>
+<p>总共有9个文件 (0~9) 需要每个文件都和源时间戳进行相减</p>
+<p>那么就要用到循环</p>
+<p>先获取文件的路径</p>
+<p>C:\Users\86198\Desktop\flag{0}.txt</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os,time  <span class="comment">#查找处理文件要调用os库 先用import 导入</span></span><br><span class="line"></span><br><span class="line">oldtime=<span class="number">2000000000</span></span><br><span class="line">a=<span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="number">9</span>): <span class="comment">#有0~8个txt文件 就是循环9次</span></span><br><span class="line">   file = <span class="string">r&quot;C:\Users\86198\Desktop\flag\&#123;0&#125;.txt&quot;</span>.<span class="built_in">format</span>(i)<span class="comment">#文件路径</span></span><br><span class="line">   newtime = <span class="built_in">int</span>(os.path.getmtime(file))  <span class="comment">#获取最近修改的时间</span></span><br><span class="line">   s = newtime - oldtime</span><br><span class="line">   a = a+<span class="built_in">chr</span>(s)   <span class="comment">#将差值转为ASCII码</span></span><br><span class="line"><span class="built_in">print</span>(a)</span><br></pre></td></tr></table></figure>
+
+<p>参考：<a href="https://blog.csdn.net/qq_39291229/article/details/127803795?spm=1001.2014.3001.5502">(30条消息) python小记–攻防世界Time_losing解题脚本编写_tzyyyyyy的博客-CSDN博客</a></p>
+<h1 id="easyCrypto"><a href="#easyCrypto" class="headerlink" title="easyCrypto"></a>easyCrypto</h1><p>base16,32,64挨个解码直接出flag</p>
+<p>4B555948513653324B3548444F5653484E425947474D4A5A4F425254434F4C494C415A56553344444E5A57474D595A534E523247475233594E524D444751545A4D495A4749364B5A4B345954533D3D3D</p>
+<h1 id="WALN"><a href="#WALN" class="headerlink" title="WALN"></a>WALN</h1><p>文本搜素SLsec</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221046608.png" alt="image-20230422104649572"></p>
+<h1 id="我很快的"><a href="#我很快的" class="headerlink" title="我很快的"></a>我很快的</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221151404.png" alt="image-20230422115102375"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221151914.png" alt="image-20230422115121889"></p>
+<p>SLsec{w3lcom_t0_Slc7f}</p>
+<h1 id="easyre"><a href="#easyre" class="headerlink" title="easyre"></a>easyre</h1><p>第一步例行查壳发现无壳且为32bit，直接用ida打开</p>
+<p>查找字符串在最下面发现可疑字符串疑似flag</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221155203.png" alt="image-20230422115542165"></p>
+<p>很好我以为得出flag开开心心去输入，结果输入错误，那就看看这个函数的反编译吧</p>
+<p>大概就是这个程序要点19999次然后就出flag然后呢我们看那里呢，当然是看sprintf函数咯，看见前面的%d%d，大胆猜测后面跟的19999与0就是%d所代表的，毕竟逆向这玩意三分经验七分蒙，大胆尝试，结果很好正确地</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221156796.png" alt="91873894178eb97aca09abe164209e6"></p>
+<p>BJD{1999902069a45792d233ac}</p>
+<p>记得把BJD改成SLsec</p>
+]]></content>
+      <categories>
+        <category>周赛</category>
+      </categories>
+      <tags>
+        <tag>周赛wp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>4.22周赛【下午场】</title>
+    <url>/2023/04/22/4-22%E5%91%A8%E8%B5%9B%E3%80%90%E4%B8%8B%E5%8D%88%E5%9C%BA%E3%80%91/</url>
+    <content><![CDATA[<h1 id="BabyRE"><a href="#BabyRE" class="headerlink" title="BabyRE"></a>BabyRE</h1><p>见2023西湖论剑——BabyRE</p>
+<p>[(30条消息) 2023西湖论剑RE–BabyRE_XiaozaYa的博客-CSDN博客](<a href="https://blog.csdn.net/qq_61670993/article/details/129345972?ops_request_misc=%7B%22request_id%22:%22168214434416800215028269%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=168214434416800215028269&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129345972-null-null.142%5Ev86%5Econtrol_2,239%5Ev2%5Einsert_chatgpt&utm_term=DASCTF">https://blog.csdn.net/qq_61670993/article/details/129345972?ops_request_misc=%7B%22request%5Fid%22%3A%22168214434416800215028269%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&amp;request_id=168214434416800215028269&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129345972-null-null.142^v86^control_2,239^v2^insert_chatgpt&amp;utm_term=DASCTF</a> babyre&amp;spm&#x3D;1018.2226.3001.4187)</p>
+<h1 id="一根香烟"><a href="#一根香烟" class="headerlink" title="一根香烟"></a>一根香烟</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221444942.png" alt="73ebc735f0eb5cbedf9220bc3e3fa4d"></p>
+<p>通过向该页面POST请求一个名为”heizi”，值为”ding\nzhen”，得到</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221444829.png" alt="a2476b27c91d9e6bfac6514b0169d4e"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221445944.png" alt="a1b98671e2520b187a7ea4613ea4184"></p>
+<p>再将fffflaaa09g.php输入网址后，解出</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221445012.png" alt="c4f9080e521723bb4cd864e92966e86"></p>
+]]></content>
+      <categories>
+        <category>周赛</category>
+      </categories>
+      <tags>
+        <tag>周赛wp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>4.22周赛总wp</title>
     <url>/2023/04/23/4-22%E5%91%A8%E8%B5%9B%E6%80%BBwp/</url>
     <content><![CDATA[<h1 id="一根香烟"><a href="#一根香烟" class="headerlink" title="一根香烟"></a>一根香烟</h1><p><a href="http://211.69.16.145:7901/">http://211.69.16.145:7901/</a></p>
@@ -414,44 +545,225 @@
       </tags>
   </entry>
   <entry>
-    <title>4.22周赛</title>
-    <url>/2023/04/22/4-22%E5%91%A8%E8%B5%9B%E3%80%90%E4%B8%8A%E5%8D%88%E5%9C%BA%E3%80%91/</url>
-    <content><![CDATA[<h1 id="好玩的时间戳"><a href="#好玩的时间戳" class="headerlink" title="好玩的时间戳"></a>好玩的时间戳</h1><p>时间戳转换网站<a href="https://tool.lu/timestamp/">时间戳(Unix timestamp)转换工具 - 在线工具 (tool.lu)</a></p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221021008.png" alt="image-20230422102059943"></p>
-<p><a href="https://blog.csdn.net/u010418732/article/details/125178250?ops_request_misc=%7B%22request_id%22:%22168212901116800213015712%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=168212901116800213015712&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-125178250-null-null.142%5Ev86%5Econtrol_2,239%5Ev2%5Einsert_chatgpt&utm_term=%E5%8C%BF%E4%BA%8E%E6%97%B6%E4%B9%8B%E4%B8%8B&spm=1018.2226.3001.4187">(30条消息) 【CTF-MISC出题思路分享】匿于时之下_ctf misc怎么出题_Tokeii的博客-CSDN博客</a></p>
-<p>看了上述文章，大概知道了出题人的思路。</p>
-<p>在CSDN搜了一下，对应<a href="https://so.csdn.net/so/search?q=%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8CMISC&spm=1001.2101.3001.7020">攻防世界MISC</a>题Time_losing</p>
-<p>已知源时间戳为2000000000</p>
-<p>定义一下 并且定义一个a来存储最终的flag</p>
-<p><strong>oldtime&#x3D;2000000000</strong><br><strong>a&#x3D;””</strong></p>
-<p>总共有9个文件 (0~9) 需要每个文件都和源时间戳进行相减</p>
-<p>那么就要用到循环</p>
-<p>先获取文件的路径</p>
-<p>C:\Users\86198\Desktop\flag{0}.txt</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os,time  <span class="comment">#查找处理文件要调用os库 先用import 导入</span></span><br><span class="line"></span><br><span class="line">oldtime=<span class="number">2000000000</span></span><br><span class="line">a=<span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,<span class="number">9</span>): <span class="comment">#有0~8个txt文件 就是循环9次</span></span><br><span class="line">   file = <span class="string">r&quot;C:\Users\86198\Desktop\flag\&#123;0&#125;.txt&quot;</span>.<span class="built_in">format</span>(i)<span class="comment">#文件路径</span></span><br><span class="line">   newtime = <span class="built_in">int</span>(os.path.getmtime(file))  <span class="comment">#获取最近修改的时间</span></span><br><span class="line">   s = newtime - oldtime</span><br><span class="line">   a = a+<span class="built_in">chr</span>(s)   <span class="comment">#将差值转为ASCII码</span></span><br><span class="line"><span class="built_in">print</span>(a)</span><br></pre></td></tr></table></figure>
+    <title>【深入理解计算机系统】CSAPP-实验一：DataLab思路以及代码</title>
+    <url>/2023/04/09/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E3%80%91CSAPP-%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%9ADataLab%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="实验说明"><a href="#实验说明" class="headerlink" title="实验说明"></a>实验说明</h2><p>datalab主要是对整型以及<a href="https://so.csdn.net/so/search?q=%E6%B5%AE%E7%82%B9%E5%9E%8B&spm=1001.2101.3001.7020">浮点型</a>的实验，其中对条件语句、算数运算以及逻辑运算限定了不同的规则。</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://blog.csdn.net/qq_42234461/article/details/108531976?ops_request_misc=%7B%22request_id%22:%22168101666516800192280526%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=168101666516800192280526&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-108531976-null-null.142">https://blog.csdn.net/qq_42234461/article/details/108531976?ops_request_misc=%7B%22request%5Fid%22%3A%22168101666516800192280526%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&amp;request_id=168101666516800192280526&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-108531976-null-null.142</a></p>
+<p><a href="https://blog.csdn.net/qq_43855740/article/details/106843924">https://blog.csdn.net/qq_43855740/article/details/106843924</a></p>
+<h1 id="itXor"><a href="#itXor" class="headerlink" title="itXor"></a>itXor</h1><p>*bitXor - x^y using only ~ and &amp; </p>
+<p>*Example: bitXor(4, 5) &#x3D; 1</p>
+<p>*Legal ops: ~ &amp;</p>
+<p>*Max ops: 14</p>
+<p>*Rating: 1</p>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>逐渐展开。</p>
+<p>x^y &#x3D; ( <del>x&amp;y | x&amp;</del>y )</p>
+<p>然后根据 (a|b) &#x3D; (a&amp;~b)把上面的或写成与</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>int bitXor(int x, int y) {</p>
+<p>  int lhs &#x3D; ~x &amp; y;<br>  int rhs &#x3D; x &amp; ~y;</p>
+<p>  return ~( ~lhs &amp; ~rhs );<br>}</p>
+<h1 id="tmin"><a href="#tmin" class="headerlink" title="tmin"></a>tmin</h1><p>*tmin - return minimum two’s complement integer </p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 4</p>
+<p>*Rating: 1</p>
+<h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><p>int tmin(void) {<br>  return 1&lt;&lt;31;<br>}</p>
+<h1 id="isTmax"><a href="#isTmax" class="headerlink" title="isTmax"></a>isTmax</h1><p>*isTmax - returns 1 if x is the maximum, two’s complement number,</p>
+<p>*and 0 otherwise </p>
+<p>*Legal ops: ! ~ &amp; ^ | +</p>
+<p>*Max ops: 10</p>
+<p>*Rating: 1</p>
+<h2 id="思路-1"><a href="#思路-1" class="headerlink" title="思路"></a>思路</h2><p>一开始我想通过 异或的方法直接判断输入值是否是目标值。即</p>
+<p>int isTmax(int x) {</p>
+<p>  int Tmax &#x3D; ~(1&lt;&lt;31);</p>
+<p>  return !(x^Tmax);<br>}</p>
+<p>然后题目不允许。只能通过别的方式。</p>
+<p>可以知道: Tmax + 1 &#x3D; 0x8fffffff，而 2 * 0x8fffffff &#x3D; 0.<br>根据这个性质可以判断。是否有反例？有一个：2 * 0 &#x3D; 0，因此要排除掉这个。</p>
+<h2 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h2><p>int isTmax(int x) {</p>
+<p>  int x_plus1 &#x3D; x+1; &#x2F;&#x2F;x_plus1得排除是0的情况（即x&#x3D;0xffffffff)<br>  int x_plus1_double &#x3D;x_plus1+x_plus1;</p>
+<p>  return !x_plus1_double &amp; ( !!x_plus1 );<br>}</p>
+<h1 id="allOddBits"><a href="#allOddBits" class="headerlink" title="allOddBits"></a>allOddBits</h1><p>*allOddBits - return 1 if all odd-numbered bits in word set to 1</p>
+<p>*where bits are numbered from 0 (least significant) to 31 (most significant)</p>
+<p>*Examples allOddBits(0xFFFFFFFD) &#x3D; 0, allOddBits(0xAAAAAAAA) &#x3D; 1</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 12</p>
+<p>*Rating: 2</p>
+<h2 id="思路-2"><a href="#思路-2" class="headerlink" title="思路"></a>思路</h2><p>生成一个mask，把输入x的所有奇数位置的值取下来（与）。</p>
+<p>然后再比对两个mask与该值是否一致。</p>
+<h2 id="代码-3"><a href="#代码-3" class="headerlink" title="代码"></a>代码</h2><p>int allOddBits(int x) {<br>  int i &#x3D; 1&lt;&lt;1;<br>  i &#x3D; (i&lt;&lt;2) | i;<br>  i &#x3D; (i&lt;&lt;4) | i;<br>  i &#x3D; (i&lt;&lt;8) | i;<br>  i &#x3D; (i&lt;&lt;16) | i; &#x2F;&#x2F;mask</p>
+<p>  return !((x&amp;i)^i);<br>}</p>
+<h1 id="negate"><a href="#negate" class="headerlink" title="negate"></a>negate</h1><p>*negate - return -x </p>
+<p>*Example: negate(1) &#x3D; -1.</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 5</p>
+<p>*Rating: 2</p>
+<h2 id="代码-4"><a href="#代码-4" class="headerlink" title="代码"></a>代码</h2><p>int negate(int x) {</p>
+<p>  return ~x + 1;<br>}</p>
+<h1 id="isAsciiDigit"><a href="#isAsciiDigit" class="headerlink" title="isAsciiDigit"></a>isAsciiDigit</h1><p>*isAsciiDigit - return 1 if 0x30 &lt;&#x3D; x &lt;&#x3D; 0x39 (ASCII codes for characters ‘0’ to ‘9’)</p>
+<p>*Example: isAsciiDigit(0x35) &#x3D; 1.</p>
+<p>*isAsciiDigit(0x3a) &#x3D; 0.</p>
+<p>*isAsciiDigit(0x05) &#x3D; 0.</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 15</p>
+<p>*Rating: 3</p>
+<h2 id="思路-3"><a href="#思路-3" class="headerlink" title="思路"></a>思路</h2><p>用于Bit的范围判断。只能不断列举。</p>
+<p>0x30是0011,0000. 而0x39是0011,1001.</p>
+<p>找出这个范围内的Bit规律</p>
+<ul>
+<li>首先第五第六位Bit必须都是1</li>
+<li>如果第四位bit是1,则第一位是0或1都可以，但2和3位要是0</li>
+<li>如果第四位bit是0,第一第二第三怎样都可以。</li>
+</ul>
+<h2 id="代码-5"><a href="#代码-5" class="headerlink" title="代码"></a>代码</h2><p>int isAsciiDigit(int x) {</p>
+<pre><code>int mask = ~(0xf);
+int bit5_6 = x &amp; mask;
+int bit4 = (x&gt;&gt;3) &amp; 1;
+int bit3 = (x&gt;&gt;2) &amp; 1;
+int bit2 = (x&gt;&gt;1) &amp; 1;
+return !(bit5_6^(3&lt;&lt;4)) &amp; ( !bit4|bit4&amp;( !bit2 &amp; !bit3 ) );
+</code></pre>
+<p>}</p>
+<h1 id="conditional"><a href="#conditional" class="headerlink" title="conditional"></a>conditional</h1><p>*conditional - same as x ? y : z </p>
+<p>*Example: conditional(2,4,5) &#x3D; 4</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 16</p>
+<p>*Rating: 3</p>
+<h2 id="思路-4"><a href="#思路-4" class="headerlink" title="思路"></a>思路</h2><p>如何找一个合适的mask作为控制是最难的地方。</p>
+<p>从0xffffffff入手是不错的思路</p>
+<p>mask &#x3D; 0xffffffff+!x。</p>
+<h2 id="代码-6"><a href="#代码-6" class="headerlink" title="代码"></a>代码</h2><p>int conditional(int x, int y, int z) {</p>
+<p>  int mask &#x3D; <del>0 + !x;<br>  return (mask&amp;y ) | (</del>mask &amp; z);<br>}</p>
+<h1 id="isLessOrEqual"><a href="#isLessOrEqual" class="headerlink" title="isLessOrEqual"></a>isLessOrEqual</h1><ul>
+<li>isLessOrEqual - if x &lt;&#x3D; y then return 1, else return 0</li>
+<li>Example: isLessOrEqual(4,5) &#x3D; 1.</li>
+<li>Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</li>
+<li>Max ops: 24</li>
+<li>Rating: 3</li>
+</ul>
+<h2 id="思路-5"><a href="#思路-5" class="headerlink" title="思路"></a>思路</h2><ul>
+<li>LESS：相减，判断符号</li>
+<li>Equal：异或判断是否相等</li>
+</ul>
+<p>以为这就结束了吗？</p>
+<p>还得判断是否会溢出。</p>
+<p>考虑溢出情况：</p>
+<ul>
+<li>正数 - 负数</li>
+<li>负数 - 正数</li>
+</ul>
+<p>因此，如果是前者，就直接返回true，如果是后者，就直接返回false。</p>
+<p>但是bit的写法会比较特殊。看看代码</p>
+<h2 id="代码-7"><a href="#代码-7" class="headerlink" title="代码"></a>代码</h2><p>int isLessOrEqual(int x, int y) {<br>  int sum &#x3D; x + ~y +1;<br>  return<br>  (!(x^y) &#x2F;&#x2F; xy相等<br>  |( sum&gt;&gt;31)&amp;1 &#x2F;&#x2F;x+y为负数<br>  | ((x&gt;&gt;31)&amp;1) &amp; !((y&gt;&gt;31)&amp;1)) &#x2F;&#x2F;x为负数、y为正数<br>  &amp; ! (!((x&gt;&gt;31)&amp;1) &amp; ((y&gt;&gt;31)&amp;1)) ; &#x2F;&#x2F;这里必须是and<br>}</p>
+<h1 id="logicalNeg"><a href="#logicalNeg" class="headerlink" title="logicalNeg"></a>logicalNeg</h1><p>*ogicalNeg - implement the ! operator, using all of</p>
+<p>*the legal operators except !</p>
+<p>*Examples: logicalNeg(3) &#x3D; 0, logicalNeg(0) &#x3D; 1</p>
+<p>*Legal ops: ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 12</p>
+<p>*Rating: 4</p>
+<h2 id="思路-6"><a href="#思路-6" class="headerlink" title="思路"></a>思路</h2><p>也是一种转化。投影到0和1.</p>
+<p>映射关系为：</p>
+<ul>
+<li>如果x&#x3D;0，则输出1</li>
+<li>如果x&#x3D;其他，则输出0</li>
+</ul>
+<p>因此我们要找出0以及其他的最大不同点，以完成投影。<br>那便是 +0 &#x3D; -0 &#x3D; 0。即 ~x +1 的符号位 &#x3D; x的符号位。</p>
+<p>int logicalNeg(int x) {<br>  return   ((<del>(</del>x + 1) &amp; ~x )&gt;&gt;31 &amp; 1); &#x2F;&#x2F;这里之所以要给0和+0都取反，再与，是为了返回需要的1。如果不取反，就会返回成0<br>}</p>
+<h1 id="howManyBits"><a href="#howManyBits" class="headerlink" title="howManyBits"></a>howManyBits</h1><p>howManyBits - return the minimum number of bits required to represent x in</p>
+<p>*two’s complement</p>
+<p>*Examples: howManyBits(12) &#x3D; 5</p>
+<p>*howManyBits(298) &#x3D; 10</p>
+<p>*howManyBits(-5) &#x3D; 4</p>
+<p>*howManyBits(0) &#x3D; 1</p>
+<p>*howManyBits(-1) &#x3D; 1</p>
+<p>*howManyBits(0x80000000) &#x3D; 32</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 90</p>
+<p>*Rating: 4</p>
+<h2 id="思路-7"><a href="#思路-7" class="headerlink" title="思路"></a>思路</h2><p>我们把例子都写一下，就知道这个结果是怎么来的。</p>
+<ul>
+<li>12: 0.1100</li>
+<li>298: 01,0010,1010</li>
+<li>-5: 1101</li>
+<li>0: 0</li>
+<li>-1: 1</li>
+</ul>
+<p>所以：正数的res &#x3D; 1的最高位位置m +1</p>
+<p>负数的res &#x3D; 取反后：1的最高位位置m +1</p>
+<p>现在问题变成，如何找出最高位</p>
+<p>可以人工分治。</p>
+<h2 id="代码-8"><a href="#代码-8" class="headerlink" title="代码"></a>代码</h2><p>int howManyBits(int x) {<br> int b16,b8,b4,b2,b1,b0;<br>    int sign&#x3D;x&gt;&gt;31;<br>    x&#x3D;sign&amp;(<del>x) | (</del>sign)&amp;x;&#x2F;&#x2F;如果x为正则不变，否则按位取反（统一找最高位为1）<br>    b16&#x3D;!!(x&gt;&gt;16)&lt;&lt;4;&#x2F;&#x2F;判断前16位是否有1，并且同时计算了需要移位的位数<br>    x&#x3D;x&gt;&gt;b16;&#x2F;&#x2F;有1就移动16位，否则b16&#x3D;0,不移动<br>    b8&#x3D;!!(x&gt;&gt;8)&lt;&lt;3;<br>    x&#x3D;x&gt;&gt;b8;<br>    b4&#x3D;!!(x&gt;&gt;4)&lt;&lt;2;<br>    x&#x3D;x&gt;&gt;b4;<br>    b2&#x3D;!!(x&gt;&gt;2)&lt;&lt;1;<br>    x&#x3D;x&gt;&gt;b2;<br>    b1&#x3D;!!(x&gt;&gt;1);<br>    x&#x3D;x&gt;&gt;b1;<br>    b0&#x3D;x;<br>  return b16+b8+b4+b2+b1+b0+1;<br>}</p>
+<h1 id="floatScale2"><a href="#floatScale2" class="headerlink" title="floatScale2"></a>floatScale2</h1><p>*howManyBits - return the minimum number of bits required to represent x in</p>
+<p>*two’s complement</p>
+<p>*Examples: howManyBits(12) &#x3D; 5</p>
+<p>*howManyBits(298) &#x3D; 10</p>
+<p>*howManyBits(-5) &#x3D; 4</p>
+<p>*howManyBits(0) &#x3D; 1</p>
+<p>*howManyBits(-1) &#x3D; 1</p>
+<p>*howManyBits(0x80000000) &#x3D; 32</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 90</p>
+<p>*Rating: 4</p>
+<h2 id="思路-8"><a href="#思路-8" class="headerlink" title="思路"></a>思路</h2><p>这题很好地考察了规格化数与非规格化数。</p>
+<p>以及自己琢磨一下这个例子，这题就会了</p>
+<h2 id="代码-9"><a href="#代码-9" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatScale2(unsigned uf) {<br>  unsigned s &#x3D; uf &amp; 0x80000000;<br>  unsigned exp &#x3D; uf &amp; 0x7f800000;<br>  unsigned frac &#x3D; uf &amp; 0x007fffff;</p>
+<p>  if(!exp){ &#x2F;&#x2F; 非规格化数<br>    frac&lt;&lt;&#x3D;1;<br>  }<br>  else if(exp^ 0x7f800000){ &#x2F;&#x2F;规格化数（非规格化数除去NAN)<br>      exp+&#x3D;0x00800000;<br>      &#x2F;&#x2F;相加之后可能变成无穷大，此时要将尾数置0<br>      if(!(exp^0x7f800000)){<br>        frac &#x3D; 0;<br>      }<br>  }</p>
+<p>  return s|exp|frac;<br>}</p>
+<h1 id="floatFloat2Int"><a href="#floatFloat2Int" class="headerlink" title="floatFloat2Int"></a>floatFloat2Int</h1><p>*for floating point argument f.</p>
+<p>*Argument is passed as unsigned int, but</p>
+<p>*it is to be interpreted as the bit-level representation of a</p>
+<p>*single-precision floating point value.</p>
+<p>*Anything out of range (including NaN and infinity) should return</p>
+<p>*0x80000000u.</p>
+<p>*Legal ops: Any integer&#x2F;unsigned operations incl. ||, &amp;&amp;. also if, while</p>
+<p>*Max ops: 30</p>
+<p>*Rating: 4</p>
+<h2 id="思路-9"><a href="#思路-9" class="headerlink" title="思路"></a>思路</h2><p>这里关键是理解unsigned表示的flaot以及转成int的过程的移位区别。</p>
+<p>如果uf什么都不动，变成int的时候就已经是默认小数点右移动（变大）23了。</p>
+<h2 id="代码-10"><a href="#代码-10" class="headerlink" title="代码"></a>代码</h2><p>int floatFloat2Int(unsigned uf) { &#x2F;&#x2F;吊</p>
+<p>  int tmin&#x3D;0x1&lt;&lt;31;&#x2F;&#x2F;溢出需返回的值<br>    int sign&#x3D;uf&gt;&gt;31;&#x2F;&#x2F;取符号<br>    int frac&#x3D;uf&amp;0x007fffff;&#x2F;&#x2F;取尾数<br>    int E&#x3D;((uf&gt;&gt;23)&amp;0xff)-127;&#x2F;&#x2F;取指数  Exp-偏置（ 2^7 -1）&#x3D;127<br>    if(E&lt;0) return 0; &#x2F;&#x2F;如果指数小于0，相当于尾数小数点左移，必定为小数，舍入为0<br>  int M;<br>     M &#x3D; frac|(0x1&lt;&lt;23);&#x2F;&#x2F;能到这里的都是规格化数，补充隐藏位1.</p>
+<pre><code>if(E&gt;31) return tmin;//如果指数大于31,相当于尾数小数点右移31，溢出
+if(E&gt;23) M=M&lt;&lt;(E-23);//如果指数&gt;23,小数点左移E-23
+else M=M&gt;&gt;(23-E);	//否则右移23-e
 
-<p>参考：<a href="https://blog.csdn.net/qq_39291229/article/details/127803795?spm=1001.2014.3001.5502">(30条消息) python小记–攻防世界Time_losing解题脚本编写_tzyyyyyy的博客-CSDN博客</a></p>
-<h1 id="easyCrypto"><a href="#easyCrypto" class="headerlink" title="easyCrypto"></a>easyCrypto</h1><p>base16,32,64挨个解码直接出flag</p>
-<p>4B555948513653324B3548444F5653484E425947474D4A5A4F425254434F4C494C415A56553344444E5A57474D595A534E523247475233594E524D444751545A4D495A4749364B5A4B345954533D3D3D</p>
-<h1 id="WALN"><a href="#WALN" class="headerlink" title="WALN"></a>WALN</h1><p>文本搜素SLsec</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221046608.png" alt="image-20230422104649572"></p>
-<h1 id="我很快的"><a href="#我很快的" class="headerlink" title="我很快的"></a>我很快的</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221151404.png" alt="image-20230422115102375"></p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221151914.png" alt="image-20230422115121889"></p>
-<p>SLsec{w3lcom_t0_Slc7f}</p>
-<h1 id="easyre"><a href="#easyre" class="headerlink" title="easyre"></a>easyre</h1><p>第一步例行查壳发现无壳且为32bit，直接用ida打开</p>
-<p>查找字符串在最下面发现可疑字符串疑似flag</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221155203.png" alt="image-20230422115542165"></p>
-<p>很好我以为得出flag开开心心去输入，结果输入错误，那就看看这个函数的反编译吧</p>
-<p>大概就是这个程序要点19999次然后就出flag然后呢我们看那里呢，当然是看sprintf函数咯，看见前面的%d%d，大胆猜测后面跟的19999与0就是%d所代表的，毕竟逆向这玩意三分经验七分蒙，大胆尝试，结果很好正确地</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221156796.png" alt="91873894178eb97aca09abe164209e6"></p>
-<p>BJD{1999902069a45792d233ac}</p>
-<p>记得把BJD改成SLsec</p>
+if(!( (M&gt;&gt;31) ^sign)) return M;//如果移动完成的尾数M符号位与sign相同，无需转换，直接返回M
+else if(M&gt;&gt;31) return tmin;//如果不同，且M为负数，则无法表示(需更多位)，返回溢出
+else return ~M+1;	//如果不同，且M为正数，返回其相反数
+</code></pre>
+<p>}</p>
+<h1 id="floatPower2"><a href="#floatPower2" class="headerlink" title="floatPower2"></a>floatPower2</h1><p>*floatPower2 - Return bit-level equivalent of the expression 2.0^x</p>
+<p>*(2.0 raised to the power x) for any 32-bit integer x.</p>
+<p>*The unsigned value that is returned should have the identical bit</p>
+<p>*representation as the single-precision floating-point number 2.0^x.</p>
+<p>*If the result is too small to be represented as a denorm非规格化数, return</p>
+<p>*0.If too large, return +INF无穷大.</p>
+<ul>
+<li></li>
+</ul>
+<p>*Legal ops: Any integer&#x2F;unsigned operations incl. ||, &amp;&amp;. Also if, while</p>
+<p>*Max ops: 30</p>
+<p>*Rating: 4</p>
+<h2 id="思路-10"><a href="#思路-10" class="headerlink" title="思路"></a>思路</h2><p>这题很简单。</p>
+<p>只需要根据 E &#x3D; e - bias反推e就好了。</p>
+<h2 id="代码-11"><a href="#代码-11" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatPower2(int x) {</p>
+<pre><code>int inf=0x7f800000;
+if(x&lt;-126) return 0;
+if(x&gt;127) return inf;
+</code></pre>
+<p>  int e &#x3D; x+127;<br>    return e&lt;&lt;23;<br>}</p>
 ]]></content>
       <categories>
-        <category>周赛</category>
+        <category>实验</category>
       </categories>
       <tags>
-        <tag>周赛wp</tag>
+        <tag>实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PWN1</title>
+    <url>/2023/05/07/PWN1/</url>
+    <content><![CDATA[<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305071902238.png" alt="image-20230507190251136"></p>
+<p>64位</p>
+]]></content>
+      <tags>
+        <tag>实验</tag>
       </tags>
   </entry>
   <entry>
@@ -794,318 +1106,6 @@ $p2 = &#39;/^[A-Z]+$/&#39;;
       </tags>
   </entry>
   <entry>
-    <title>3.26周赛</title>
-    <url>/2023/03/28/3-26%E5%91%A8%E8%B5%9B/</url>
-    <content><![CDATA[<h1 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h1><h2 id="鲜衣怒马少年郎，谁人不识理塘王！"><a href="#鲜衣怒马少年郎，谁人不识理塘王！" class="headerlink" title="鲜衣怒马少年郎，谁人不识理塘王！"></a>鲜衣怒马少年郎，谁人不识理塘王！</h2><p>顶真</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="keyword">include</span>(<span class="string">&#x27;flag.php&#x27;</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SLsec</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>=<span class="string">&#x27;鍒€涓嶉攱鍒╅┈澶槮&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$pass</span>=<span class="string">&#x27;浣犳嬁浠€涔堝拰鍥涚偣鏂�&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$jk</span>=<span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a4</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt;jk;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a6</span>(<span class="params"><span class="variable">$ding</span>,<span class="variable">$zhen</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span>-&gt; name==<span class="variable">$ding</span>&amp;&amp;<span class="variable language_">$this</span>-&gt;pass==<span class="variable">$zhen</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">a8</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">$this</span>-&gt;jk)&#123;<span class="comment">#$jk为真</span></span><br><span class="line">            <span class="keyword">global</span> <span class="variable">$flag</span>;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$flag</span>; </span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">           <span class="keyword">echo</span> <span class="string">&quot;椴滆。鎬掗┈灏戝勾閮庯紝璋佷汉涓嶈瘑鐞嗗鐜嬶紒&quot;</span>;&#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$name</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;name&#x27;</span>];</span><br><span class="line"><span class="variable">$pass</span>=<span class="variable">$_GET</span>[<span class="string">&#x27;pass&#x27;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;name&#x27;</span>]) &amp;&amp; <span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;pass&#x27;</span>]))&#123;</span><br><span class="line">    <span class="variable">$user</span> = <span class="title function_ invoke__">unserialize</span>(<span class="variable">$_POST</span>[<span class="string">&#x27;user&#x27;</span>]);</span><br><span class="line">    <span class="keyword">if</span>(<span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a6</span>(<span class="variable">$name</span>,<span class="variable">$pass</span>))&#123;<span class="comment">#赋值判断pass传参与两个GET是否相同</span></span><br><span class="line">        <span class="keyword">if</span>(<span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a4</span>())&#123;<span class="comment">#赋值</span></span><br><span class="line">            <span class="variable">$user</span>-&gt;<span class="title function_ invoke__">a8</span>();&#125;<span class="comment">#调用flag</span></span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&quot;Snow leopards are really hard to ride, so it&#x27;s better to exchange money for an Audi&quot;</span>;</span><br><span class="line">    &#125;&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">highlight_file</span>(<span class="keyword">__FILE__</span>);</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SLsec</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$name</span>=<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$pass</span>=<span class="string">&#x27;aa&#x27;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$jk</span>=<span class="literal">true</span>;&#125;</span><br><span class="line">  <span class="variable">$f</span>=<span class="keyword">new</span> <span class="title class_">SLsec</span>();</span><br><span class="line"><span class="keyword">echo</span> <span class="title function_ invoke__">serialize</span>(<span class="variable">$f</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p><a href="https://k5hai-1311151548.cos.ap-shanghai.myqcloud.com/https://k5hai-1311151548.cos.ap-shanghai.myqcloud.comimage-20230326200954241.png">https://k5hai-1311151548.cos.ap-shanghai.myqcloud.com/https://k5hai-1311151548.cos.ap-shanghai.myqcloud.comimage-20230326200954241.png</a></p>
-<p>play：GET： name&#x3D;a&amp;pass&#x3D;aa</p>
-<p>​	     POST:   user&#x3D;O:5:”SLsec”:3:{s:4:”name”;s:1:”a”;s:4:”pass”;s:2:”aa”;s:2:”jk”;b:1;}</p>
-<h1 id="CRYPTO"><a href="#CRYPTO" class="headerlink" title="CRYPTO"></a>CRYPTO</h1><h2 id="babyrsa"><a href="#babyrsa" class="headerlink" title="babyrsa"></a>babyrsa</h2><figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line">from Crypto.Util.number import *</span><br><span class="line">import gmpy2</span><br><span class="line">p= 174900179045398405758362887050510099953351230680589941223587187096927676318250039003867347118828470850766614025136710989402078055968449696991925901611318398319579226096026113980420314613233522410263933804832601250567540744629955554545762144406833636478599885984277733223077146277644459138695484730091497123653</span><br><span class="line">q= 138394168894464614599095635109542670799766048108401527799025178725205133812543876982783399176166727189388896418668604671443249386259427967695540806910521362186865886429031334061503953791903407614931162328753160467494420213786798800975785789856116685244900988587164035039772328579334638131513694977152566697693</span><br><span class="line">dq= 91144988599155922537286812069488697332186431610461674212452885608698963724568088535192289473758461311143377744214326484716015838529829408451331802003020019755397796512654690339237890864185649014688783869167705450325681146031490758620578699998011937814370759561761662578187180465099739857369029748140120600665</span><br><span class="line">dp= 77086099023854203737282939293131883320148165131282183381041486477787447250448637817213304263658092078129814396693072568608252203284383928126276449456687549559196269981593821846047893367155199274005122723844388469454558713530315183683329104798684553606121087426276184813900290984173218215988206302221537366933</span><br><span class="line">c= 15801371432169186780418480692589791195238785876344412995045613608181370212202255665942402417893437199493695445538341476746293760869621577715385796212569911097161252465453342990879413408685475673255790355354475333896669490479548332300912398201417641777563849663680004298227798906936140992367106039486966585574927214313333872682519241375796031187317957899045859494277570277966275262219924901316942847426675912933662265462110997773928571167535352177539455991039999517915239795197245498033201847388365903662518433723721091041449528248327695253818581438003566115867963542838871840099584964228370817957241460684463142116638</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">I = gmpy2.invert(q,p)</span><br><span class="line">mp = pow(c,dp,p)</span><br><span class="line">mq = pow(c,dq,q)               <span class="comment">#求幂取模运算</span></span><br><span class="line"></span><br><span class="line">m = (((mp-mq)*I)%p)*q+mq       <span class="comment">#求明文公式</span></span><br><span class="line"></span><br><span class="line">print( long_to_bytes(m))         <span class="comment">#转为十六进制</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="base？"><a href="#base？" class="headerlink" title="base？"></a>base？</h2><p>很简单的base64换表解码。<br>首先写个python脚本提取编码表</p>
-<figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">这是提取的编码表：</span><br><span class="line">JKLxNOMyUzVABCDEFGH798PQIacbdefghijklmWXYZ0123456SRTnopqrstuvw+<span class="string">/=</span></span><br></pre></td></tr></table></figure>
-
-<p>然后编写脚本解码：</p>
-<figure class="highlight maxima"><table><tr><td class="code"><pre><span class="line">import <span class="built_in">base64</span></span><br><span class="line">import <span class="built_in">string</span></span><br><span class="line"></span><br><span class="line">str1 = <span class="string">&quot;9nSTaPCu8MimQoamdXmg9qGRIPsXa8wjIQCmQTIngF==&quot;</span></span><br><span class="line"></span><br><span class="line">string1 = <span class="string">&quot;JKLxNOMyUzVABCDEFGH798PQIacbdefghijklmWXYZ0123456SRTnopqrstuvw+/=&quot;</span></span><br><span class="line">string2 = <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="built_in">base64</span>.b64decode(str1.<span class="built_in">translate</span>(str.maketrans(string1,string2))))</span><br></pre></td></tr></table></figure>
-
-<p>也可以网站解密：<br><img src="https://xmzbk-1310919595.cos.ap-nanjing.myqcloud.com/image-20230326113727063.png" alt="image-20230326113727063"></p>
-<h1 id="MISC"><a href="#MISC" class="headerlink" title="MISC"></a>MISC</h1><h2 id="看不懂的文件"><a href="#看不懂的文件" class="headerlink" title="看不懂的文件"></a>看不懂的文件</h2><p>把文件复制到虚拟机，打开终端执行 cat flag就出flag了</p>
-<p>flag:SLsec{!2023_Will_Be_Special,2022_Was_Not!}</p>
-<h2 id="里在干什莫？"><a href="#里在干什莫？" class="headerlink" title="里在干什莫？"></a>里在干什莫？</h2><p>16进制文件是反的很容易看出来</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">tmp = <span class="string">&#x27;&#x27;</span></span><br><span class="line">with <span class="built_in">open</span>(<span class="string">&#x27;flag.txt&#x27;</span>,<span class="string">&#x27;r&#x27;</span>) as file: <span class="selector-id">#flag</span>.txt里保存的是反着的<span class="number">16</span>进制文本</span><br><span class="line">    re_str = file<span class="selector-class">.read</span>()</span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> re_str:</span><br><span class="line">   tmp += <span class="selector-tag">i</span><span class="selector-class">.strip</span>()</span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(tmp[::-<span class="number">1</span>])</span></span></span><br><span class="line">#<span class="number">504</span>B0304140000000800F8BE7956F4507576100000000E00000008000000666C61672E747874AB4D2D2E4A2D4B2DAA4E4E2DF6090600504B01021400140000000800F8BE7956F4507576100000000E000000080024000000000000002000000000000000666C61672E7478740A00200000000000010018001F7EE443325FD901FF777E4A325FD901C6D233C4245FD901504B050600000000010001005A000000360000000000</span><br></pre></td></tr></table></figure>
-
-<p>将输出的16进制010重新读取一下就是flag</p>
-<h2 id="你知道什么是xor吗？"><a href="#你知道什么是xor吗？" class="headerlink" title="你知道什么是xor吗？"></a>你知道什么是xor吗？</h2><p>这道题是shangu👴赞助的</p>
-<p>附件很简单，一个key，一个flag,还有题目的关键描述 ‘xor’</p>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">key</span> = <span class="string">&#x27;jaks&#123;qwertyui-opas-dfgh-jklz-xcvbnmqwertu&#125;&#x27;</span></span><br><span class="line"><span class="attr">flag</span> = <span class="string">&#x27;óòõëÿ¾»®¿íâë÷ÿñë­îÿ¨ û ÿ¤­¥±ÿ¿ú½®÷öïº®º²¼ÿ&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<p>这道题脑洞很大，所以我就按我的分析来了</p>
-<p>首先看key，标准的flag格式，但是前四位被替换成了’jaks’，里面是按照键盘的qwer顺序，最开始分析的是字母在表中的顺序之类的，但是死活凑不出flag就放弃了。</p>
-<p>换一条思路，异或具有可逆性，或许’jask‘与’flag‘异或的结果就是我们要找的关键</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312153303362.png" alt="image-20230312153303362"></p>
-<p>再看flag这串乱码，先取前四位找一下规律,由于乱码的ascii码值通常是很大的，超出了标准ascii码的范围，我们可以先看一下他的ascii值是多少</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312153728805.png" alt="image-20230312153728805"></p>
-<p>还是找不到什么规律，由于xor本质上是二进制比特位之间的操作，我们进一步观察他们的二进制形式</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312154001470.png" alt="image-20230312154001470"></p>
-<p>再看’jask‘与’flag‘异或结果的二进制</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230312154148276.png" alt="image-20230312154148276"></p>
-<p>其实到这里就已经很明显了，</p>
-<p>将flag的各位取反再与key异或</p>
-<p>脚本</p>
-<figure class="highlight sas"><table><tr><td class="code"><pre><span class="line"><span class="keyword">key</span> = <span class="string">&#x27;jaks&#123;qwertyui-opas-dfgh-jklz-xcvbnmqwertu&#125;&#x27;</span></span><br><span class="line">flag = <span class="string">&#x27;óòõëÿ¾»®¿íâë÷ÿñë­îÿ¨ û ÿ¤­¥±ÿ¿ú½®÷öïº®º²¼ÿ&#x27;</span></span><br><span class="line"><span class="keyword">data </span>= [0xff ^ ord(i) for i <span class="keyword">in</span> flag]</span><br><span class="line">for i <span class="keyword">in</span> <span class="meta">range</span>(le<span class="meta">n</span>(data)):</span><br><span class="line">    pr<span class="meta">int</span>(chr(ord(<span class="keyword">key</span>[i])^data[i]),<span class="keyword">end</span>=<span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>最后看一下出题人视角</p>
-<p>拿到flag &gt; 与随便打出来的key异或 &gt; 将异或结果按位取反 &gt; 给出附件</p>
-<h1 id="REVERSE"><a href="#REVERSE" class="headerlink" title="REVERSE"></a>REVERSE</h1><h2 id="re2"><a href="#re2" class="headerlink" title="re2"></a>re2</h2><p>程序是有一个upx壳，壳没有魔改可以直接脱</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326203037222.png" alt="image-20230326203037222"></p>
-<p>首先是通过循环可以看出来12个总共12位，<strong>v4</strong>含有转义字符需要去一下，所以这里为了方便直接用ascii码，加密就是找到v4中字符在__data_strart__ 表中的位置，然后将他的ascii减1（其实可以看出来表中的字符就是倒着的ascii码表）</p>
-<p>脚本</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">v4 = <span class="selector-attr">[42,70,39,34,78,44,34,40,73,63,43,64]</span></span><br><span class="line">flag = <span class="string">&#x27;&#x27;</span></span><br><span class="line">__data_strart__ = <span class="string">&#x27;~&#125;|&#123;zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:9876543210/.-,+*)(\&#x27;&amp;%$# !&quot;&#x27;</span></span><br><span class="line"><span class="keyword">for</span> <span class="selector-tag">i</span> <span class="keyword">in</span> v4:</span><br><span class="line">    flag += <span class="built_in">chr</span>(__data_strart__<span class="selector-class">.find</span>(<span class="built_in">chr</span>(i))+<span class="number">1</span>)</span><br><span class="line">    <span class="built_in">print</span>(flag)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="贪吃蛇"><a href="#贪吃蛇" class="headerlink" title="贪吃蛇"></a>贪吃蛇</h2><p>贪吃蛇小游戏来自SWPUCTF 2022 新生赛</p>
-<p>反编译可以看到一个v18</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326205454666.png" alt="image-20230326205454666"></p>
-<p>这个代码写这里八九不离十可以猜到v18就是分数</p>
-<p>ce直接改数值</p>
-<p>因为刚开始v18&#x3D;4，就从4开始扫，分数加一慢慢筛选</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211220393.png" alt="image-20230326211220393"></p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211243449.png" alt="image-20230326211243449"></p>
-<p>改下数值直接就能出flag</p>
-<p><img src="https://hyup-1311193709.cos.ap-nanjing.myqcloud.com/blogimg/image-20230326211341663.png" alt="image-20230326211341663"></p>
-]]></content>
-      <categories>
-        <category>周赛</category>
-      </categories>
-      <tags>
-        <tag>周赛wp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PWN1</title>
-    <url>/2023/05/07/PWN1/</url>
-    <content><![CDATA[<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305071902238.png" alt="image-20230507190251136"></p>
-<p>64位</p>
-]]></content>
-      <tags>
-        <tag>实验</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>4.22周赛【下午场】</title>
-    <url>/2023/04/22/4-22%E5%91%A8%E8%B5%9B%E3%80%90%E4%B8%8B%E5%8D%88%E5%9C%BA%E3%80%91/</url>
-    <content><![CDATA[<h1 id="BabyRE"><a href="#BabyRE" class="headerlink" title="BabyRE"></a>BabyRE</h1><p>见2023西湖论剑——BabyRE</p>
-<p>[(30条消息) 2023西湖论剑RE–BabyRE_XiaozaYa的博客-CSDN博客](<a href="https://blog.csdn.net/qq_61670993/article/details/129345972?ops_request_misc=%7B%22request_id%22:%22168214434416800215028269%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=168214434416800215028269&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129345972-null-null.142%5Ev86%5Econtrol_2,239%5Ev2%5Einsert_chatgpt&utm_term=DASCTF">https://blog.csdn.net/qq_61670993/article/details/129345972?ops_request_misc=%7B%22request%5Fid%22%3A%22168214434416800215028269%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&amp;request_id=168214434416800215028269&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129345972-null-null.142^v86^control_2,239^v2^insert_chatgpt&amp;utm_term=DASCTF</a> babyre&amp;spm&#x3D;1018.2226.3001.4187)</p>
-<h1 id="一根香烟"><a href="#一根香烟" class="headerlink" title="一根香烟"></a>一根香烟</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221444942.png" alt="73ebc735f0eb5cbedf9220bc3e3fa4d"></p>
-<p>通过向该页面POST请求一个名为”heizi”，值为”ding\nzhen”，得到</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221444829.png" alt="a2476b27c91d9e6bfac6514b0169d4e"></p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221445944.png" alt="a1b98671e2520b187a7ea4613ea4184"></p>
-<p>再将fffflaaa09g.php输入网址后，解出</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221445012.png" alt="c4f9080e521723bb4cd864e92966e86"></p>
-]]></content>
-      <categories>
-        <category>周赛</category>
-      </categories>
-      <tags>
-        <tag>周赛wp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【深入理解计算机系统】CSAPP-实验一：DataLab思路以及代码</title>
-    <url>/2023/04/09/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E3%80%91CSAPP-%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%9ADataLab%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="实验说明"><a href="#实验说明" class="headerlink" title="实验说明"></a>实验说明</h2><p>datalab主要是对整型以及<a href="https://so.csdn.net/so/search?q=%E6%B5%AE%E7%82%B9%E5%9E%8B&spm=1001.2101.3001.7020">浮点型</a>的实验，其中对条件语句、算数运算以及逻辑运算限定了不同的规则。</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://blog.csdn.net/qq_42234461/article/details/108531976?ops_request_misc=%7B%22request_id%22:%22168101666516800192280526%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=168101666516800192280526&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-108531976-null-null.142">https://blog.csdn.net/qq_42234461/article/details/108531976?ops_request_misc=%7B%22request%5Fid%22%3A%22168101666516800192280526%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&amp;request_id=168101666516800192280526&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-108531976-null-null.142</a></p>
-<p><a href="https://blog.csdn.net/qq_43855740/article/details/106843924">https://blog.csdn.net/qq_43855740/article/details/106843924</a></p>
-<h1 id="itXor"><a href="#itXor" class="headerlink" title="itXor"></a>itXor</h1><p>*bitXor - x^y using only ~ and &amp; </p>
-<p>*Example: bitXor(4, 5) &#x3D; 1</p>
-<p>*Legal ops: ~ &amp;</p>
-<p>*Max ops: 14</p>
-<p>*Rating: 1</p>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>逐渐展开。</p>
-<p>x^y &#x3D; ( <del>x&amp;y | x&amp;</del>y )</p>
-<p>然后根据 (a|b) &#x3D; (a&amp;~b)把上面的或写成与</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>int bitXor(int x, int y) {</p>
-<p>  int lhs &#x3D; ~x &amp; y;<br>  int rhs &#x3D; x &amp; ~y;</p>
-<p>  return ~( ~lhs &amp; ~rhs );<br>}</p>
-<h1 id="tmin"><a href="#tmin" class="headerlink" title="tmin"></a>tmin</h1><p>*tmin - return minimum two’s complement integer </p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 4</p>
-<p>*Rating: 1</p>
-<h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><p>int tmin(void) {<br>  return 1&lt;&lt;31;<br>}</p>
-<h1 id="isTmax"><a href="#isTmax" class="headerlink" title="isTmax"></a>isTmax</h1><p>*isTmax - returns 1 if x is the maximum, two’s complement number,</p>
-<p>*and 0 otherwise </p>
-<p>*Legal ops: ! ~ &amp; ^ | +</p>
-<p>*Max ops: 10</p>
-<p>*Rating: 1</p>
-<h2 id="思路-1"><a href="#思路-1" class="headerlink" title="思路"></a>思路</h2><p>一开始我想通过 异或的方法直接判断输入值是否是目标值。即</p>
-<p>int isTmax(int x) {</p>
-<p>  int Tmax &#x3D; ~(1&lt;&lt;31);</p>
-<p>  return !(x^Tmax);<br>}</p>
-<p>然后题目不允许。只能通过别的方式。</p>
-<p>可以知道: Tmax + 1 &#x3D; 0x8fffffff，而 2 * 0x8fffffff &#x3D; 0.<br>根据这个性质可以判断。是否有反例？有一个：2 * 0 &#x3D; 0，因此要排除掉这个。</p>
-<h2 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h2><p>int isTmax(int x) {</p>
-<p>  int x_plus1 &#x3D; x+1; &#x2F;&#x2F;x_plus1得排除是0的情况（即x&#x3D;0xffffffff)<br>  int x_plus1_double &#x3D;x_plus1+x_plus1;</p>
-<p>  return !x_plus1_double &amp; ( !!x_plus1 );<br>}</p>
-<h1 id="allOddBits"><a href="#allOddBits" class="headerlink" title="allOddBits"></a>allOddBits</h1><p>*allOddBits - return 1 if all odd-numbered bits in word set to 1</p>
-<p>*where bits are numbered from 0 (least significant) to 31 (most significant)</p>
-<p>*Examples allOddBits(0xFFFFFFFD) &#x3D; 0, allOddBits(0xAAAAAAAA) &#x3D; 1</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 12</p>
-<p>*Rating: 2</p>
-<h2 id="思路-2"><a href="#思路-2" class="headerlink" title="思路"></a>思路</h2><p>生成一个mask，把输入x的所有奇数位置的值取下来（与）。</p>
-<p>然后再比对两个mask与该值是否一致。</p>
-<h2 id="代码-3"><a href="#代码-3" class="headerlink" title="代码"></a>代码</h2><p>int allOddBits(int x) {<br>  int i &#x3D; 1&lt;&lt;1;<br>  i &#x3D; (i&lt;&lt;2) | i;<br>  i &#x3D; (i&lt;&lt;4) | i;<br>  i &#x3D; (i&lt;&lt;8) | i;<br>  i &#x3D; (i&lt;&lt;16) | i; &#x2F;&#x2F;mask</p>
-<p>  return !((x&amp;i)^i);<br>}</p>
-<h1 id="negate"><a href="#negate" class="headerlink" title="negate"></a>negate</h1><p>*negate - return -x </p>
-<p>*Example: negate(1) &#x3D; -1.</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 5</p>
-<p>*Rating: 2</p>
-<h2 id="代码-4"><a href="#代码-4" class="headerlink" title="代码"></a>代码</h2><p>int negate(int x) {</p>
-<p>  return ~x + 1;<br>}</p>
-<h1 id="isAsciiDigit"><a href="#isAsciiDigit" class="headerlink" title="isAsciiDigit"></a>isAsciiDigit</h1><p>*isAsciiDigit - return 1 if 0x30 &lt;&#x3D; x &lt;&#x3D; 0x39 (ASCII codes for characters ‘0’ to ‘9’)</p>
-<p>*Example: isAsciiDigit(0x35) &#x3D; 1.</p>
-<p>*isAsciiDigit(0x3a) &#x3D; 0.</p>
-<p>*isAsciiDigit(0x05) &#x3D; 0.</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 15</p>
-<p>*Rating: 3</p>
-<h2 id="思路-3"><a href="#思路-3" class="headerlink" title="思路"></a>思路</h2><p>用于Bit的范围判断。只能不断列举。</p>
-<p>0x30是0011,0000. 而0x39是0011,1001.</p>
-<p>找出这个范围内的Bit规律</p>
-<ul>
-<li>首先第五第六位Bit必须都是1</li>
-<li>如果第四位bit是1,则第一位是0或1都可以，但2和3位要是0</li>
-<li>如果第四位bit是0,第一第二第三怎样都可以。</li>
-</ul>
-<h2 id="代码-5"><a href="#代码-5" class="headerlink" title="代码"></a>代码</h2><p>int isAsciiDigit(int x) {</p>
-<pre><code>int mask = ~(0xf);
-int bit5_6 = x &amp; mask;
-int bit4 = (x&gt;&gt;3) &amp; 1;
-int bit3 = (x&gt;&gt;2) &amp; 1;
-int bit2 = (x&gt;&gt;1) &amp; 1;
-return !(bit5_6^(3&lt;&lt;4)) &amp; ( !bit4|bit4&amp;( !bit2 &amp; !bit3 ) );
-</code></pre>
-<p>}</p>
-<h1 id="conditional"><a href="#conditional" class="headerlink" title="conditional"></a>conditional</h1><p>*conditional - same as x ? y : z </p>
-<p>*Example: conditional(2,4,5) &#x3D; 4</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 16</p>
-<p>*Rating: 3</p>
-<h2 id="思路-4"><a href="#思路-4" class="headerlink" title="思路"></a>思路</h2><p>如何找一个合适的mask作为控制是最难的地方。</p>
-<p>从0xffffffff入手是不错的思路</p>
-<p>mask &#x3D; 0xffffffff+!x。</p>
-<h2 id="代码-6"><a href="#代码-6" class="headerlink" title="代码"></a>代码</h2><p>int conditional(int x, int y, int z) {</p>
-<p>  int mask &#x3D; <del>0 + !x;<br>  return (mask&amp;y ) | (</del>mask &amp; z);<br>}</p>
-<h1 id="isLessOrEqual"><a href="#isLessOrEqual" class="headerlink" title="isLessOrEqual"></a>isLessOrEqual</h1><ul>
-<li>isLessOrEqual - if x &lt;&#x3D; y then return 1, else return 0</li>
-<li>Example: isLessOrEqual(4,5) &#x3D; 1.</li>
-<li>Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</li>
-<li>Max ops: 24</li>
-<li>Rating: 3</li>
-</ul>
-<h2 id="思路-5"><a href="#思路-5" class="headerlink" title="思路"></a>思路</h2><ul>
-<li>LESS：相减，判断符号</li>
-<li>Equal：异或判断是否相等</li>
-</ul>
-<p>以为这就结束了吗？</p>
-<p>还得判断是否会溢出。</p>
-<p>考虑溢出情况：</p>
-<ul>
-<li>正数 - 负数</li>
-<li>负数 - 正数</li>
-</ul>
-<p>因此，如果是前者，就直接返回true，如果是后者，就直接返回false。</p>
-<p>但是bit的写法会比较特殊。看看代码</p>
-<h2 id="代码-7"><a href="#代码-7" class="headerlink" title="代码"></a>代码</h2><p>int isLessOrEqual(int x, int y) {<br>  int sum &#x3D; x + ~y +1;<br>  return<br>  (!(x^y) &#x2F;&#x2F; xy相等<br>  |( sum&gt;&gt;31)&amp;1 &#x2F;&#x2F;x+y为负数<br>  | ((x&gt;&gt;31)&amp;1) &amp; !((y&gt;&gt;31)&amp;1)) &#x2F;&#x2F;x为负数、y为正数<br>  &amp; ! (!((x&gt;&gt;31)&amp;1) &amp; ((y&gt;&gt;31)&amp;1)) ; &#x2F;&#x2F;这里必须是and<br>}</p>
-<h1 id="logicalNeg"><a href="#logicalNeg" class="headerlink" title="logicalNeg"></a>logicalNeg</h1><p>*ogicalNeg - implement the ! operator, using all of</p>
-<p>*the legal operators except !</p>
-<p>*Examples: logicalNeg(3) &#x3D; 0, logicalNeg(0) &#x3D; 1</p>
-<p>*Legal ops: ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 12</p>
-<p>*Rating: 4</p>
-<h2 id="思路-6"><a href="#思路-6" class="headerlink" title="思路"></a>思路</h2><p>也是一种转化。投影到0和1.</p>
-<p>映射关系为：</p>
-<ul>
-<li>如果x&#x3D;0，则输出1</li>
-<li>如果x&#x3D;其他，则输出0</li>
-</ul>
-<p>因此我们要找出0以及其他的最大不同点，以完成投影。<br>那便是 +0 &#x3D; -0 &#x3D; 0。即 ~x +1 的符号位 &#x3D; x的符号位。</p>
-<p>int logicalNeg(int x) {<br>  return   ((<del>(</del>x + 1) &amp; ~x )&gt;&gt;31 &amp; 1); &#x2F;&#x2F;这里之所以要给0和+0都取反，再与，是为了返回需要的1。如果不取反，就会返回成0<br>}</p>
-<h1 id="howManyBits"><a href="#howManyBits" class="headerlink" title="howManyBits"></a>howManyBits</h1><p>howManyBits - return the minimum number of bits required to represent x in</p>
-<p>*two’s complement</p>
-<p>*Examples: howManyBits(12) &#x3D; 5</p>
-<p>*howManyBits(298) &#x3D; 10</p>
-<p>*howManyBits(-5) &#x3D; 4</p>
-<p>*howManyBits(0) &#x3D; 1</p>
-<p>*howManyBits(-1) &#x3D; 1</p>
-<p>*howManyBits(0x80000000) &#x3D; 32</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 90</p>
-<p>*Rating: 4</p>
-<h2 id="思路-7"><a href="#思路-7" class="headerlink" title="思路"></a>思路</h2><p>我们把例子都写一下，就知道这个结果是怎么来的。</p>
-<ul>
-<li>12: 0.1100</li>
-<li>298: 01,0010,1010</li>
-<li>-5: 1101</li>
-<li>0: 0</li>
-<li>-1: 1</li>
-</ul>
-<p>所以：正数的res &#x3D; 1的最高位位置m +1</p>
-<p>负数的res &#x3D; 取反后：1的最高位位置m +1</p>
-<p>现在问题变成，如何找出最高位</p>
-<p>可以人工分治。</p>
-<h2 id="代码-8"><a href="#代码-8" class="headerlink" title="代码"></a>代码</h2><p>int howManyBits(int x) {<br> int b16,b8,b4,b2,b1,b0;<br>    int sign&#x3D;x&gt;&gt;31;<br>    x&#x3D;sign&amp;(<del>x) | (</del>sign)&amp;x;&#x2F;&#x2F;如果x为正则不变，否则按位取反（统一找最高位为1）<br>    b16&#x3D;!!(x&gt;&gt;16)&lt;&lt;4;&#x2F;&#x2F;判断前16位是否有1，并且同时计算了需要移位的位数<br>    x&#x3D;x&gt;&gt;b16;&#x2F;&#x2F;有1就移动16位，否则b16&#x3D;0,不移动<br>    b8&#x3D;!!(x&gt;&gt;8)&lt;&lt;3;<br>    x&#x3D;x&gt;&gt;b8;<br>    b4&#x3D;!!(x&gt;&gt;4)&lt;&lt;2;<br>    x&#x3D;x&gt;&gt;b4;<br>    b2&#x3D;!!(x&gt;&gt;2)&lt;&lt;1;<br>    x&#x3D;x&gt;&gt;b2;<br>    b1&#x3D;!!(x&gt;&gt;1);<br>    x&#x3D;x&gt;&gt;b1;<br>    b0&#x3D;x;<br>  return b16+b8+b4+b2+b1+b0+1;<br>}</p>
-<h1 id="floatScale2"><a href="#floatScale2" class="headerlink" title="floatScale2"></a>floatScale2</h1><p>*howManyBits - return the minimum number of bits required to represent x in</p>
-<p>*two’s complement</p>
-<p>*Examples: howManyBits(12) &#x3D; 5</p>
-<p>*howManyBits(298) &#x3D; 10</p>
-<p>*howManyBits(-5) &#x3D; 4</p>
-<p>*howManyBits(0) &#x3D; 1</p>
-<p>*howManyBits(-1) &#x3D; 1</p>
-<p>*howManyBits(0x80000000) &#x3D; 32</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 90</p>
-<p>*Rating: 4</p>
-<h2 id="思路-8"><a href="#思路-8" class="headerlink" title="思路"></a>思路</h2><p>这题很好地考察了规格化数与非规格化数。</p>
-<p>以及自己琢磨一下这个例子，这题就会了</p>
-<h2 id="代码-9"><a href="#代码-9" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatScale2(unsigned uf) {<br>  unsigned s &#x3D; uf &amp; 0x80000000;<br>  unsigned exp &#x3D; uf &amp; 0x7f800000;<br>  unsigned frac &#x3D; uf &amp; 0x007fffff;</p>
-<p>  if(!exp){ &#x2F;&#x2F; 非规格化数<br>    frac&lt;&lt;&#x3D;1;<br>  }<br>  else if(exp^ 0x7f800000){ &#x2F;&#x2F;规格化数（非规格化数除去NAN)<br>      exp+&#x3D;0x00800000;<br>      &#x2F;&#x2F;相加之后可能变成无穷大，此时要将尾数置0<br>      if(!(exp^0x7f800000)){<br>        frac &#x3D; 0;<br>      }<br>  }</p>
-<p>  return s|exp|frac;<br>}</p>
-<h1 id="floatFloat2Int"><a href="#floatFloat2Int" class="headerlink" title="floatFloat2Int"></a>floatFloat2Int</h1><p>*for floating point argument f.</p>
-<p>*Argument is passed as unsigned int, but</p>
-<p>*it is to be interpreted as the bit-level representation of a</p>
-<p>*single-precision floating point value.</p>
-<p>*Anything out of range (including NaN and infinity) should return</p>
-<p>*0x80000000u.</p>
-<p>*Legal ops: Any integer&#x2F;unsigned operations incl. ||, &amp;&amp;. also if, while</p>
-<p>*Max ops: 30</p>
-<p>*Rating: 4</p>
-<h2 id="思路-9"><a href="#思路-9" class="headerlink" title="思路"></a>思路</h2><p>这里关键是理解unsigned表示的flaot以及转成int的过程的移位区别。</p>
-<p>如果uf什么都不动，变成int的时候就已经是默认小数点右移动（变大）23了。</p>
-<h2 id="代码-10"><a href="#代码-10" class="headerlink" title="代码"></a>代码</h2><p>int floatFloat2Int(unsigned uf) { &#x2F;&#x2F;吊</p>
-<p>  int tmin&#x3D;0x1&lt;&lt;31;&#x2F;&#x2F;溢出需返回的值<br>    int sign&#x3D;uf&gt;&gt;31;&#x2F;&#x2F;取符号<br>    int frac&#x3D;uf&amp;0x007fffff;&#x2F;&#x2F;取尾数<br>    int E&#x3D;((uf&gt;&gt;23)&amp;0xff)-127;&#x2F;&#x2F;取指数  Exp-偏置（ 2^7 -1）&#x3D;127<br>    if(E&lt;0) return 0; &#x2F;&#x2F;如果指数小于0，相当于尾数小数点左移，必定为小数，舍入为0<br>  int M;<br>     M &#x3D; frac|(0x1&lt;&lt;23);&#x2F;&#x2F;能到这里的都是规格化数，补充隐藏位1.</p>
-<pre><code>if(E&gt;31) return tmin;//如果指数大于31,相当于尾数小数点右移31，溢出
-if(E&gt;23) M=M&lt;&lt;(E-23);//如果指数&gt;23,小数点左移E-23
-else M=M&gt;&gt;(23-E);	//否则右移23-e
-
-if(!( (M&gt;&gt;31) ^sign)) return M;//如果移动完成的尾数M符号位与sign相同，无需转换，直接返回M
-else if(M&gt;&gt;31) return tmin;//如果不同，且M为负数，则无法表示(需更多位)，返回溢出
-else return ~M+1;	//如果不同，且M为正数，返回其相反数
-</code></pre>
-<p>}</p>
-<h1 id="floatPower2"><a href="#floatPower2" class="headerlink" title="floatPower2"></a>floatPower2</h1><p>*floatPower2 - Return bit-level equivalent of the expression 2.0^x</p>
-<p>*(2.0 raised to the power x) for any 32-bit integer x.</p>
-<p>*The unsigned value that is returned should have the identical bit</p>
-<p>*representation as the single-precision floating-point number 2.0^x.</p>
-<p>*If the result is too small to be represented as a denorm非规格化数, return</p>
-<p>*0.If too large, return +INF无穷大.</p>
-<ul>
-<li></li>
-</ul>
-<p>*Legal ops: Any integer&#x2F;unsigned operations incl. ||, &amp;&amp;. Also if, while</p>
-<p>*Max ops: 30</p>
-<p>*Rating: 4</p>
-<h2 id="思路-10"><a href="#思路-10" class="headerlink" title="思路"></a>思路</h2><p>这题很简单。</p>
-<p>只需要根据 E &#x3D; e - bias反推e就好了。</p>
-<h2 id="代码-11"><a href="#代码-11" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatPower2(int x) {</p>
-<pre><code>int inf=0x7f800000;
-if(x&lt;-126) return 0;
-if(x&gt;127) return inf;
-</code></pre>
-<p>  int e &#x3D; x+127;<br>    return e&lt;&lt;23;<br>}</p>
-]]></content>
-      <categories>
-        <category>实验</category>
-      </categories>
-      <tags>
-        <tag>实验</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>实验题目要求解释</title>
     <url>/2023/04/10/%E5%AE%9E%E9%AA%8C%E9%A2%98%E7%9B%AE%E8%A6%81%E6%B1%82%E8%A7%A3%E9%87%8A/</url>
     <content><![CDATA[<h1 id="Legal-ops"><a href="#Legal-ops" class="headerlink" title="Legal ops"></a>Legal ops</h1><p>在计算机程序设计中，有些操作符被认为是合法的（legal），有些操作符则被认为是不合法的（illegal）。Legal ops 是指在编程中可以使用的合法的操作符，而不包括任何不合法的操作符。通常，在编程题目中，会明确规定 Legal ops 的范围，以限制参与者使用某些运算符，从而增加题目的挑战和限制。</p>
@@ -1115,6 +1115,35 @@ if(x&gt;127) return inf;
       <tags>
         <tag>实验</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>校赛wp</title>
+    <url>/2023/05/19/%E6%A0%A1%E8%B5%9Bwp/</url>
+    <content><![CDATA[<h1 id="爱上二维码"><a href="#爱上二维码" class="headerlink" title="爱上二维码"></a>爱上二维码</h1><p>打开文件有几个png文件，根据提示逐个扫码</p>
+<p>SLsec{Hello_duck!}</p>
+<h1 id="WORD"><a href="#WORD" class="headerlink" title="WORD"></a>WORD</h1><p>右键单击选择字体，点隐藏文字</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305191931735.png" alt="image-20230519193136704"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305191930294.png" alt="image-20230519193038200"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305191931862.png" alt="image-20230519193103833"></p>
+<p>SLsec{Stop_dreaming—CTF}</p>
+<h1 id="突破！！！"><a href="#突破！！！" class="headerlink" title="突破！！！"></a>突破！！！</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305191932243.png" alt="image-20230519193220211"></p>
+<h1 id="听首歌放松一下！"><a href="#听首歌放松一下！" class="headerlink" title="听首歌放松一下！"></a>听首歌放松一下！</h1><p>最后五秒为摩斯密码</p>
+<p><a href="https://demo.zjmainstay.cn/morse_code/index.html">摩斯密码翻译器-有敲击声音的在线摩斯密码翻译练习工具 (zjmainstay.cn)</a></p>
+<p>放入上述转换器直接转换出flag</p>
+<p>SLsec{greatmusic}</p>
+<h1 id="爱上二维码2"><a href="#爱上二维码2" class="headerlink" title="爱上二维码2"></a>爱上二维码2</h1><p>一个一个扫描</p>
+<p>SLsec{Do_you_know_my_name?}</p>
+<h1 id="流量分析（一）"><a href="#流量分析（一）" class="headerlink" title="流量分析（一）"></a>流量分析（一）</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305212026903.png" alt="image-20230521202637764"></p>
+<p>SLsec{ffb7567a1d4f4abdffdb54e022f8facd}</p>
+<h1 id="流量分析（二）"><a href="#流量分析（二）" class="headerlink" title="流量分析（二）"></a>流量分析（二）</h1><p>找到HTTP</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305212038487.png" alt="image-20230521203822436"></p>
+<p>TCP追踪流第三个</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305212039119.png" alt="image-20230521203901040"></p>
+<p>追踪该数据包的http流，由开头”<code>/9j/</code>”，可知以下数据为<code>jpg</code>图片，“<code>/9j/</code>”经<code>base64</code>解码后结果为“<code>\xff \xd8 \xff</code>”，该三字节为<code>jpg</code>文件的开头三字节，所以可推断出以下文件为<code>jpg</code>文件</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305212043030.png" alt="image-20230521204331913"></p>
+<p>flag{209acebf6324a09671abc31c869de72c}</p>
+<h1 id="知识竞赛"><a href="#知识竞赛" class="headerlink" title="知识竞赛"></a>知识竞赛</h1><p>SLsec{Luck will always be with you}</p>
+]]></content>
   </entry>
   <entry>
     <title>刷题笔记：REVERSE</title>
@@ -1435,34 +1464,5 @@ if(x&gt;127) return inf;
       <tags>
         <tag>实验</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>校赛wp</title>
-    <url>/2023/05/19/%E6%A0%A1%E8%B5%9Bwp/</url>
-    <content><![CDATA[<h1 id="爱上二维码"><a href="#爱上二维码" class="headerlink" title="爱上二维码"></a>爱上二维码</h1><p>打开文件有几个png文件，根据提示逐个扫码</p>
-<p>SLsec{Hello_duck!}</p>
-<h1 id="WORD"><a href="#WORD" class="headerlink" title="WORD"></a>WORD</h1><p>右键单击选择字体，点隐藏文字</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305191931735.png" alt="image-20230519193136704"></p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305191930294.png" alt="image-20230519193038200"></p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305191931862.png" alt="image-20230519193103833"></p>
-<p>SLsec{Stop_dreaming—CTF}</p>
-<h1 id="突破！！！"><a href="#突破！！！" class="headerlink" title="突破！！！"></a>突破！！！</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305191932243.png" alt="image-20230519193220211"></p>
-<h1 id="听首歌放松一下！"><a href="#听首歌放松一下！" class="headerlink" title="听首歌放松一下！"></a>听首歌放松一下！</h1><p>最后五秒为摩斯密码</p>
-<p><a href="https://demo.zjmainstay.cn/morse_code/index.html">摩斯密码翻译器-有敲击声音的在线摩斯密码翻译练习工具 (zjmainstay.cn)</a></p>
-<p>放入上述转换器直接转换出flag</p>
-<p>SLsec{greatmusic}</p>
-<h1 id="爱上二维码2"><a href="#爱上二维码2" class="headerlink" title="爱上二维码2"></a>爱上二维码2</h1><p>一个一个扫描</p>
-<p>SLsec{Do_you_know_my_name?}</p>
-<h1 id="流量分析（一）"><a href="#流量分析（一）" class="headerlink" title="流量分析（一）"></a>流量分析（一）</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305212026903.png" alt="image-20230521202637764"></p>
-<p>SLsec{ffb7567a1d4f4abdffdb54e022f8facd}</p>
-<h1 id="流量分析（二）"><a href="#流量分析（二）" class="headerlink" title="流量分析（二）"></a>流量分析（二）</h1><p>找到HTTP</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305212038487.png" alt="image-20230521203822436"></p>
-<p>TCP追踪流第三个</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305212039119.png" alt="image-20230521203901040"></p>
-<p>追踪该数据包的http流，由开头”<code>/9j/</code>”，可知以下数据为<code>jpg</code>图片，“<code>/9j/</code>”经<code>base64</code>解码后结果为“<code>\xff \xd8 \xff</code>”，该三字节为<code>jpg</code>文件的开头三字节，所以可推断出以下文件为<code>jpg</code>文件</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202305212043030.png" alt="image-20230521204331913"></p>
-<p>flag{209acebf6324a09671abc31c869de72c}</p>
-<h1 id="知识竞赛"><a href="#知识竞赛" class="headerlink" title="知识竞赛"></a>知识竞赛</h1><p>SLsec{Luck will always be with you}</p>
-]]></content>
   </entry>
 </search>
