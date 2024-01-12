@@ -20,19 +20,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
+  <meta name="description" content="Awesome-pyecharts                                                    var chart_37d9847738884e3f9c44ad92ed7d5de1 &#x3D; echarts.init(             document.getElementById(&#39;37d9847738884e3f9c44ad9">
 <meta property="og:type" content="article">
 <meta property="og:title" content="陆の博客">
-<meta property="og:url" content="http://example.com/2024/01/11/sourcepyecharts/index.html">
+<meta property="og:url" content="http://example.com/2024/01/12/SX/wind_direction_wordcloud/index.html">
 <meta property="og:site_name" content="陆の博客">
-<meta property="og:description" content="真正的爱不是瞬间的浓烈，而是琐碎的光阴">
+<meta property="og:description" content="Awesome-pyecharts                                                    var chart_37d9847738884e3f9c44ad92ed7d5de1 &#x3D; echarts.init(             document.getElementById(&#39;37d9847738884e3f9c44ad9">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-01-11T12:10:08.418Z">
-<meta property="article:modified_time" content="2024-01-11T12:12:55.692Z">
+<meta property="article:published_time" content="2024-01-12T06:18:56.800Z">
+<meta property="article:modified_time" content="2024-01-12T05:59:24.629Z">
 <meta property="article:author" content="sheeps1mple">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2024/01/11/sourcepyecharts/">
+<link rel="canonical" href="http://example.com/2024/01/12/SX/wind_direction_wordcloud/">
 
 
 <script id="page-configurations">
@@ -199,7 +199,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/11/sourcepyecharts/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/12/SX/wind_direction_wordcloud/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar_2.gif">
@@ -223,7 +223,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-01-11 20:10:08 / 修改时间：20:12:55" itemprop="dateCreated datePublished" datetime="2024-01-11T20:10:08+08:00">2024-01-11</time>
+              <time title="创建时间：2024-01-12 14:18:56 / 修改时间：13:59:24" itemprop="dateCreated datePublished" datetime="2024-01-12T14:18:56+08:00">2024-01-12</time>
             </span>
 
           
@@ -235,8 +235,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2024/01/11/sourcepyecharts/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2024/01/11/sourcepyecharts/" itemprop="commentCount"></span>
+    <a title="valine" href="/2024/01/12/SX/wind_direction_wordcloud/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2024/01/12/SX/wind_direction_wordcloud/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -251,7 +251,181 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        
+        <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts-wordcloud.min.js"></script>
+
+</head>
+<body >
+    <div id="37d9847738884e3f9c44ad92ed7d5de1" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_37d9847738884e3f9c44ad92ed7d5de1 = echarts.init(
+            document.getElementById('37d9847738884e3f9c44ad92ed7d5de1'), 'white', {renderer: 'canvas'});
+        var option_37d9847738884e3f9c44ad92ed7d5de1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "wordCloud",
+            "shape": "circle",
+            "rotationRange": [
+                -90,
+                90
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                20,
+                100
+            ],
+            "data": [
+                {
+                    "name": "\u897f\u5357\u98ce",
+                    "value": 13,
+                    "textStyle": {
+                        "color": "rgb(11,132,17)"
+                    }
+                },
+                {
+                    "name": "\u897f\u98ce",
+                    "value": 3,
+                    "textStyle": {
+                        "color": "rgb(134,92,2)"
+                    }
+                },
+                {
+                    "name": "\u5317\u98ce",
+                    "value": 2,
+                    "textStyle": {
+                        "color": "rgb(101,73,64)"
+                    }
+                },
+                {
+                    "name": "\u4e1c\u5317\u98ce",
+                    "value": 19,
+                    "textStyle": {
+                        "color": "rgb(11,118,153)"
+                    }
+                },
+                {
+                    "name": "\u897f\u5317\u98ce",
+                    "value": 23,
+                    "textStyle": {
+                        "color": "rgb(123,141,81)"
+                    }
+                },
+                {
+                    "name": "\u5357\u98ce",
+                    "value": 5,
+                    "textStyle": {
+                        "color": "rgb(119,118,143)"
+                    }
+                },
+                {
+                    "name": "\u4e1c\u5357\u98ce",
+                    "value": 5,
+                    "textStyle": {
+                        "color": "rgb(140,108,44)"
+                    }
+                }
+            ],
+            "drawOutOfBound": false,
+            "textStyle": {
+                "emphasis": {}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Wind Direction Word Cloud",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_37d9847738884e3f9c44ad92ed7d5de1.setOption(option_37d9847738884e3f9c44ad92ed7d5de1);
+    </script>
+</body>
+</html>
+
     </div>
 
     
@@ -286,11 +460,11 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/05/19/%E6%A0%A1%E8%B5%9Bwp/" rel="prev" title="校赛wp">
-      <i class="fa fa-chevron-left"></i> 校赛wp
+    <a href="/2024/01/12/SX/wind_direction_pie_chart/" rel="prev" title="">
+      <i class="fa fa-chevron-left"></i> 
     </a></div>
       <div class="post-nav-item">
-    <a href="/2024/01/11/SX/temperature_line_chart/" rel="next" title="">
+    <a href="/2024/01/12/SX/weather_bar_chart/" rel="next" title="">
        <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>

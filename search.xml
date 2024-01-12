@@ -404,25 +404,6 @@
       </tags>
   </entry>
   <entry>
-    <title>4.22周赛【下午场】</title>
-    <url>/2023/04/22/4-22%E5%91%A8%E8%B5%9B%E3%80%90%E4%B8%8B%E5%8D%88%E5%9C%BA%E3%80%91/</url>
-    <content><![CDATA[<h1 id="BabyRE"><a href="#BabyRE" class="headerlink" title="BabyRE"></a>BabyRE</h1><p>见2023西湖论剑——BabyRE</p>
-<p>[(30条消息) 2023西湖论剑RE–BabyRE_XiaozaYa的博客-CSDN博客](<a href="https://blog.csdn.net/qq_61670993/article/details/129345972?ops_request_misc=%7B%22request_id%22:%22168214434416800215028269%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=168214434416800215028269&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129345972-null-null.142%5Ev86%5Econtrol_2,239%5Ev2%5Einsert_chatgpt&utm_term=DASCTF">https://blog.csdn.net/qq_61670993/article/details/129345972?ops_request_misc=%7B%22request%5Fid%22%3A%22168214434416800215028269%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&amp;request_id=168214434416800215028269&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129345972-null-null.142^v86^control_2,239^v2^insert_chatgpt&amp;utm_term=DASCTF</a> babyre&amp;spm&#x3D;1018.2226.3001.4187)</p>
-<h1 id="一根香烟"><a href="#一根香烟" class="headerlink" title="一根香烟"></a>一根香烟</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221444942.png" alt="73ebc735f0eb5cbedf9220bc3e3fa4d"></p>
-<p>通过向该页面POST请求一个名为”heizi”，值为”ding\nzhen”，得到</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221444829.png" alt="a2476b27c91d9e6bfac6514b0169d4e"></p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221445944.png" alt="a1b98671e2520b187a7ea4613ea4184"></p>
-<p>再将fffflaaa09g.php输入网址后，解出</p>
-<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221445012.png" alt="c4f9080e521723bb4cd864e92966e86"></p>
-]]></content>
-      <categories>
-        <category>周赛</category>
-      </categories>
-      <tags>
-        <tag>周赛wp</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>4.22周赛</title>
     <url>/2023/04/22/4-22%E5%91%A8%E8%B5%9B%E3%80%90%E4%B8%8A%E5%8D%88%E5%9C%BA%E3%80%91/</url>
     <content><![CDATA[<h1 id="好玩的时间戳"><a href="#好玩的时间戳" class="headerlink" title="好玩的时间戳"></a>好玩的时间戳</h1><p>时间戳转换网站<a href="https://tool.lu/timestamp/">时间戳(Unix timestamp)转换工具 - 在线工具 (tool.lu)</a></p>
@@ -455,6 +436,25 @@
 <p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221156796.png" alt="91873894178eb97aca09abe164209e6"></p>
 <p>BJD{1999902069a45792d233ac}</p>
 <p>记得把BJD改成SLsec</p>
+]]></content>
+      <categories>
+        <category>周赛</category>
+      </categories>
+      <tags>
+        <tag>周赛wp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>4.22周赛【下午场】</title>
+    <url>/2023/04/22/4-22%E5%91%A8%E8%B5%9B%E3%80%90%E4%B8%8B%E5%8D%88%E5%9C%BA%E3%80%91/</url>
+    <content><![CDATA[<h1 id="BabyRE"><a href="#BabyRE" class="headerlink" title="BabyRE"></a>BabyRE</h1><p>见2023西湖论剑——BabyRE</p>
+<p>[(30条消息) 2023西湖论剑RE–BabyRE_XiaozaYa的博客-CSDN博客](<a href="https://blog.csdn.net/qq_61670993/article/details/129345972?ops_request_misc=%7B%22request_id%22:%22168214434416800215028269%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=168214434416800215028269&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129345972-null-null.142%5Ev86%5Econtrol_2,239%5Ev2%5Einsert_chatgpt&utm_term=DASCTF">https://blog.csdn.net/qq_61670993/article/details/129345972?ops_request_misc=%7B%22request%5Fid%22%3A%22168214434416800215028269%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&amp;request_id=168214434416800215028269&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-2-129345972-null-null.142^v86^control_2,239^v2^insert_chatgpt&amp;utm_term=DASCTF</a> babyre&amp;spm&#x3D;1018.2226.3001.4187)</p>
+<h1 id="一根香烟"><a href="#一根香烟" class="headerlink" title="一根香烟"></a>一根香烟</h1><p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221444942.png" alt="73ebc735f0eb5cbedf9220bc3e3fa4d"></p>
+<p>通过向该页面POST请求一个名为”heizi”，值为”ding\nzhen”，得到</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221444829.png" alt="a2476b27c91d9e6bfac6514b0169d4e"></p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221445944.png" alt="a1b98671e2520b187a7ea4613ea4184"></p>
+<p>再将fffflaaa09g.php输入网址后，解出</p>
+<p><img src="https://i0lu.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%BA%8A/202304221445012.png" alt="c4f9080e521723bb4cd864e92966e86"></p>
 ]]></content>
       <categories>
         <category>周赛</category>
@@ -803,11 +803,6 @@ $p2 = &#39;/^[A-Z]+$/&#39;;
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/01/11/sourcepyecharts/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>4.22周赛总wp</title>
     <url>/2023/04/23/4-22%E5%91%A8%E8%B5%9B%E6%80%BBwp/</url>
     <content><![CDATA[<h1 id="一根香烟"><a href="#一根香烟" class="headerlink" title="一根香烟"></a>一根香烟</h1><p><a href="http://211.69.16.145:7901/">http://211.69.16.145:7901/</a></p>
@@ -889,216 +884,9 @@ $p2 = &#39;/^[A-Z]+$/&#39;;
       </tags>
   </entry>
   <entry>
-    <title>【深入理解计算机系统】CSAPP-实验一：DataLab思路以及代码</title>
-    <url>/2023/04/09/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E3%80%91CSAPP-%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%9ADataLab%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="实验说明"><a href="#实验说明" class="headerlink" title="实验说明"></a>实验说明</h2><p>datalab主要是对整型以及<a href="https://so.csdn.net/so/search?q=%E6%B5%AE%E7%82%B9%E5%9E%8B&spm=1001.2101.3001.7020">浮点型</a>的实验，其中对条件语句、算数运算以及逻辑运算限定了不同的规则。</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://blog.csdn.net/qq_42234461/article/details/108531976?ops_request_misc=%7B%22request_id%22:%22168101666516800192280526%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=168101666516800192280526&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-108531976-null-null.142">https://blog.csdn.net/qq_42234461/article/details/108531976?ops_request_misc=%7B%22request%5Fid%22%3A%22168101666516800192280526%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&amp;request_id=168101666516800192280526&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-108531976-null-null.142</a></p>
-<p><a href="https://blog.csdn.net/qq_43855740/article/details/106843924">https://blog.csdn.net/qq_43855740/article/details/106843924</a></p>
-<h1 id="itXor"><a href="#itXor" class="headerlink" title="itXor"></a>itXor</h1><p>*bitXor - x^y using only ~ and &amp; </p>
-<p>*Example: bitXor(4, 5) &#x3D; 1</p>
-<p>*Legal ops: ~ &amp;</p>
-<p>*Max ops: 14</p>
-<p>*Rating: 1</p>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>逐渐展开。</p>
-<p>x^y &#x3D; ( <del>x&amp;y | x&amp;</del>y )</p>
-<p>然后根据 (a|b) &#x3D; (a&amp;~b)把上面的或写成与</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>int bitXor(int x, int y) {</p>
-<p>  int lhs &#x3D; ~x &amp; y;<br>  int rhs &#x3D; x &amp; ~y;</p>
-<p>  return ~( ~lhs &amp; ~rhs );<br>}</p>
-<h1 id="tmin"><a href="#tmin" class="headerlink" title="tmin"></a>tmin</h1><p>*tmin - return minimum two’s complement integer </p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 4</p>
-<p>*Rating: 1</p>
-<h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><p>int tmin(void) {<br>  return 1&lt;&lt;31;<br>}</p>
-<h1 id="isTmax"><a href="#isTmax" class="headerlink" title="isTmax"></a>isTmax</h1><p>*isTmax - returns 1 if x is the maximum, two’s complement number,</p>
-<p>*and 0 otherwise </p>
-<p>*Legal ops: ! ~ &amp; ^ | +</p>
-<p>*Max ops: 10</p>
-<p>*Rating: 1</p>
-<h2 id="思路-1"><a href="#思路-1" class="headerlink" title="思路"></a>思路</h2><p>一开始我想通过 异或的方法直接判断输入值是否是目标值。即</p>
-<p>int isTmax(int x) {</p>
-<p>  int Tmax &#x3D; ~(1&lt;&lt;31);</p>
-<p>  return !(x^Tmax);<br>}</p>
-<p>然后题目不允许。只能通过别的方式。</p>
-<p>可以知道: Tmax + 1 &#x3D; 0x8fffffff，而 2 * 0x8fffffff &#x3D; 0.<br>根据这个性质可以判断。是否有反例？有一个：2 * 0 &#x3D; 0，因此要排除掉这个。</p>
-<h2 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h2><p>int isTmax(int x) {</p>
-<p>  int x_plus1 &#x3D; x+1; &#x2F;&#x2F;x_plus1得排除是0的情况（即x&#x3D;0xffffffff)<br>  int x_plus1_double &#x3D;x_plus1+x_plus1;</p>
-<p>  return !x_plus1_double &amp; ( !!x_plus1 );<br>}</p>
-<h1 id="allOddBits"><a href="#allOddBits" class="headerlink" title="allOddBits"></a>allOddBits</h1><p>*allOddBits - return 1 if all odd-numbered bits in word set to 1</p>
-<p>*where bits are numbered from 0 (least significant) to 31 (most significant)</p>
-<p>*Examples allOddBits(0xFFFFFFFD) &#x3D; 0, allOddBits(0xAAAAAAAA) &#x3D; 1</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 12</p>
-<p>*Rating: 2</p>
-<h2 id="思路-2"><a href="#思路-2" class="headerlink" title="思路"></a>思路</h2><p>生成一个mask，把输入x的所有奇数位置的值取下来（与）。</p>
-<p>然后再比对两个mask与该值是否一致。</p>
-<h2 id="代码-3"><a href="#代码-3" class="headerlink" title="代码"></a>代码</h2><p>int allOddBits(int x) {<br>  int i &#x3D; 1&lt;&lt;1;<br>  i &#x3D; (i&lt;&lt;2) | i;<br>  i &#x3D; (i&lt;&lt;4) | i;<br>  i &#x3D; (i&lt;&lt;8) | i;<br>  i &#x3D; (i&lt;&lt;16) | i; &#x2F;&#x2F;mask</p>
-<p>  return !((x&amp;i)^i);<br>}</p>
-<h1 id="negate"><a href="#negate" class="headerlink" title="negate"></a>negate</h1><p>*negate - return -x </p>
-<p>*Example: negate(1) &#x3D; -1.</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 5</p>
-<p>*Rating: 2</p>
-<h2 id="代码-4"><a href="#代码-4" class="headerlink" title="代码"></a>代码</h2><p>int negate(int x) {</p>
-<p>  return ~x + 1;<br>}</p>
-<h1 id="isAsciiDigit"><a href="#isAsciiDigit" class="headerlink" title="isAsciiDigit"></a>isAsciiDigit</h1><p>*isAsciiDigit - return 1 if 0x30 &lt;&#x3D; x &lt;&#x3D; 0x39 (ASCII codes for characters ‘0’ to ‘9’)</p>
-<p>*Example: isAsciiDigit(0x35) &#x3D; 1.</p>
-<p>*isAsciiDigit(0x3a) &#x3D; 0.</p>
-<p>*isAsciiDigit(0x05) &#x3D; 0.</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 15</p>
-<p>*Rating: 3</p>
-<h2 id="思路-3"><a href="#思路-3" class="headerlink" title="思路"></a>思路</h2><p>用于Bit的范围判断。只能不断列举。</p>
-<p>0x30是0011,0000. 而0x39是0011,1001.</p>
-<p>找出这个范围内的Bit规律</p>
-<ul>
-<li>首先第五第六位Bit必须都是1</li>
-<li>如果第四位bit是1,则第一位是0或1都可以，但2和3位要是0</li>
-<li>如果第四位bit是0,第一第二第三怎样都可以。</li>
-</ul>
-<h2 id="代码-5"><a href="#代码-5" class="headerlink" title="代码"></a>代码</h2><p>int isAsciiDigit(int x) {</p>
-<pre><code>int mask = ~(0xf);
-int bit5_6 = x &amp; mask;
-int bit4 = (x&gt;&gt;3) &amp; 1;
-int bit3 = (x&gt;&gt;2) &amp; 1;
-int bit2 = (x&gt;&gt;1) &amp; 1;
-return !(bit5_6^(3&lt;&lt;4)) &amp; ( !bit4|bit4&amp;( !bit2 &amp; !bit3 ) );
-</code></pre>
-<p>}</p>
-<h1 id="conditional"><a href="#conditional" class="headerlink" title="conditional"></a>conditional</h1><p>*conditional - same as x ? y : z </p>
-<p>*Example: conditional(2,4,5) &#x3D; 4</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 16</p>
-<p>*Rating: 3</p>
-<h2 id="思路-4"><a href="#思路-4" class="headerlink" title="思路"></a>思路</h2><p>如何找一个合适的mask作为控制是最难的地方。</p>
-<p>从0xffffffff入手是不错的思路</p>
-<p>mask &#x3D; 0xffffffff+!x。</p>
-<h2 id="代码-6"><a href="#代码-6" class="headerlink" title="代码"></a>代码</h2><p>int conditional(int x, int y, int z) {</p>
-<p>  int mask &#x3D; <del>0 + !x;<br>  return (mask&amp;y ) | (</del>mask &amp; z);<br>}</p>
-<h1 id="isLessOrEqual"><a href="#isLessOrEqual" class="headerlink" title="isLessOrEqual"></a>isLessOrEqual</h1><ul>
-<li>isLessOrEqual - if x &lt;&#x3D; y then return 1, else return 0</li>
-<li>Example: isLessOrEqual(4,5) &#x3D; 1.</li>
-<li>Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</li>
-<li>Max ops: 24</li>
-<li>Rating: 3</li>
-</ul>
-<h2 id="思路-5"><a href="#思路-5" class="headerlink" title="思路"></a>思路</h2><ul>
-<li>LESS：相减，判断符号</li>
-<li>Equal：异或判断是否相等</li>
-</ul>
-<p>以为这就结束了吗？</p>
-<p>还得判断是否会溢出。</p>
-<p>考虑溢出情况：</p>
-<ul>
-<li>正数 - 负数</li>
-<li>负数 - 正数</li>
-</ul>
-<p>因此，如果是前者，就直接返回true，如果是后者，就直接返回false。</p>
-<p>但是bit的写法会比较特殊。看看代码</p>
-<h2 id="代码-7"><a href="#代码-7" class="headerlink" title="代码"></a>代码</h2><p>int isLessOrEqual(int x, int y) {<br>  int sum &#x3D; x + ~y +1;<br>  return<br>  (!(x^y) &#x2F;&#x2F; xy相等<br>  |( sum&gt;&gt;31)&amp;1 &#x2F;&#x2F;x+y为负数<br>  | ((x&gt;&gt;31)&amp;1) &amp; !((y&gt;&gt;31)&amp;1)) &#x2F;&#x2F;x为负数、y为正数<br>  &amp; ! (!((x&gt;&gt;31)&amp;1) &amp; ((y&gt;&gt;31)&amp;1)) ; &#x2F;&#x2F;这里必须是and<br>}</p>
-<h1 id="logicalNeg"><a href="#logicalNeg" class="headerlink" title="logicalNeg"></a>logicalNeg</h1><p>*ogicalNeg - implement the ! operator, using all of</p>
-<p>*the legal operators except !</p>
-<p>*Examples: logicalNeg(3) &#x3D; 0, logicalNeg(0) &#x3D; 1</p>
-<p>*Legal ops: ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 12</p>
-<p>*Rating: 4</p>
-<h2 id="思路-6"><a href="#思路-6" class="headerlink" title="思路"></a>思路</h2><p>也是一种转化。投影到0和1.</p>
-<p>映射关系为：</p>
-<ul>
-<li>如果x&#x3D;0，则输出1</li>
-<li>如果x&#x3D;其他，则输出0</li>
-</ul>
-<p>因此我们要找出0以及其他的最大不同点，以完成投影。<br>那便是 +0 &#x3D; -0 &#x3D; 0。即 ~x +1 的符号位 &#x3D; x的符号位。</p>
-<p>int logicalNeg(int x) {<br>  return   ((<del>(</del>x + 1) &amp; ~x )&gt;&gt;31 &amp; 1); &#x2F;&#x2F;这里之所以要给0和+0都取反，再与，是为了返回需要的1。如果不取反，就会返回成0<br>}</p>
-<h1 id="howManyBits"><a href="#howManyBits" class="headerlink" title="howManyBits"></a>howManyBits</h1><p>howManyBits - return the minimum number of bits required to represent x in</p>
-<p>*two’s complement</p>
-<p>*Examples: howManyBits(12) &#x3D; 5</p>
-<p>*howManyBits(298) &#x3D; 10</p>
-<p>*howManyBits(-5) &#x3D; 4</p>
-<p>*howManyBits(0) &#x3D; 1</p>
-<p>*howManyBits(-1) &#x3D; 1</p>
-<p>*howManyBits(0x80000000) &#x3D; 32</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 90</p>
-<p>*Rating: 4</p>
-<h2 id="思路-7"><a href="#思路-7" class="headerlink" title="思路"></a>思路</h2><p>我们把例子都写一下，就知道这个结果是怎么来的。</p>
-<ul>
-<li>12: 0.1100</li>
-<li>298: 01,0010,1010</li>
-<li>-5: 1101</li>
-<li>0: 0</li>
-<li>-1: 1</li>
-</ul>
-<p>所以：正数的res &#x3D; 1的最高位位置m +1</p>
-<p>负数的res &#x3D; 取反后：1的最高位位置m +1</p>
-<p>现在问题变成，如何找出最高位</p>
-<p>可以人工分治。</p>
-<h2 id="代码-8"><a href="#代码-8" class="headerlink" title="代码"></a>代码</h2><p>int howManyBits(int x) {<br> int b16,b8,b4,b2,b1,b0;<br>    int sign&#x3D;x&gt;&gt;31;<br>    x&#x3D;sign&amp;(<del>x) | (</del>sign)&amp;x;&#x2F;&#x2F;如果x为正则不变，否则按位取反（统一找最高位为1）<br>    b16&#x3D;!!(x&gt;&gt;16)&lt;&lt;4;&#x2F;&#x2F;判断前16位是否有1，并且同时计算了需要移位的位数<br>    x&#x3D;x&gt;&gt;b16;&#x2F;&#x2F;有1就移动16位，否则b16&#x3D;0,不移动<br>    b8&#x3D;!!(x&gt;&gt;8)&lt;&lt;3;<br>    x&#x3D;x&gt;&gt;b8;<br>    b4&#x3D;!!(x&gt;&gt;4)&lt;&lt;2;<br>    x&#x3D;x&gt;&gt;b4;<br>    b2&#x3D;!!(x&gt;&gt;2)&lt;&lt;1;<br>    x&#x3D;x&gt;&gt;b2;<br>    b1&#x3D;!!(x&gt;&gt;1);<br>    x&#x3D;x&gt;&gt;b1;<br>    b0&#x3D;x;<br>  return b16+b8+b4+b2+b1+b0+1;<br>}</p>
-<h1 id="floatScale2"><a href="#floatScale2" class="headerlink" title="floatScale2"></a>floatScale2</h1><p>*howManyBits - return the minimum number of bits required to represent x in</p>
-<p>*two’s complement</p>
-<p>*Examples: howManyBits(12) &#x3D; 5</p>
-<p>*howManyBits(298) &#x3D; 10</p>
-<p>*howManyBits(-5) &#x3D; 4</p>
-<p>*howManyBits(0) &#x3D; 1</p>
-<p>*howManyBits(-1) &#x3D; 1</p>
-<p>*howManyBits(0x80000000) &#x3D; 32</p>
-<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
-<p>*Max ops: 90</p>
-<p>*Rating: 4</p>
-<h2 id="思路-8"><a href="#思路-8" class="headerlink" title="思路"></a>思路</h2><p>这题很好地考察了规格化数与非规格化数。</p>
-<p>以及自己琢磨一下这个例子，这题就会了</p>
-<h2 id="代码-9"><a href="#代码-9" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatScale2(unsigned uf) {<br>  unsigned s &#x3D; uf &amp; 0x80000000;<br>  unsigned exp &#x3D; uf &amp; 0x7f800000;<br>  unsigned frac &#x3D; uf &amp; 0x007fffff;</p>
-<p>  if(!exp){ &#x2F;&#x2F; 非规格化数<br>    frac&lt;&lt;&#x3D;1;<br>  }<br>  else if(exp^ 0x7f800000){ &#x2F;&#x2F;规格化数（非规格化数除去NAN)<br>      exp+&#x3D;0x00800000;<br>      &#x2F;&#x2F;相加之后可能变成无穷大，此时要将尾数置0<br>      if(!(exp^0x7f800000)){<br>        frac &#x3D; 0;<br>      }<br>  }</p>
-<p>  return s|exp|frac;<br>}</p>
-<h1 id="floatFloat2Int"><a href="#floatFloat2Int" class="headerlink" title="floatFloat2Int"></a>floatFloat2Int</h1><p>*for floating point argument f.</p>
-<p>*Argument is passed as unsigned int, but</p>
-<p>*it is to be interpreted as the bit-level representation of a</p>
-<p>*single-precision floating point value.</p>
-<p>*Anything out of range (including NaN and infinity) should return</p>
-<p>*0x80000000u.</p>
-<p>*Legal ops: Any integer&#x2F;unsigned operations incl. ||, &amp;&amp;. also if, while</p>
-<p>*Max ops: 30</p>
-<p>*Rating: 4</p>
-<h2 id="思路-9"><a href="#思路-9" class="headerlink" title="思路"></a>思路</h2><p>这里关键是理解unsigned表示的flaot以及转成int的过程的移位区别。</p>
-<p>如果uf什么都不动，变成int的时候就已经是默认小数点右移动（变大）23了。</p>
-<h2 id="代码-10"><a href="#代码-10" class="headerlink" title="代码"></a>代码</h2><p>int floatFloat2Int(unsigned uf) { &#x2F;&#x2F;吊</p>
-<p>  int tmin&#x3D;0x1&lt;&lt;31;&#x2F;&#x2F;溢出需返回的值<br>    int sign&#x3D;uf&gt;&gt;31;&#x2F;&#x2F;取符号<br>    int frac&#x3D;uf&amp;0x007fffff;&#x2F;&#x2F;取尾数<br>    int E&#x3D;((uf&gt;&gt;23)&amp;0xff)-127;&#x2F;&#x2F;取指数  Exp-偏置（ 2^7 -1）&#x3D;127<br>    if(E&lt;0) return 0; &#x2F;&#x2F;如果指数小于0，相当于尾数小数点左移，必定为小数，舍入为0<br>  int M;<br>     M &#x3D; frac|(0x1&lt;&lt;23);&#x2F;&#x2F;能到这里的都是规格化数，补充隐藏位1.</p>
-<pre><code>if(E&gt;31) return tmin;//如果指数大于31,相当于尾数小数点右移31，溢出
-if(E&gt;23) M=M&lt;&lt;(E-23);//如果指数&gt;23,小数点左移E-23
-else M=M&gt;&gt;(23-E);	//否则右移23-e
-
-if(!( (M&gt;&gt;31) ^sign)) return M;//如果移动完成的尾数M符号位与sign相同，无需转换，直接返回M
-else if(M&gt;&gt;31) return tmin;//如果不同，且M为负数，则无法表示(需更多位)，返回溢出
-else return ~M+1;	//如果不同，且M为正数，返回其相反数
-</code></pre>
-<p>}</p>
-<h1 id="floatPower2"><a href="#floatPower2" class="headerlink" title="floatPower2"></a>floatPower2</h1><p>*floatPower2 - Return bit-level equivalent of the expression 2.0^x</p>
-<p>*(2.0 raised to the power x) for any 32-bit integer x.</p>
-<p>*The unsigned value that is returned should have the identical bit</p>
-<p>*representation as the single-precision floating-point number 2.0^x.</p>
-<p>*If the result is too small to be represented as a denorm非规格化数, return</p>
-<p>*0.If too large, return +INF无穷大.</p>
-<ul>
-<li></li>
-</ul>
-<p>*Legal ops: Any integer&#x2F;unsigned operations incl. ||, &amp;&amp;. Also if, while</p>
-<p>*Max ops: 30</p>
-<p>*Rating: 4</p>
-<h2 id="思路-10"><a href="#思路-10" class="headerlink" title="思路"></a>思路</h2><p>这题很简单。</p>
-<p>只需要根据 E &#x3D; e - bias反推e就好了。</p>
-<h2 id="代码-11"><a href="#代码-11" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatPower2(int x) {</p>
-<pre><code>int inf=0x7f800000;
-if(x&lt;-126) return 0;
-if(x&gt;127) return inf;
-</code></pre>
-<p>  int e &#x3D; x+127;<br>    return e&lt;&lt;23;<br>}</p>
-]]></content>
-      <categories>
-        <category>实验</category>
-      </categories>
-      <tags>
-        <tag>实验</tag>
-      </tags>
+    <title></title>
+    <url>/2024/01/11/sourcepyecharts/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>刷题笔记：REVERSE</title>
@@ -1335,6 +1123,218 @@ if(x&gt;127) return inf;
       </tags>
   </entry>
   <entry>
+    <title>【深入理解计算机系统】CSAPP-实验一：DataLab思路以及代码</title>
+    <url>/2023/04/09/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E3%80%91CSAPP-%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%9ADataLab%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="实验说明"><a href="#实验说明" class="headerlink" title="实验说明"></a>实验说明</h2><p>datalab主要是对整型以及<a href="https://so.csdn.net/so/search?q=%E6%B5%AE%E7%82%B9%E5%9E%8B&spm=1001.2101.3001.7020">浮点型</a>的实验，其中对条件语句、算数运算以及逻辑运算限定了不同的规则。</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://blog.csdn.net/qq_42234461/article/details/108531976?ops_request_misc=%7B%22request_id%22:%22168101666516800192280526%22,%22scm%22:%2220140713.130102334.pc_all.%22%7D&request_id=168101666516800192280526&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-108531976-null-null.142">https://blog.csdn.net/qq_42234461/article/details/108531976?ops_request_misc=%7B%22request%5Fid%22%3A%22168101666516800192280526%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&amp;request_id=168101666516800192280526&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-108531976-null-null.142</a></p>
+<p><a href="https://blog.csdn.net/qq_43855740/article/details/106843924">https://blog.csdn.net/qq_43855740/article/details/106843924</a></p>
+<h1 id="itXor"><a href="#itXor" class="headerlink" title="itXor"></a>itXor</h1><p>*bitXor - x^y using only ~ and &amp; </p>
+<p>*Example: bitXor(4, 5) &#x3D; 1</p>
+<p>*Legal ops: ~ &amp;</p>
+<p>*Max ops: 14</p>
+<p>*Rating: 1</p>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>逐渐展开。</p>
+<p>x^y &#x3D; ( <del>x&amp;y | x&amp;</del>y )</p>
+<p>然后根据 (a|b) &#x3D; (a&amp;~b)把上面的或写成与</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>int bitXor(int x, int y) {</p>
+<p>  int lhs &#x3D; ~x &amp; y;<br>  int rhs &#x3D; x &amp; ~y;</p>
+<p>  return ~( ~lhs &amp; ~rhs );<br>}</p>
+<h1 id="tmin"><a href="#tmin" class="headerlink" title="tmin"></a>tmin</h1><p>*tmin - return minimum two’s complement integer </p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 4</p>
+<p>*Rating: 1</p>
+<h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><p>int tmin(void) {<br>  return 1&lt;&lt;31;<br>}</p>
+<h1 id="isTmax"><a href="#isTmax" class="headerlink" title="isTmax"></a>isTmax</h1><p>*isTmax - returns 1 if x is the maximum, two’s complement number,</p>
+<p>*and 0 otherwise </p>
+<p>*Legal ops: ! ~ &amp; ^ | +</p>
+<p>*Max ops: 10</p>
+<p>*Rating: 1</p>
+<h2 id="思路-1"><a href="#思路-1" class="headerlink" title="思路"></a>思路</h2><p>一开始我想通过 异或的方法直接判断输入值是否是目标值。即</p>
+<p>int isTmax(int x) {</p>
+<p>  int Tmax &#x3D; ~(1&lt;&lt;31);</p>
+<p>  return !(x^Tmax);<br>}</p>
+<p>然后题目不允许。只能通过别的方式。</p>
+<p>可以知道: Tmax + 1 &#x3D; 0x8fffffff，而 2 * 0x8fffffff &#x3D; 0.<br>根据这个性质可以判断。是否有反例？有一个：2 * 0 &#x3D; 0，因此要排除掉这个。</p>
+<h2 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h2><p>int isTmax(int x) {</p>
+<p>  int x_plus1 &#x3D; x+1; &#x2F;&#x2F;x_plus1得排除是0的情况（即x&#x3D;0xffffffff)<br>  int x_plus1_double &#x3D;x_plus1+x_plus1;</p>
+<p>  return !x_plus1_double &amp; ( !!x_plus1 );<br>}</p>
+<h1 id="allOddBits"><a href="#allOddBits" class="headerlink" title="allOddBits"></a>allOddBits</h1><p>*allOddBits - return 1 if all odd-numbered bits in word set to 1</p>
+<p>*where bits are numbered from 0 (least significant) to 31 (most significant)</p>
+<p>*Examples allOddBits(0xFFFFFFFD) &#x3D; 0, allOddBits(0xAAAAAAAA) &#x3D; 1</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 12</p>
+<p>*Rating: 2</p>
+<h2 id="思路-2"><a href="#思路-2" class="headerlink" title="思路"></a>思路</h2><p>生成一个mask，把输入x的所有奇数位置的值取下来（与）。</p>
+<p>然后再比对两个mask与该值是否一致。</p>
+<h2 id="代码-3"><a href="#代码-3" class="headerlink" title="代码"></a>代码</h2><p>int allOddBits(int x) {<br>  int i &#x3D; 1&lt;&lt;1;<br>  i &#x3D; (i&lt;&lt;2) | i;<br>  i &#x3D; (i&lt;&lt;4) | i;<br>  i &#x3D; (i&lt;&lt;8) | i;<br>  i &#x3D; (i&lt;&lt;16) | i; &#x2F;&#x2F;mask</p>
+<p>  return !((x&amp;i)^i);<br>}</p>
+<h1 id="negate"><a href="#negate" class="headerlink" title="negate"></a>negate</h1><p>*negate - return -x </p>
+<p>*Example: negate(1) &#x3D; -1.</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 5</p>
+<p>*Rating: 2</p>
+<h2 id="代码-4"><a href="#代码-4" class="headerlink" title="代码"></a>代码</h2><p>int negate(int x) {</p>
+<p>  return ~x + 1;<br>}</p>
+<h1 id="isAsciiDigit"><a href="#isAsciiDigit" class="headerlink" title="isAsciiDigit"></a>isAsciiDigit</h1><p>*isAsciiDigit - return 1 if 0x30 &lt;&#x3D; x &lt;&#x3D; 0x39 (ASCII codes for characters ‘0’ to ‘9’)</p>
+<p>*Example: isAsciiDigit(0x35) &#x3D; 1.</p>
+<p>*isAsciiDigit(0x3a) &#x3D; 0.</p>
+<p>*isAsciiDigit(0x05) &#x3D; 0.</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 15</p>
+<p>*Rating: 3</p>
+<h2 id="思路-3"><a href="#思路-3" class="headerlink" title="思路"></a>思路</h2><p>用于Bit的范围判断。只能不断列举。</p>
+<p>0x30是0011,0000. 而0x39是0011,1001.</p>
+<p>找出这个范围内的Bit规律</p>
+<ul>
+<li>首先第五第六位Bit必须都是1</li>
+<li>如果第四位bit是1,则第一位是0或1都可以，但2和3位要是0</li>
+<li>如果第四位bit是0,第一第二第三怎样都可以。</li>
+</ul>
+<h2 id="代码-5"><a href="#代码-5" class="headerlink" title="代码"></a>代码</h2><p>int isAsciiDigit(int x) {</p>
+<pre><code>int mask = ~(0xf);
+int bit5_6 = x &amp; mask;
+int bit4 = (x&gt;&gt;3) &amp; 1;
+int bit3 = (x&gt;&gt;2) &amp; 1;
+int bit2 = (x&gt;&gt;1) &amp; 1;
+return !(bit5_6^(3&lt;&lt;4)) &amp; ( !bit4|bit4&amp;( !bit2 &amp; !bit3 ) );
+</code></pre>
+<p>}</p>
+<h1 id="conditional"><a href="#conditional" class="headerlink" title="conditional"></a>conditional</h1><p>*conditional - same as x ? y : z </p>
+<p>*Example: conditional(2,4,5) &#x3D; 4</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 16</p>
+<p>*Rating: 3</p>
+<h2 id="思路-4"><a href="#思路-4" class="headerlink" title="思路"></a>思路</h2><p>如何找一个合适的mask作为控制是最难的地方。</p>
+<p>从0xffffffff入手是不错的思路</p>
+<p>mask &#x3D; 0xffffffff+!x。</p>
+<h2 id="代码-6"><a href="#代码-6" class="headerlink" title="代码"></a>代码</h2><p>int conditional(int x, int y, int z) {</p>
+<p>  int mask &#x3D; <del>0 + !x;<br>  return (mask&amp;y ) | (</del>mask &amp; z);<br>}</p>
+<h1 id="isLessOrEqual"><a href="#isLessOrEqual" class="headerlink" title="isLessOrEqual"></a>isLessOrEqual</h1><ul>
+<li>isLessOrEqual - if x &lt;&#x3D; y then return 1, else return 0</li>
+<li>Example: isLessOrEqual(4,5) &#x3D; 1.</li>
+<li>Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</li>
+<li>Max ops: 24</li>
+<li>Rating: 3</li>
+</ul>
+<h2 id="思路-5"><a href="#思路-5" class="headerlink" title="思路"></a>思路</h2><ul>
+<li>LESS：相减，判断符号</li>
+<li>Equal：异或判断是否相等</li>
+</ul>
+<p>以为这就结束了吗？</p>
+<p>还得判断是否会溢出。</p>
+<p>考虑溢出情况：</p>
+<ul>
+<li>正数 - 负数</li>
+<li>负数 - 正数</li>
+</ul>
+<p>因此，如果是前者，就直接返回true，如果是后者，就直接返回false。</p>
+<p>但是bit的写法会比较特殊。看看代码</p>
+<h2 id="代码-7"><a href="#代码-7" class="headerlink" title="代码"></a>代码</h2><p>int isLessOrEqual(int x, int y) {<br>  int sum &#x3D; x + ~y +1;<br>  return<br>  (!(x^y) &#x2F;&#x2F; xy相等<br>  |( sum&gt;&gt;31)&amp;1 &#x2F;&#x2F;x+y为负数<br>  | ((x&gt;&gt;31)&amp;1) &amp; !((y&gt;&gt;31)&amp;1)) &#x2F;&#x2F;x为负数、y为正数<br>  &amp; ! (!((x&gt;&gt;31)&amp;1) &amp; ((y&gt;&gt;31)&amp;1)) ; &#x2F;&#x2F;这里必须是and<br>}</p>
+<h1 id="logicalNeg"><a href="#logicalNeg" class="headerlink" title="logicalNeg"></a>logicalNeg</h1><p>*ogicalNeg - implement the ! operator, using all of</p>
+<p>*the legal operators except !</p>
+<p>*Examples: logicalNeg(3) &#x3D; 0, logicalNeg(0) &#x3D; 1</p>
+<p>*Legal ops: ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 12</p>
+<p>*Rating: 4</p>
+<h2 id="思路-6"><a href="#思路-6" class="headerlink" title="思路"></a>思路</h2><p>也是一种转化。投影到0和1.</p>
+<p>映射关系为：</p>
+<ul>
+<li>如果x&#x3D;0，则输出1</li>
+<li>如果x&#x3D;其他，则输出0</li>
+</ul>
+<p>因此我们要找出0以及其他的最大不同点，以完成投影。<br>那便是 +0 &#x3D; -0 &#x3D; 0。即 ~x +1 的符号位 &#x3D; x的符号位。</p>
+<p>int logicalNeg(int x) {<br>  return   ((<del>(</del>x + 1) &amp; ~x )&gt;&gt;31 &amp; 1); &#x2F;&#x2F;这里之所以要给0和+0都取反，再与，是为了返回需要的1。如果不取反，就会返回成0<br>}</p>
+<h1 id="howManyBits"><a href="#howManyBits" class="headerlink" title="howManyBits"></a>howManyBits</h1><p>howManyBits - return the minimum number of bits required to represent x in</p>
+<p>*two’s complement</p>
+<p>*Examples: howManyBits(12) &#x3D; 5</p>
+<p>*howManyBits(298) &#x3D; 10</p>
+<p>*howManyBits(-5) &#x3D; 4</p>
+<p>*howManyBits(0) &#x3D; 1</p>
+<p>*howManyBits(-1) &#x3D; 1</p>
+<p>*howManyBits(0x80000000) &#x3D; 32</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 90</p>
+<p>*Rating: 4</p>
+<h2 id="思路-7"><a href="#思路-7" class="headerlink" title="思路"></a>思路</h2><p>我们把例子都写一下，就知道这个结果是怎么来的。</p>
+<ul>
+<li>12: 0.1100</li>
+<li>298: 01,0010,1010</li>
+<li>-5: 1101</li>
+<li>0: 0</li>
+<li>-1: 1</li>
+</ul>
+<p>所以：正数的res &#x3D; 1的最高位位置m +1</p>
+<p>负数的res &#x3D; 取反后：1的最高位位置m +1</p>
+<p>现在问题变成，如何找出最高位</p>
+<p>可以人工分治。</p>
+<h2 id="代码-8"><a href="#代码-8" class="headerlink" title="代码"></a>代码</h2><p>int howManyBits(int x) {<br> int b16,b8,b4,b2,b1,b0;<br>    int sign&#x3D;x&gt;&gt;31;<br>    x&#x3D;sign&amp;(<del>x) | (</del>sign)&amp;x;&#x2F;&#x2F;如果x为正则不变，否则按位取反（统一找最高位为1）<br>    b16&#x3D;!!(x&gt;&gt;16)&lt;&lt;4;&#x2F;&#x2F;判断前16位是否有1，并且同时计算了需要移位的位数<br>    x&#x3D;x&gt;&gt;b16;&#x2F;&#x2F;有1就移动16位，否则b16&#x3D;0,不移动<br>    b8&#x3D;!!(x&gt;&gt;8)&lt;&lt;3;<br>    x&#x3D;x&gt;&gt;b8;<br>    b4&#x3D;!!(x&gt;&gt;4)&lt;&lt;2;<br>    x&#x3D;x&gt;&gt;b4;<br>    b2&#x3D;!!(x&gt;&gt;2)&lt;&lt;1;<br>    x&#x3D;x&gt;&gt;b2;<br>    b1&#x3D;!!(x&gt;&gt;1);<br>    x&#x3D;x&gt;&gt;b1;<br>    b0&#x3D;x;<br>  return b16+b8+b4+b2+b1+b0+1;<br>}</p>
+<h1 id="floatScale2"><a href="#floatScale2" class="headerlink" title="floatScale2"></a>floatScale2</h1><p>*howManyBits - return the minimum number of bits required to represent x in</p>
+<p>*two’s complement</p>
+<p>*Examples: howManyBits(12) &#x3D; 5</p>
+<p>*howManyBits(298) &#x3D; 10</p>
+<p>*howManyBits(-5) &#x3D; 4</p>
+<p>*howManyBits(0) &#x3D; 1</p>
+<p>*howManyBits(-1) &#x3D; 1</p>
+<p>*howManyBits(0x80000000) &#x3D; 32</p>
+<p>*Legal ops: ! ~ &amp; ^ | + &lt;&lt; &gt;&gt;</p>
+<p>*Max ops: 90</p>
+<p>*Rating: 4</p>
+<h2 id="思路-8"><a href="#思路-8" class="headerlink" title="思路"></a>思路</h2><p>这题很好地考察了规格化数与非规格化数。</p>
+<p>以及自己琢磨一下这个例子，这题就会了</p>
+<h2 id="代码-9"><a href="#代码-9" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatScale2(unsigned uf) {<br>  unsigned s &#x3D; uf &amp; 0x80000000;<br>  unsigned exp &#x3D; uf &amp; 0x7f800000;<br>  unsigned frac &#x3D; uf &amp; 0x007fffff;</p>
+<p>  if(!exp){ &#x2F;&#x2F; 非规格化数<br>    frac&lt;&lt;&#x3D;1;<br>  }<br>  else if(exp^ 0x7f800000){ &#x2F;&#x2F;规格化数（非规格化数除去NAN)<br>      exp+&#x3D;0x00800000;<br>      &#x2F;&#x2F;相加之后可能变成无穷大，此时要将尾数置0<br>      if(!(exp^0x7f800000)){<br>        frac &#x3D; 0;<br>      }<br>  }</p>
+<p>  return s|exp|frac;<br>}</p>
+<h1 id="floatFloat2Int"><a href="#floatFloat2Int" class="headerlink" title="floatFloat2Int"></a>floatFloat2Int</h1><p>*for floating point argument f.</p>
+<p>*Argument is passed as unsigned int, but</p>
+<p>*it is to be interpreted as the bit-level representation of a</p>
+<p>*single-precision floating point value.</p>
+<p>*Anything out of range (including NaN and infinity) should return</p>
+<p>*0x80000000u.</p>
+<p>*Legal ops: Any integer&#x2F;unsigned operations incl. ||, &amp;&amp;. also if, while</p>
+<p>*Max ops: 30</p>
+<p>*Rating: 4</p>
+<h2 id="思路-9"><a href="#思路-9" class="headerlink" title="思路"></a>思路</h2><p>这里关键是理解unsigned表示的flaot以及转成int的过程的移位区别。</p>
+<p>如果uf什么都不动，变成int的时候就已经是默认小数点右移动（变大）23了。</p>
+<h2 id="代码-10"><a href="#代码-10" class="headerlink" title="代码"></a>代码</h2><p>int floatFloat2Int(unsigned uf) { &#x2F;&#x2F;吊</p>
+<p>  int tmin&#x3D;0x1&lt;&lt;31;&#x2F;&#x2F;溢出需返回的值<br>    int sign&#x3D;uf&gt;&gt;31;&#x2F;&#x2F;取符号<br>    int frac&#x3D;uf&amp;0x007fffff;&#x2F;&#x2F;取尾数<br>    int E&#x3D;((uf&gt;&gt;23)&amp;0xff)-127;&#x2F;&#x2F;取指数  Exp-偏置（ 2^7 -1）&#x3D;127<br>    if(E&lt;0) return 0; &#x2F;&#x2F;如果指数小于0，相当于尾数小数点左移，必定为小数，舍入为0<br>  int M;<br>     M &#x3D; frac|(0x1&lt;&lt;23);&#x2F;&#x2F;能到这里的都是规格化数，补充隐藏位1.</p>
+<pre><code>if(E&gt;31) return tmin;//如果指数大于31,相当于尾数小数点右移31，溢出
+if(E&gt;23) M=M&lt;&lt;(E-23);//如果指数&gt;23,小数点左移E-23
+else M=M&gt;&gt;(23-E);	//否则右移23-e
+
+if(!( (M&gt;&gt;31) ^sign)) return M;//如果移动完成的尾数M符号位与sign相同，无需转换，直接返回M
+else if(M&gt;&gt;31) return tmin;//如果不同，且M为负数，则无法表示(需更多位)，返回溢出
+else return ~M+1;	//如果不同，且M为正数，返回其相反数
+</code></pre>
+<p>}</p>
+<h1 id="floatPower2"><a href="#floatPower2" class="headerlink" title="floatPower2"></a>floatPower2</h1><p>*floatPower2 - Return bit-level equivalent of the expression 2.0^x</p>
+<p>*(2.0 raised to the power x) for any 32-bit integer x.</p>
+<p>*The unsigned value that is returned should have the identical bit</p>
+<p>*representation as the single-precision floating-point number 2.0^x.</p>
+<p>*If the result is too small to be represented as a denorm非规格化数, return</p>
+<p>*0.If too large, return +INF无穷大.</p>
+<ul>
+<li></li>
+</ul>
+<p>*Legal ops: Any integer&#x2F;unsigned operations incl. ||, &amp;&amp;. Also if, while</p>
+<p>*Max ops: 30</p>
+<p>*Rating: 4</p>
+<h2 id="思路-10"><a href="#思路-10" class="headerlink" title="思路"></a>思路</h2><p>这题很简单。</p>
+<p>只需要根据 E &#x3D; e - bias反推e就好了。</p>
+<h2 id="代码-11"><a href="#代码-11" class="headerlink" title="代码"></a>代码</h2><p>unsigned floatPower2(int x) {</p>
+<pre><code>int inf=0x7f800000;
+if(x&lt;-126) return 0;
+if(x&gt;127) return inf;
+</code></pre>
+<p>  int e &#x3D; x+127;<br>    return e&lt;&lt;23;<br>}</p>
+]]></content>
+      <categories>
+        <category>实验</category>
+      </categories>
+      <tags>
+        <tag>实验</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>实验题目要求解释</title>
     <url>/2023/04/10/%E5%AE%9E%E9%AA%8C%E9%A2%98%E7%9B%AE%E8%A6%81%E6%B1%82%E8%A7%A3%E9%87%8A/</url>
     <content><![CDATA[<h1 id="Legal-ops"><a href="#Legal-ops" class="headerlink" title="Legal ops"></a>Legal ops</h1><p>在计算机程序设计中，有些操作符被认为是合法的（legal），有些操作符则被认为是不合法的（illegal）。Legal ops 是指在编程中可以使用的合法的操作符，而不包括任何不合法的操作符。通常，在编程题目中，会明确规定 Legal ops 的范围，以限制参与者使用某些运算符，从而增加题目的挑战和限制。</p>
@@ -1459,6 +1459,646 @@ if(x&gt;127) return inf;
       <tags>
         <tag>实验</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/01/12/SX/daily_weather/</url>
+    <content><![CDATA[<html><body>
+<p><a href="2023-11-01 星期三_temperature_chart.html">2023-11-01 星期三 Temperature</a></p>
+<p><a href="2023-11-02 星期四_temperature_chart.html">2023-11-02 星期四 Temperature</a></p>
+<p><a href="2023-11-03 星期五_temperature_chart.html">2023-11-03 星期五 Temperature</a></p>
+<p><a href="2023-11-04 星期六_temperature_chart.html">2023-11-04 星期六 Temperature</a></p>
+<p><a href="2023-11-05 星期日_temperature_chart.html">2023-11-05 星期日 Temperature</a></p>
+<p><a href="2023-11-06 星期一_temperature_chart.html">2023-11-06 星期一 Temperature</a></p>
+<p><a href="2023-11-07 星期二_temperature_chart.html">2023-11-07 星期二 Temperature</a></p>
+<p><a href="2023-11-08 星期三_temperature_chart.html">2023-11-08 星期三 Temperature</a></p>
+<p><a href="2023-11-09 星期四_temperature_chart.html">2023-11-09 星期四 Temperature</a></p>
+<p><a href="2023-11-10 星期五_temperature_chart.html">2023-11-10 星期五 Temperature</a></p>
+<p><a href="2023-11-11 星期六_temperature_chart.html">2023-11-11 星期六 Temperature</a></p>
+<p><a href="2023-11-12 星期日_temperature_chart.html">2023-11-12 星期日 Temperature</a></p>
+<p><a href="2023-11-13 星期一_temperature_chart.html">2023-11-13 星期一 Temperature</a></p>
+<p><a href="2023-11-14 星期二_temperature_chart.html">2023-11-14 星期二 Temperature</a></p>
+<p><a href="2023-11-15 星期三_temperature_chart.html">2023-11-15 星期三 Temperature</a></p>
+<p><a href="2023-11-16 星期四_temperature_chart.html">2023-11-16 星期四 Temperature</a></p>
+<p><a href="2023-11-17 星期五_temperature_chart.html">2023-11-17 星期五 Temperature</a></p>
+<p><a href="2023-11-18 星期六_temperature_chart.html">2023-11-18 星期六 Temperature</a></p>
+<p><a href="2023-11-19 星期日_temperature_chart.html">2023-11-19 星期日 Temperature</a></p>
+<p><a href="2023-11-20 星期一_temperature_chart.html">2023-11-20 星期一 Temperature</a></p>
+<p><a href="2023-11-21 星期二_temperature_chart.html">2023-11-21 星期二 Temperature</a></p>
+<p><a href="2023-11-22 星期三_temperature_chart.html">2023-11-22 星期三 Temperature</a></p>
+<p><a href="2023-11-23 星期四_temperature_chart.html">2023-11-23 星期四 Temperature</a></p>
+<p><a href="2023-11-24 星期五_temperature_chart.html">2023-11-24 星期五 Temperature</a></p>
+<p><a href="2023-11-25 星期六_temperature_chart.html">2023-11-25 星期六 Temperature</a></p>
+<p><a href="2023-11-26 星期日_temperature_chart.html">2023-11-26 星期日 Temperature</a></p>
+<p><a href="2023-11-27 星期一_temperature_chart.html">2023-11-27 星期一 Temperature</a></p>
+<p><a href="2023-11-28 星期二_temperature_chart.html">2023-11-28 星期二 Temperature</a></p>
+<p><a href="2023-11-29 星期三_temperature_chart.html">2023-11-29 星期三 Temperature</a></p>
+<p><a href="2023-11-30 星期四_temperature_chart.html">2023-11-30 星期四 Temperature</a></p>
+<p><a href="2023-12-01 星期五_temperature_chart.html">2023-12-01 星期五 Temperature</a></p>
+<p><a href="2023-12-02 星期六_temperature_chart.html">2023-12-02 星期六 Temperature</a></p>
+<p><a href="2023-12-03 星期日_temperature_chart.html">2023-12-03 星期日 Temperature</a></p>
+<p><a href="2023-12-04 星期一_temperature_chart.html">2023-12-04 星期一 Temperature</a></p>
+<p><a href="2023-12-05 星期二_temperature_chart.html">2023-12-05 星期二 Temperature</a></p>
+<p><a href="2023-12-06 星期三_temperature_chart.html">2023-12-06 星期三 Temperature</a></p>
+<p><a href="2023-12-07 星期四_temperature_chart.html">2023-12-07 星期四 Temperature</a></p>
+<p><a href="2023-12-08 星期五_temperature_chart.html">2023-12-08 星期五 Temperature</a></p>
+<p><a href="2023-12-09 星期六_temperature_chart.html">2023-12-09 星期六 Temperature</a></p>
+<p><a href="2023-12-10 星期日_temperature_chart.html">2023-12-10 星期日 Temperature</a></p>
+<p><a href="2023-12-11 星期一_temperature_chart.html">2023-12-11 星期一 Temperature</a></p>
+<p><a href="2023-12-12 星期二_temperature_chart.html">2023-12-12 星期二 Temperature</a></p>
+<p><a href="2023-12-13 星期三_temperature_chart.html">2023-12-13 星期三 Temperature</a></p>
+<p><a href="2023-12-14 星期四_temperature_chart.html">2023-12-14 星期四 Temperature</a></p>
+<p><a href="2023-12-15 星期五_temperature_chart.html">2023-12-15 星期五 Temperature</a></p>
+<p><a href="2023-12-16 星期六_temperature_chart.html">2023-12-16 星期六 Temperature</a></p>
+<p><a href="2023-12-17 星期日_temperature_chart.html">2023-12-17 星期日 Temperature</a></p>
+<p><a href="2023-12-18 星期一_temperature_chart.html">2023-12-18 星期一 Temperature</a></p>
+<p><a href="2023-12-19 星期二_temperature_chart.html">2023-12-19 星期二 Temperature</a></p>
+<p><a href="2023-12-20 星期三_temperature_chart.html">2023-12-20 星期三 Temperature</a></p>
+<p><a href="2023-12-21 星期四_temperature_chart.html">2023-12-21 星期四 Temperature</a></p>
+<p><a href="2023-12-22 星期五_temperature_chart.html">2023-12-22 星期五 Temperature</a></p>
+<p><a href="2023-12-23 星期六_temperature_chart.html">2023-12-23 星期六 Temperature</a></p>
+<p><a href="2023-12-24 星期日_temperature_chart.html">2023-12-24 星期日 Temperature</a></p>
+<p><a href="2023-12-25 星期一_temperature_chart.html">2023-12-25 星期一 Temperature</a></p>
+<p><a href="2023-12-26 星期二_temperature_chart.html">2023-12-26 星期二 Temperature</a></p>
+<p><a href="2023-12-27 星期三_temperature_chart.html">2023-12-27 星期三 Temperature</a></p>
+<p><a href="2023-12-28 星期四_temperature_chart.html">2023-12-28 星期四 Temperature</a></p>
+<p><a href="2023-12-29 星期五_temperature_chart.html">2023-12-29 星期五 Temperature</a></p>
+<p><a href="2023-12-30 星期六_temperature_chart.html">2023-12-30 星期六 Temperature</a></p>
+<p><a href="2023-12-31 星期日_temperature_chart.html">2023-12-31 星期日 Temperature</a></p>
+<p><a href="2024-01-01 星期一_temperature_chart.html">2024-01-01 星期一 Temperature</a></p>
+<p><a href="2024-01-02 星期二_temperature_chart.html">2024-01-02 星期二 Temperature</a></p>
+<p><a href="2024-01-03 星期三_temperature_chart.html">2024-01-03 星期三 Temperature</a></p>
+<p><a href="2024-01-04 星期四_temperature_chart.html">2024-01-04 星期四 Temperature</a></p>
+<p><a href="2024-01-05 星期五_temperature_chart.html">2024-01-05 星期五 Temperature</a></p>
+<p><a href="2024-01-06 星期六_temperature_chart.html">2024-01-06 星期六 Temperature</a></p>
+<p><a href="2024-01-07 星期日_temperature_chart.html">2024-01-07 星期日 Temperature</a></p>
+<p><a href="2024-01-08 星期一_temperature_chart.html">2024-01-08 星期一 Temperature</a></p>
+<p><a href="2024-01-09 星期二_temperature_chart.html">2024-01-09 星期二 Temperature</a></p>
+</body></html>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/01/12/SX/index/</url>
+    <content><![CDATA[<html><body>
+<p><a href="daily_weather/daily_weather.html">Daily Weather</a></p>
+</body></html>
+<p><a href="temperature_line_chart.html">Temperature Line Chart</a></p>
+<p><a href="weather_bar_chart.html">Weather Bar Chart</a></p>
+<p><a href="weather_pie_chart.html">Weather Pie Chart</a></p>
+<p><a href="wind_direction_bar_chart.html">Wind Direction Bar Chart</a></p>
+<p><a href="wind_direction_pie_chart.html">Wind Direction Pie Chart</a></p>
+<p><a href="wind_direction_wordcloud.html">Wind Direction Word Cloud</a></p>
+<p><a href="weather_condition_wordcloud.html">Weather Condition Word Cloud</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/01/12/SX/weather_bar_chart/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="5c9eac2a44e941a1acbe963ef20657ff" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_5c9eac2a44e941a1acbe963ef20657ff = echarts.init(
+            document.getElementById('5c9eac2a44e941a1acbe963ef20657ff'), 'white', {renderer: 'canvas'});
+        var option_5c9eac2a44e941a1acbe963ef20657ff = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u5929\u6570",
+            "legendHoverLink": true,
+            "data": [
+                8,
+                1,
+                1,
+                1,
+                1,
+                10,
+                8,
+                6,
+                1,
+                1,
+                1,
+                8,
+                3,
+                1,
+                4,
+                2,
+                3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1
+            ],
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5929\u6570"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u591a\u4e91~\u6674",
+                "\u96fe~\u591a\u4e91",
+                "\u4e2d\u96e8~\u9634",
+                "\u9634~\u5c0f\u96e8",
+                "\u5c0f\u96e8~\u6674",
+                "\u6674",
+                "\u6674~\u591a\u4e91",
+                "\u591a\u4e91~\u9634",
+                "\u9634~\u96e8\u5939\u96ea",
+                "\u4e2d\u96ea~\u6674",
+                "\u96fe~\u9634",
+                "\u591a\u4e91",
+                "\u96fe~\u6674",
+                "\u5c0f\u96e8~\u591a\u4e91",
+                "\u9634",
+                "\u9634~\u6674",
+                "\u9634~\u591a\u4e91",
+                "\u591a\u4e91~\u5c0f\u96e8",
+                "\u96e8\u5939\u96ea~\u4e2d\u96ea",
+                "\u5c0f\u96ea",
+                "\u96fe~\u96e8\u5939\u96ea",
+                "\u96e8\u5939\u96ea",
+                "\u4e2d\u96ea~\u5c0f\u96ea",
+                "\u6674~\u9634",
+                "\u8f7b\u5ea6\u96fe\u973e",
+                "\u4e2d\u5ea6\u96fe\u973e"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u5929\u6c14\u7edf\u8ba1",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_5c9eac2a44e941a1acbe963ef20657ff.setOption(option_5c9eac2a44e941a1acbe963ef20657ff);
+    </script>
+</body>
+</html>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/01/12/SX/weather_condition_wordcloud/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts-wordcloud.min.js"></script>
+
+</head>
+<body >
+    <div id="b365af041ef84bc1a2115c0571307143" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_b365af041ef84bc1a2115c0571307143 = echarts.init(
+            document.getElementById('b365af041ef84bc1a2115c0571307143'), 'white', {renderer: 'canvas'});
+        var option_b365af041ef84bc1a2115c0571307143 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "wordCloud",
+            "shape": "circle",
+            "rotationRange": [
+                -90,
+                90
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                20,
+                100
+            ],
+            "data": [
+                {
+                    "name": "\u591a\u4e91~\u6674",
+                    "value": 8,
+                    "textStyle": {
+                        "color": "rgb(159,119,27)"
+                    }
+                },
+                {
+                    "name": "\u96fe~\u591a\u4e91",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(61,18,74)"
+                    }
+                },
+                {
+                    "name": "\u4e2d\u96e8~\u9634",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(89,21,74)"
+                    }
+                },
+                {
+                    "name": "\u9634~\u5c0f\u96e8",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(44,32,99)"
+                    }
+                },
+                {
+                    "name": "\u5c0f\u96e8~\u6674",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(63,7,119)"
+                    }
+                },
+                {
+                    "name": "\u6674",
+                    "value": 10,
+                    "textStyle": {
+                        "color": "rgb(75,85,93)"
+                    }
+                },
+                {
+                    "name": "\u6674~\u591a\u4e91",
+                    "value": 8,
+                    "textStyle": {
+                        "color": "rgb(70,56,11)"
+                    }
+                },
+                {
+                    "name": "\u591a\u4e91~\u9634",
+                    "value": 6,
+                    "textStyle": {
+                        "color": "rgb(102,109,37)"
+                    }
+                },
+                {
+                    "name": "\u9634~\u96e8\u5939\u96ea",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(100,30,60)"
+                    }
+                },
+                {
+                    "name": "\u4e2d\u96ea~\u6674",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(39,37,134)"
+                    }
+                },
+                {
+                    "name": "\u96fe~\u9634",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(154,86,125)"
+                    }
+                },
+                {
+                    "name": "\u591a\u4e91",
+                    "value": 8,
+                    "textStyle": {
+                        "color": "rgb(120,88,88)"
+                    }
+                },
+                {
+                    "name": "\u96fe~\u6674",
+                    "value": 3,
+                    "textStyle": {
+                        "color": "rgb(9,38,106)"
+                    }
+                },
+                {
+                    "name": "\u5c0f\u96e8~\u591a\u4e91",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(157,69,44)"
+                    }
+                },
+                {
+                    "name": "\u9634",
+                    "value": 4,
+                    "textStyle": {
+                        "color": "rgb(16,8,33)"
+                    }
+                },
+                {
+                    "name": "\u9634~\u6674",
+                    "value": 2,
+                    "textStyle": {
+                        "color": "rgb(67,50,87)"
+                    }
+                },
+                {
+                    "name": "\u9634~\u591a\u4e91",
+                    "value": 3,
+                    "textStyle": {
+                        "color": "rgb(87,46,141)"
+                    }
+                },
+                {
+                    "name": "\u591a\u4e91~\u5c0f\u96e8",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(136,66,28)"
+                    }
+                },
+                {
+                    "name": "\u96e8\u5939\u96ea~\u4e2d\u96ea",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(123,48,140)"
+                    }
+                },
+                {
+                    "name": "\u5c0f\u96ea",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(105,114,0)"
+                    }
+                },
+                {
+                    "name": "\u96fe~\u96e8\u5939\u96ea",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(4,54,21)"
+                    }
+                },
+                {
+                    "name": "\u96e8\u5939\u96ea",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(117,33,153)"
+                    }
+                },
+                {
+                    "name": "\u4e2d\u96ea~\u5c0f\u96ea",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(9,151,55)"
+                    }
+                },
+                {
+                    "name": "\u6674~\u9634",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(107,64,133)"
+                    }
+                },
+                {
+                    "name": "\u8f7b\u5ea6\u96fe\u973e",
+                    "value": 2,
+                    "textStyle": {
+                        "color": "rgb(9,157,127)"
+                    }
+                },
+                {
+                    "name": "\u4e2d\u5ea6\u96fe\u973e",
+                    "value": 1,
+                    "textStyle": {
+                        "color": "rgb(159,63,158)"
+                    }
+                }
+            ],
+            "drawOutOfBound": false,
+            "textStyle": {
+                "emphasis": {}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Weather Condition Word Cloud",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_b365af041ef84bc1a2115c0571307143.setOption(option_b365af041ef84bc1a2115c0571307143);
+    </script>
+</body>
+</html>
+]]></content>
   </entry>
   <entry>
     <title></title>
@@ -2337,6 +2977,868 @@ if(x&gt;127) return inf;
     ]
 };
         chart_d0b33e12d7c146ccab984e2df592b3c9.setOption(option_d0b33e12d7c146ccab984e2df592b3c9);
+    </script>
+</body>
+</html>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/01/12/SX/weather_pie_chart/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="40a87694d04049eb9257c1bac288d29f" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_40a87694d04049eb9257c1bac288d29f = echarts.init(
+            document.getElementById('40a87694d04049eb9257c1bac288d29f'), 'white', {renderer: 'canvas'});
+        var option_40a87694d04049eb9257c1bac288d29f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "name": "\u5929\u6c14\u5360\u6bd4",
+            "colorBy": "data",
+            "legendHoverLink": true,
+            "selectedMode": false,
+            "selectedOffset": 10,
+            "clockwise": true,
+            "startAngle": 90,
+            "minAngle": 0,
+            "minShowLabelAngle": 0,
+            "avoidLabelOverlap": true,
+            "stillShowZeroSum": true,
+            "percentPrecision": 2,
+            "showEmptyCircle": true,
+            "emptyCircleStyle": {
+                "color": "lightgray",
+                "borderColor": "#000",
+                "borderWidth": 0,
+                "borderType": "solid",
+                "borderDashOffset": 0,
+                "borderCap": "butt",
+                "borderJoin": "bevel",
+                "borderMiterLimit": 10,
+                "opacity": 1
+            },
+            "data": [
+                {
+                    "name": "\u591a\u4e91~\u6674",
+                    "value": 8
+                },
+                {
+                    "name": "\u96fe~\u591a\u4e91",
+                    "value": 1
+                },
+                {
+                    "name": "\u4e2d\u96e8~\u9634",
+                    "value": 1
+                },
+                {
+                    "name": "\u9634~\u5c0f\u96e8",
+                    "value": 1
+                },
+                {
+                    "name": "\u5c0f\u96e8~\u6674",
+                    "value": 1
+                },
+                {
+                    "name": "\u6674",
+                    "value": 10
+                },
+                {
+                    "name": "\u6674~\u591a\u4e91",
+                    "value": 8
+                },
+                {
+                    "name": "\u591a\u4e91~\u9634",
+                    "value": 6
+                },
+                {
+                    "name": "\u9634~\u96e8\u5939\u96ea",
+                    "value": 1
+                },
+                {
+                    "name": "\u4e2d\u96ea~\u6674",
+                    "value": 1
+                },
+                {
+                    "name": "\u96fe~\u9634",
+                    "value": 1
+                },
+                {
+                    "name": "\u591a\u4e91",
+                    "value": 8
+                },
+                {
+                    "name": "\u96fe~\u6674",
+                    "value": 3
+                },
+                {
+                    "name": "\u5c0f\u96e8~\u591a\u4e91",
+                    "value": 1
+                },
+                {
+                    "name": "\u9634",
+                    "value": 4
+                },
+                {
+                    "name": "\u9634~\u6674",
+                    "value": 2
+                },
+                {
+                    "name": "\u9634~\u591a\u4e91",
+                    "value": 3
+                },
+                {
+                    "name": "\u591a\u4e91~\u5c0f\u96e8",
+                    "value": 1
+                },
+                {
+                    "name": "\u96e8\u5939\u96ea~\u4e2d\u96ea",
+                    "value": 1
+                },
+                {
+                    "name": "\u5c0f\u96ea",
+                    "value": 1
+                },
+                {
+                    "name": "\u96fe~\u96e8\u5939\u96ea",
+                    "value": 1
+                },
+                {
+                    "name": "\u96e8\u5939\u96ea",
+                    "value": 1
+                },
+                {
+                    "name": "\u4e2d\u96ea~\u5c0f\u96ea",
+                    "value": 1
+                },
+                {
+                    "name": "\u6674~\u9634",
+                    "value": 1
+                },
+                {
+                    "name": "\u8f7b\u5ea6\u96fe\u973e",
+                    "value": 2
+                },
+                {
+                    "name": "\u4e2d\u5ea6\u96fe\u973e",
+                    "value": 1
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "labelLine": {
+                "show": true,
+                "showAbove": false,
+                "length": 15,
+                "length2": 15,
+                "smooth": false,
+                "minTurnAngle": 90,
+                "maxSurfaceAngle": 90
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u591a\u4e91~\u6674",
+                "\u96fe~\u591a\u4e91",
+                "\u4e2d\u96e8~\u9634",
+                "\u9634~\u5c0f\u96e8",
+                "\u5c0f\u96e8~\u6674",
+                "\u6674",
+                "\u6674~\u591a\u4e91",
+                "\u591a\u4e91~\u9634",
+                "\u9634~\u96e8\u5939\u96ea",
+                "\u4e2d\u96ea~\u6674",
+                "\u96fe~\u9634",
+                "\u591a\u4e91",
+                "\u96fe~\u6674",
+                "\u5c0f\u96e8~\u591a\u4e91",
+                "\u9634",
+                "\u9634~\u6674",
+                "\u9634~\u591a\u4e91",
+                "\u591a\u4e91~\u5c0f\u96e8",
+                "\u96e8\u5939\u96ea~\u4e2d\u96ea",
+                "\u5c0f\u96ea",
+                "\u96fe~\u96e8\u5939\u96ea",
+                "\u96e8\u5939\u96ea",
+                "\u4e2d\u96ea~\u5c0f\u96ea",
+                "\u6674~\u9634",
+                "\u8f7b\u5ea6\u96fe\u973e",
+                "\u4e2d\u5ea6\u96fe\u973e"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u5929\u6c14\u5360\u6bd4",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_40a87694d04049eb9257c1bac288d29f.setOption(option_40a87694d04049eb9257c1bac288d29f);
+    </script>
+</body>
+</html>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/01/12/SX/wind_direction_pie_chart/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="8721ac7147b048e9acca8b2c95952f5d" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_8721ac7147b048e9acca8b2c95952f5d = echarts.init(
+            document.getElementById('8721ac7147b048e9acca8b2c95952f5d'), 'white', {renderer: 'canvas'});
+        var option_8721ac7147b048e9acca8b2c95952f5d = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "name": "\u98ce\u5411\u5360\u6bd4",
+            "colorBy": "data",
+            "legendHoverLink": true,
+            "selectedMode": false,
+            "selectedOffset": 10,
+            "clockwise": true,
+            "startAngle": 90,
+            "minAngle": 0,
+            "minShowLabelAngle": 0,
+            "avoidLabelOverlap": true,
+            "stillShowZeroSum": true,
+            "percentPrecision": 2,
+            "showEmptyCircle": true,
+            "emptyCircleStyle": {
+                "color": "lightgray",
+                "borderColor": "#000",
+                "borderWidth": 0,
+                "borderType": "solid",
+                "borderDashOffset": 0,
+                "borderCap": "butt",
+                "borderJoin": "bevel",
+                "borderMiterLimit": 10,
+                "opacity": 1
+            },
+            "data": [
+                {
+                    "name": "\u897f\u5357\u98ce",
+                    "value": 13
+                },
+                {
+                    "name": "\u897f\u98ce",
+                    "value": 3
+                },
+                {
+                    "name": "\u5317\u98ce",
+                    "value": 2
+                },
+                {
+                    "name": "\u4e1c\u5317\u98ce",
+                    "value": 19
+                },
+                {
+                    "name": "\u897f\u5317\u98ce",
+                    "value": 23
+                },
+                {
+                    "name": "\u5357\u98ce",
+                    "value": 5
+                },
+                {
+                    "name": "\u4e1c\u5357\u98ce",
+                    "value": 5
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "labelLine": {
+                "show": true,
+                "showAbove": false,
+                "length": 15,
+                "length2": 15,
+                "smooth": false,
+                "minTurnAngle": 90,
+                "maxSurfaceAngle": 90
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u897f\u5357\u98ce",
+                "\u897f\u98ce",
+                "\u5317\u98ce",
+                "\u4e1c\u5317\u98ce",
+                "\u897f\u5317\u98ce",
+                "\u5357\u98ce",
+                "\u4e1c\u5357\u98ce"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u98ce\u5411\u5360\u6bd4",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_8721ac7147b048e9acca8b2c95952f5d.setOption(option_8721ac7147b048e9acca8b2c95952f5d);
+    </script>
+</body>
+</html>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/01/12/SX/wind_direction_wordcloud/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts-wordcloud.min.js"></script>
+
+</head>
+<body >
+    <div id="37d9847738884e3f9c44ad92ed7d5de1" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_37d9847738884e3f9c44ad92ed7d5de1 = echarts.init(
+            document.getElementById('37d9847738884e3f9c44ad92ed7d5de1'), 'white', {renderer: 'canvas'});
+        var option_37d9847738884e3f9c44ad92ed7d5de1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "wordCloud",
+            "shape": "circle",
+            "rotationRange": [
+                -90,
+                90
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                20,
+                100
+            ],
+            "data": [
+                {
+                    "name": "\u897f\u5357\u98ce",
+                    "value": 13,
+                    "textStyle": {
+                        "color": "rgb(11,132,17)"
+                    }
+                },
+                {
+                    "name": "\u897f\u98ce",
+                    "value": 3,
+                    "textStyle": {
+                        "color": "rgb(134,92,2)"
+                    }
+                },
+                {
+                    "name": "\u5317\u98ce",
+                    "value": 2,
+                    "textStyle": {
+                        "color": "rgb(101,73,64)"
+                    }
+                },
+                {
+                    "name": "\u4e1c\u5317\u98ce",
+                    "value": 19,
+                    "textStyle": {
+                        "color": "rgb(11,118,153)"
+                    }
+                },
+                {
+                    "name": "\u897f\u5317\u98ce",
+                    "value": 23,
+                    "textStyle": {
+                        "color": "rgb(123,141,81)"
+                    }
+                },
+                {
+                    "name": "\u5357\u98ce",
+                    "value": 5,
+                    "textStyle": {
+                        "color": "rgb(119,118,143)"
+                    }
+                },
+                {
+                    "name": "\u4e1c\u5357\u98ce",
+                    "value": 5,
+                    "textStyle": {
+                        "color": "rgb(140,108,44)"
+                    }
+                }
+            ],
+            "drawOutOfBound": false,
+            "textStyle": {
+                "emphasis": {}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Wind Direction Word Cloud",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_37d9847738884e3f9c44ad92ed7d5de1.setOption(option_37d9847738884e3f9c44ad92ed7d5de1);
+    </script>
+</body>
+</html>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/01/12/SX/wind_direction_bar_chart/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="9de3de24f0814883a5cc9aa1f34b0280" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_9de3de24f0814883a5cc9aa1f34b0280 = echarts.init(
+            document.getElementById('9de3de24f0814883a5cc9aa1f34b0280'), 'white', {renderer: 'canvas'});
+        var option_9de3de24f0814883a5cc9aa1f34b0280 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u5929\u6570",
+            "legendHoverLink": true,
+            "data": [
+                13,
+                3,
+                2,
+                19,
+                23,
+                5,
+                5
+            ],
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5929\u6570"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u897f\u5357\u98ce",
+                "\u897f\u98ce",
+                "\u5317\u98ce",
+                "\u4e1c\u5317\u98ce",
+                "\u897f\u5317\u98ce",
+                "\u5357\u98ce",
+                "\u4e1c\u5357\u98ce"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u98ce\u5411\u7edf\u8ba1",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_9de3de24f0814883a5cc9aa1f34b0280.setOption(option_9de3de24f0814883a5cc9aa1f34b0280);
     </script>
 </body>
 </html>
