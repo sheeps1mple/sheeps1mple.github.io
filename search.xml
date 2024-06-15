@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2024/06/16/%E6%8F%92%E5%9B%BE%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p><img src="https://ljhyrx.oss-cn-beijing.aliyuncs.com/img/202406160026222.jpg" alt="微信图片_20230601131343"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>【深入理解计算机系统】CSAPP-实验一：DataLab思路以及代码</title>
     <url>/2023/04/09/%E3%80%90%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E3%80%91CSAPP-%E5%AE%9E%E9%AA%8C%E4%B8%80%EF%BC%9ADataLab%E6%80%9D%E8%B7%AF%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="实验说明"><a href="#实验说明" class="headerlink" title="实验说明"></a>实验说明</h2><p>datalab主要是对整型以及<a href="https://so.csdn.net/so/search?q=%E6%B5%AE%E7%82%B9%E5%9E%8B&spm=1001.2101.3001.7020">浮点型</a>的实验，其中对条件语句、算数运算以及逻辑运算限定了不同的规则。</p>
